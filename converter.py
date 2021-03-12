@@ -1,10 +1,11 @@
-from PyQt5.QtWidgets import QWidget, QApplication, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit, QComboBox, QGridLayout
+from PyQt5.QtWidgets import QWidget, QMainWindow, QApplication, QLabel, QLineEdit, QComboBox
+from PyQt5.QtWidgets import QVBoxLayout, QHBoxLayout, QGridLayout
 from PyQt5.QtGui import QFont
 from PyQt5.QtCore import Qt
 import sys
 
 
-class TemperatureWidget(QWidget):
+class ConverterWindow(QMainWindow):
 
     def __init__(self):
         super().__init__()
@@ -19,9 +20,10 @@ class TemperatureWidget(QWidget):
         self.combo_box_states = ["Celsius", "Fahrenheit"]
         self.line_edit_values = ["0", "32"]
 
-        self.init_widget()
+        self.init_window()
 
-    def init_widget(self):
+    def init_window(self):
+
         self.converter_combo_box = QComboBox()
         self.converter_combo_box.setFixedSize(450, 30)
         self.converter_combo_box.setFont(QFont("Arial", 10))
@@ -105,7 +107,9 @@ class TemperatureWidget(QWidget):
         self.main_vbox.addSpacing(10)
         self.main_vbox.addLayout(self.formula_hbox)
 
-        self.setLayout(self.main_vbox)
+        self.center_widget = QWidget()
+        self.center_widget.setLayout(self.main_vbox)
+        self.setCentralWidget(self.center_widget)
 
     def combo_box_state_changed(self):
         """
@@ -275,7 +279,7 @@ class TemperatureWidget(QWidget):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    widget = TemperatureWidget()
+    widget = ConverterWindow()
     widget.show()
     sys.exit(app.exec())
 
