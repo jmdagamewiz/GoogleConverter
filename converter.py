@@ -49,7 +49,6 @@ class ConverterWindow(QMainWindow):
         # LEFT SIDE
         self.left_line_edit = QLineEdit()
         self.left_line_edit.setAlignment(Qt.AlignCenter)
-        self.left_line_edit.setText("0")
         self.left_line_edit.setFixedSize(210, 40)
         self.left_line_edit.setFont(QFont("Arial", 19))
         self.left_line_edit.textEdited.connect(self.line_edit_state_changed)
@@ -66,7 +65,6 @@ class ConverterWindow(QMainWindow):
 
         # RIGHT
         self.right_line_edit = QLineEdit()
-        self.right_line_edit.setText("32")
         self.right_line_edit.setAlignment(Qt.AlignCenter)
         self.right_line_edit.setFixedSize(210, 40)
         self.right_line_edit.setFont(QFont("Arial", 19))
@@ -119,17 +117,28 @@ class ConverterWindow(QMainWindow):
         self.center_widget.setLayout(self.main_vbox)
         self.setCentralWidget(self.center_widget)
 
-        self.set_window_states()
+        self.init_window_states()
 
-    def set_window_states(self):
+    def clear_combo_box_items(self):
+        self.left_combo_box.clear()
+        self.right_combo_box.clear()
 
+    def init_window_states(self):
         for quantity in self.quantities_list:
             self.converter_combo_box.addItem(quantity)
         self.converter_combo_box.setCurrentText(self.current_quantity.name)
 
+        self.set_window_states()
+
+    def set_window_states(self):
+
+        self.left_line_edit.setText(self.current_quantity.initial_values[0])
+
         for unit in self.current_quantity.units:
             self.left_combo_box.addItem(unit)
         self.left_combo_box.setCurrentText(self.combo_box_states[0])
+
+        self.right_line_edit.setText(self.current_quantity.initial_values[1])
 
         for unit in self.current_quantity.units:
             self.right_combo_box.addItem(unit)
@@ -179,6 +188,10 @@ class ConverterWindow(QMainWindow):
         elif quantity_name == "Volume":
             self.current_quantity = Volume()
 
+        self.combo_box_states = self.current_quantity.initial_units
+        self.line_edit_values = self.current_quantity.initial_values
+
+        self.clear_combo_box_items()
         self.set_window_states()
 
     def combo_box_state_changed(self):
@@ -195,7 +208,6 @@ class ConverterWindow(QMainWindow):
             self.combo_box_states.reverse()
             self.left_combo_box.setCurrentText(self.combo_box_states[0])
             self.right_combo_box.setCurrentText(self.combo_box_states[1])
-
         else:
             self.combo_box_states = [left_unit, right_unit]
 
