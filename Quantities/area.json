@@ -1,0 +1,268 @@
+{
+    "initial units": {
+        "left unit": "Square meter",
+        "right unit": "Square kilometer"
+    },
+    "initial values": {
+        "left value": "1",
+        "right value": "1e-6"
+    },
+    "units": {
+        "Square kilometer": {
+            "convert to": {
+                "Square meter": {
+                    "solution text": "multiply the area value by 1e+6",
+                    "formula": "value * 1e+6"
+                },
+                "Square mile": {
+                    "solution text": "divide the area value by 2.59",
+                    "formula": "value / 2.59"
+                },
+                "Square yard": {
+                    "solution text": "multiply the area value by 1.196e+6",
+                    "formula": "value * 1.196e+6"
+                },
+                "Square foot": {
+                    "solution text": "for an approximate result, multiply the area value by 1.076e+7",
+                    "formula": "value * 1.076e+7"
+                },
+                "Square inch": {
+                    "solution text": "multiply the area value by 1.55e+9",
+                    "formula": "value * 1.55e+9"
+                },
+                "Hectare": {
+                    "solution text": "multiply the area value by 100",
+                    "formula": "value * 100"
+                },
+                "Acre": {
+                    "solution text": "for an approximate result, multiply the area value by 247",
+                    "formula": "value * 247"
+                }
+            }
+        },
+        "Square meter": {
+            "convert to": {
+                "Square kilometer": {
+                    "solution text": "divide the area value by 1e+6",
+                    "formula": "value / 1e+6"
+                },
+                "Square mile": {
+                    "solution text": "divide the area value by 2.59e+6",
+                    "formula": "value / 2.59e+6"
+                },
+                "Square yard": {
+                    "solution text": "multiply the area value by 1.196",
+                    "formula": "value * 1.196"
+                },
+                "Square foot": {
+                    "solution text": "multiply the area value by 10.764",
+                    "formula": "value * 10.764"
+                },
+                "Square inch": {
+                    "solution text": "for an approximate result, multiply the area value by 1550",
+                    "formula": "value * 1550"
+                },
+                "Hectare": {
+                    "solution text": "divide the area value by 10000",
+                    "formula": "value / 10000"
+                },
+                "Acre": {
+                    "solution text": "for an approximate result, divide the area value by 4047",
+                    "formula": "value / 4047"
+                }
+            }
+        },
+        "Square mile": {
+            "convert to": {
+                "Square kilometer": {
+                    "solution text": "multiply the area value by 2.59",
+                    "formula": "value * 2.59"
+                },
+                "Square meter": {
+                    "solution text": "multiply the area value by 2.59e+6",
+                    "formula": "value * 2.59e+6"
+                },
+                "Square yard": {
+                    "solution text": "for an approximate result, multiply the area value by 3.098e+6",
+                    "formula": "value * 3.098e+6"
+                },
+                "Square foot": {
+                    "solution text": "for an approximate result, multiply the area value by 2.788e+7",
+                    "formula": "value * 2.788e+7"
+                },
+                "Square inch": {
+                    "solution text": "for an approximate result, multiply the area value by 4.014e+9",
+                    "formula": "value * 4.014e+9"
+                },
+                "Hectare": {
+                    "solution text": "for an approximate result, multiply the area value by 259",
+                    "formula": "value * 259"
+                },
+                "Acre": {
+                    "solution text": "multiply the area value by 640",
+                    "formula": "value * 640"
+                }
+            }
+        },
+        "Square yard": {
+            "convert to": {
+                "Square kilometer": {
+                    "solution text": "divide the area value by 1.196e+6",
+                    "formula": "value / 1.196e+6"
+                },
+                "Square meter": {
+                    "solution text": "divide the area value by 1.196",
+                    "formula": "value / 1.196"
+                },
+                "Square mile": {
+                    "solution text": "for an approximate result, divide the area value by 3.098e+6",
+                    "formula": "value / 3.098e+6"
+                },
+                "Square foot": {
+                    "solution text": "multiply the area value by 9",
+                    "formula": "value * 9"
+                },
+                "Square inch": {
+                    "solution text": "multiply the area value by 1296",
+                    "formula": "value * 1296"
+                },
+                "Hectare": {
+                    "solution text": "for an approximate result, divide the area value by 11960",
+                    "formula": "value / 11960"
+                },
+                "Acre": {
+                    "solution text": "divide the area value by 4840",
+                    "formula": "value / 4840"
+                }
+            }
+        },
+        "Square foot": {
+            "convert to": {
+                "Square kilometer": {
+                    "solution text": "for an approximate result, divide the area value by 1.076e+7",
+                    "formula": "value / 1.076e+7"
+                },
+                "Square meter": {
+                    "solution text": "divide the area value by 10.764",
+                    "formula": "value / 10.764"
+                },
+                "Square mile": {
+                    "solution text": "for an approximate result, divide the area value by 2.788e+7",
+                    "formula": "value / 2.788e+7"
+                },
+                "Square yard": {
+                    "solution text": "divide the area value by 9",
+                    "formula": "value / 9"
+                },
+                "Square inch": {
+                    "solution text": "multiply the area value by 144",
+                    "formula": "value * 144"
+                },
+                "Hectare": {
+                    "solution text": "for an approximate result, divide the area value by 107639",
+                    "formula": "value / 107639"
+                },
+                "Acre": {
+                    "solution text": "divide the area value by 43560",
+                    "formula": "value / 43560"
+                }
+            }
+        },
+        "Square inch": {
+            "convert to": {
+                "Square kilometer": {
+                    "solution text": "divide the area value by 1.55e+9",
+                    "formula": "value / 1.55e+9"
+                },
+                "Square meter": {
+                    "solution text": "for an approximate result, divide the area value by 1550",
+                    "formula": "value / 1550"
+                },
+                "Square mile": {
+                    "solution text": "for an approximate result, divide the area value by 4.014e+9",
+                    "formula": "value / 4.014e+9"
+                },
+                "Square yard": {
+                    "solution text": "divide the area value by 1296",
+                    "formula": "value / 1296"
+                },
+                "Square foot": {
+                    "solution text": "divide the area value by 144",
+                    "formula": "value / 144"
+                },
+                "Hectare": {
+                    "solution text": "divide the area value by 1.55e+7",
+                    "formula": "value / 1.55e+7"
+                },
+                "Acre": {
+                    "solution text": "for an approximate result, divide the area value by 6.273e+6",
+                    "formula": "value / 6.273e+6"
+                }
+            }
+        },
+        "Hectare": {
+            "convert to": {
+                "Square kilometer": {
+                    "solution text": "divide the area value by 100",
+                    "formula": "value / 100"
+                },
+                "Square meter": {
+                    "solution text": "multiply the area value by 10000",
+                    "formula": "value * 10000"
+                },
+                "Square mile": {
+                    "solution text": "for an approximate result, divide the area value by 259",
+                    "formula": "value / 259"
+                },
+                "Square yard": {
+                    "solution text": "for an approximate result, multiply the area value by 11960",
+                    "formula": "value * 11960"
+                },
+                "Square foot": {
+                    "solution text": "for an approximate result, multiply the area value by 107639",
+                    "formula": "value * 107639"
+                },
+                "Square inch": {
+                    "solution text": "multiply the area value by 1.55e+7",
+                    "formula": "value * 1.55e+7"
+                },
+                "Acre": {
+                    "solution text": "multiply the area value by 2.471",
+                    "formula": "value * 2.471"
+                }
+            }
+        },
+        "Acre": {
+            "convert to": {
+                "Square kilometer": {
+                    "solution text": "for an approximate result, divide the area value by 247",
+                    "formula": "value / 247"
+                },
+                "Square meter": {
+                    "solution text": "for an approximate result, multiply the area value by 4047",
+                    "formula": "value * 4047"
+                },
+                "Square mile": {
+                    "solution text": "divide the area value by 640",
+                    "formula": "value / 640"
+                },
+                "Square yard": {
+                    "solution text": "multiply the area value by 4840",
+                    "formula": "value * 4840"
+                },
+                "Square foot": {
+                    "solution text": "multiply the area value by 43560",
+                    "formula": "value * 43560"
+                },
+                "Square inch": {
+                    "solution text": "for an approximate result, multiply the area value by 6.273e+6",
+                    "formula": "value * 6.273e+6"
+                },
+                "Hectare": {
+                    "solution text": "divide the area value by 2.471",
+                    "formula": "value / 2.471"
+                }
+            }
+        }
+    }
+}

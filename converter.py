@@ -4,8 +4,11 @@ from PyQt5.QtGui import QFont
 from PyQt5.QtCore import Qt
 import sys
 
-from quantities import Area, DataTransferRate, DataStorage, Energy, Frequency, FuelEconomy, Length
-from quantities import Mass, PlaneAngle, Pressure, Speed, Temperature, Time, Volume
+from quantities import Quantity
+
+
+# TODO: add initial values and units to all Quantity .json files
+# TODO: add solution text format to solution text with equations
 
 
 class ConverterWindow(QMainWindow):
@@ -19,9 +22,14 @@ class ConverterWindow(QMainWindow):
         self.setStyleSheet("background-color: white")
         self.setContentsMargins(5, 15, 5, 15)
 
+        self.initialize_values()
+        self.create_window_widgets()
+
+    def initialize_values(self):
+
         # CURRENT QUANTITY TO BE CONVERTED
         # TEMPERATURE IS THE INITIAL QUANTITY
-        self.current_quantity = Temperature()
+        self.current_quantity = Quantity("Area")
 
         # initial states of combo boxes and line edits
         self.combo_box_states = self.current_quantity.initial_units
@@ -31,22 +39,21 @@ class ConverterWindow(QMainWindow):
                                 "Fuel Economy", "Length", "Mass", "Plane Angle", "Pressure", "Speed",
                                 "Temperature", "Time", "Volume"]
 
-        self.create_window()
-
-    def create_window(self):
+    def create_window_widgets(self):
         """
         creates the window and all widgets inside including the widgets' signal
         and slots and designs
         :return:
         """
 
+        # QUANTITY COMBO BOX
         self.converter_combo_box = QComboBox()
         self.converter_combo_box.setFixedSize(450, 30)
         self.converter_combo_box.setFont(QFont("Arial", 10))
         self.converter_combo_box.setStyleSheet("background-color: light gray")
         self.converter_combo_box.activated.connect(self.converter_combo_box_state_changed)
 
-        # LEFT SIDE
+        # LEFT UNIT LINE EDIT AND COMBO BOX
         self.left_line_edit = QLineEdit()
         self.left_line_edit.setAlignment(Qt.AlignCenter)
         self.left_line_edit.setFixedSize(210, 40)
@@ -63,7 +70,7 @@ class ConverterWindow(QMainWindow):
         self.equal_label.setFont(QFont("Arial", 20))
         self.equal_label.setStyleSheet("color: gray")
 
-        # RIGHT
+        # RIGHT UNIT LINE EDIT AND COMBO BOX
         self.right_line_edit = QLineEdit()
         self.right_line_edit.setAlignment(Qt.AlignCenter)
         self.right_line_edit.setFixedSize(210, 40)
@@ -90,6 +97,7 @@ class ConverterWindow(QMainWindow):
         self.hbox.addLayout(self.grid)
         self.hbox.addStretch()
 
+        # FORMULA LABEL AND SOLUTION LABEL
         self.formula_font = QFont("Arial", 9)
 
         self.formula_label = QLabel("Formula")
@@ -106,6 +114,7 @@ class ConverterWindow(QMainWindow):
         self.formula_hbox.addWidget(self.solution_label)
         self.formula_hbox.addStretch()
 
+        # MAIN LAYOUT
         self.main_vbox = QVBoxLayout()
         self.main_vbox.addWidget(self.converter_combo_box)
         self.main_vbox.addSpacing(15)
@@ -117,20 +126,28 @@ class ConverterWindow(QMainWindow):
         self.center_widget.setLayout(self.main_vbox)
         self.setCentralWidget(self.center_widget)
 
-        self.init_window_states()
+        self.set_init_window_states()
 
-    def clear_combo_box_items(self):
-        self.left_combo_box.clear()
-        self.right_combo_box.clear()
+    def set_init_window_states(self):
+        """
+        sets initial values of widgets in the window
+        :return:
+        """
 
-    def init_window_states(self):
+        # sets initial value for quantity combo box widget
         for quantity in self.quantities_list:
             self.converter_combo_box.addItem(quantity)
         self.converter_combo_box.setCurrentText(self.current_quantity.name)
 
+        # sets initial value for all other widgets
         self.set_window_states()
 
     def set_window_states(self):
+        """
+        sets all values of widgets in the window according to the chosen quantity
+        inside the quantity combo box, and doesn't set quantity combo box value
+        :return:
+        """
 
         self.left_line_edit.setText(self.current_quantity.initial_values[0])
 
@@ -150,6 +167,10 @@ class ConverterWindow(QMainWindow):
                                                                 self.current_quantity.initial_units[1])
         self.solution_label.setText(solution_text)
 
+    def clear_combo_box_items(self):
+        self.left_combo_box.clear()
+        self.right_combo_box.clear()
+
     def converter_combo_box_state_changed(self):
         """
         changes current_quantity attribute to user's input in converter combo box
@@ -157,37 +178,10 @@ class ConverterWindow(QMainWindow):
         chosen quantity
         :return:
         """
+
         quantity_name = self.converter_combo_box.currentText()
 
-        if quantity_name == "Area":
-            self.current_quantity = Area()
-        elif quantity_name == "Data Transfer Rate":
-            self.current_quantity = DataTransferRate()
-        elif quantity_name == "Data Storage":
-            self.current_quantity = DataStorage()
-        elif quantity_name == "Energy":
-            self.current_quantity = Energy()
-        elif quantity_name == "Frequency":
-            self.current_quantity = Frequency()
-        elif quantity_name == "Fuel Economy":
-            self.current_quantity = FuelEconomy()
-        elif quantity_name == "Length":
-            self.current_quantity = Length()
-        elif quantity_name == "Mass":
-            self.current_quantity = Mass()
-        elif quantity_name == "Plane Angle":
-            self.current_quantity = PlaneAngle()
-        elif quantity_name == "Pressure":
-            self.current_quantity = Pressure()
-        elif quantity_name == "Speed":
-            self.current_quantity = Speed()
-        elif quantity_name == "Temperature":
-            self.current_quantity = Temperature()
-        elif quantity_name == "Time":
-            self.current_quantity = Time()
-        elif quantity_name == "Volume":
-            self.current_quantity = Volume()
-
+        self.current_quantity = Quantity(quantity_name)
         self.combo_box_states = self.current_quantity.initial_units
         self.line_edit_values = self.current_quantity.initial_values
 
@@ -223,6 +217,7 @@ class ConverterWindow(QMainWindow):
                 value = int(value)
 
             answer = self.current_quantity.convert(value, self.combo_box_states[0], self.combo_box_states[1])
+            answer = float(answer)
 
             if answer.is_integer():
                 answer = int(answer)

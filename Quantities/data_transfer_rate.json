@@ -1,0 +1,688 @@
+{
+    "initial units": {
+        "left unit": "Bit per second",
+        "right unit": "Kilobit per second"
+    },
+    "initial values": {
+        "left value": "1",
+        "right value": "0.001"
+    },
+    "units": {
+        "Bit per second": {
+            "convert to": {
+                "Kilobit per second": {
+                    "solution text": "divide the data transfer rate value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Kilobyte per second": {
+                    "solution text": "divide the data transfer rate value by 8000",
+                    "formula": "value / 8000"
+                },
+                "Kibibit per second": {
+                    "solution text": "divide the data transfer rate value by 1024",
+                    "formula": "value / 1024"
+                },
+                "Megabit per second": {
+                    "solution text": "divide the data transfer rate value by 1e+6",
+                    "formula": "value / 1e+6"
+                },
+                "Megabyte per second": {
+                    "solution text": "divide the data transfer rate value by 8e+6",
+                    "formula": "value / 8e+6"
+                },
+                "Mebibit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 1.049e+6",
+                    "formula": "value / 1.049e+6"
+                },
+                "Gigabit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 1e+9",
+                    "formula": "value / 1e+9"
+                },
+                "Gigabyte per second": {
+                    "solution text": "divide the data transfer rate value by 8e+9",
+                    "formula": "value / 8e+9"
+                },
+                "Gibibit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 1.074e+9",
+                    "formula": "value / 1.074e+9"
+                },
+                "Terabit per second": {
+                    "solution text": "divide the data transfer rate value by 1e+12",
+                    "formula": "value / 1e+12"
+                },
+                "Terabyte per second": {
+                    "solution text": "divide the data transfer rate value by 8e+12",
+                    "formula": "value / 8e+12"
+                },
+                "Tebibit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 1.1e+12",
+                    "formula": "value / 1.1e+12"
+                }
+            }
+        },
+        "Kilobit per second": {
+            "convert to": {
+                "Bit per second": {
+                    "solution text": "multiply the data transfer rate value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Kilobyte per second": {
+                    "solution text": "divide the data transfer rate value by 8",
+                    "formula": "value / 8"
+                },
+                "Kibibit per second": {
+                    "solution text": "divide the data transfer rate value by 1.024",
+                    "formula": "value / 1.024"
+                },
+                "Megabit per second": {
+                    "solution text": "divide the data transfer rate value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Megabyte per second": {
+                    "solution text": "divide the data transfer rate value by 8000",
+                    "formula": "value / 8000"
+                },
+                "Mebibit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 1049",
+                    "formula": "value / 1049"
+                },
+                "Gigabit per second": {
+                    "solution text": "divide the data transfer rate value by 1e+6",
+                    "formula": "value / 1e+6"
+                },
+                "Gigabyte per second": {
+                    "solution text": "divide the data transfer rate value by 8e+6",
+                    "formula": "value / 8e+6"
+                },
+                "Gibibit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 1.074e+6",
+                    "formula": "value / 1.074e+6"
+                },
+                "Terabit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 1e+9",
+                    "formula": "value / 1e+9"
+                },
+                "Terabyte per second": {
+                    "solution text": "divide the data transfer rate value by 8e+9",
+                    "formula": "value / 8e+9"
+                },
+                "Tebibit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 1.1e+9",
+                    "formula": "value / 1.1e+9"
+                }
+            }
+        },
+        "Kilobyte per second": {
+            "convert to": {
+                "Bit per second": {
+                    "solution text": "multiply the data transfer rate value by 8000",
+                    "formula": "value * 8000"
+                },
+                "Kilobit per second": {
+                    "solution text": "multiply the data transfer rate value by 8",
+                    "formula": "value * 8"
+                },
+                "Kibibit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 7.812",
+                    "formula": "value * 7.812"
+                },
+                "Megabit per second": {
+                    "solution text": "divide the data transfer rate value by 125",
+                    "formula": "value / 125"
+                },
+                "Megabyte per second": {
+                    "solution text": "divide the data transfer rate value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Mebibit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 131",
+                    "formula": "value / 131"
+                },
+                "Gigabit per second": {
+                    "solution text": "divide the data transfer rate value by 125000",
+                    "formula": "value / 125000"
+                },
+                "Gigabyte per second": {
+                    "solution text": "divide the data transfer rate value by 1e+6",
+                    "formula": "value / 1e+6"
+                },
+                "Gibibit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 134218",
+                    "formula": "value / 134218"
+                },
+                "Terabit per second": {
+                    "solution text": "divide the data transfer rate value by 1.25e+8",
+                    "formula": "value / 1.25e+8"
+                },
+                "Terabyte per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 1e+9",
+                    "formula": "value / 1e+9"
+                },
+                "Tebibit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 1.374e+8",
+                    "formula": "value / 1.374e+8"
+                }
+            }
+        },
+        "Kibibit per second": {
+            "convert to": {
+                "Bit per second": {
+                    "solution text": "multiply the data transfer rate value by 1024",
+                    "formula": "value * 1024"
+                },
+                "Kilobit per second": {
+                    "solution text": "multiply the data transfer rate value by 1.024",
+                    "formula": "value * 1.024"
+                },
+                "Kilobyte per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 7.812",
+                    "formula": "value / 7.812"
+                },
+                "Megabit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 977",
+                    "formula": "value / 977"
+                },
+                "Megabyte per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 7813",
+                    "formula": "value / 7813"
+                },
+                "Mebibit per second": {
+                    "solution text": "divide the data transfer rate value by 1024",
+                    "formula": "value / 1024"
+                },
+                "Gigabit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 976562",
+                    "formula": "value / 976562"
+                },
+                "Gigabyte per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 7.812e+6",
+                    "formula": "value / 7.812e+6"
+                },
+                "Gibibit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 1.049e+6",
+                    "formula": "value / 1.049e+6"
+                },
+                "Terabit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 9.766e+8",
+                    "formula": "value / 9.766e+8"
+                },
+                "Terabyte per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 7.812e+9",
+                    "formula": "value / 7.812e+9"
+                },
+                "Tebibit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 1.074e+9",
+                    "formula": "value / 1.074e+9"
+                }
+            }
+        },
+        "Megabit per second": {
+            "convert to": {
+                "Bit per second": {
+                    "solution text": "multiply the data transfer rate value by 1e+6",
+                    "formula": "value * 1e+6"
+                },
+                "Kilobit per second": {
+                    "solution text": "multiply the data transfer rate value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Kilobyte per second": {
+                    "solution text": "multiply the data transfer rate value by 125",
+                    "formula": "value * 125"
+                },
+                "Kibibit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 977",
+                    "formula": "value * 977"
+                },
+                "Megabyte per second": {
+                    "solution text": "divide the data transfer rate value by 8",
+                    "formula": "value / 8"
+                },
+                "Mebibit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 1.049",
+                    "formula": "value / 1.049"
+                },
+                "Gigabit per second": {
+                    "solution text": "divide the data transfer rate value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Gigabyte per second": {
+                    "solution text": "divide the data transfer rate value by 8000",
+                    "formula": "value / 8000"
+                },
+                "Gibibit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 1074",
+                    "formula": "value / 1074"
+                },
+                "Terabit per second": {
+                    "solution text": "divide the data transfer rate value by 1e+6",
+                    "formula": "value / 1e+6"
+                },
+                "Terabyte per second": {
+                    "solution text": "divide the data transfer rate value by 8e+6",
+                    "formula": "value / 8e+6"
+                },
+                "Tebibit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 1.1e+6",
+                    "formula": "value / 1.1e+6"
+                }
+            }
+        },
+        "Megabyte per second": {
+            "convert to": {
+                "Bit per second": {
+                    "solution text": "multiply the data transfer rate value by 8e+6",
+                    "formula": "value * 8e+6"
+                },
+                "Kilobit per second": {
+                    "solution text": "multiply the data transfer rate value by 8000",
+                    "formula": "value * 8000"
+                },
+                "Kilobyte per second": {
+                    "solution text": "multiply the data transfer rate value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Kibibit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 7813",
+                    "formula": "value * 7813"
+                },
+                "Megabit per second": {
+                    "solution text": "multiply the data transfer rate value by 8",
+                    "formula": "value * 8"
+                },
+                "Mebibit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 7.629",
+                    "formula": "value * 7.629"
+                },
+                "Gigabit per second": {
+                    "solution text": "divide the data transfer rate value by 125",
+                    "formula": "value / 125"
+                },
+                "Gigabyte per second": {
+                    "solution text": "divide the data transfer rate value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Gibibit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 134",
+                    "formula": "value / 134"
+                },
+                "Terabit per second": {
+                    "solution text": "divide the data transfer rate value by 125000",
+                    "formula": "value / 125000"
+                },
+                "Terabyte per second": {
+                    "solution text": "divide the data transfer rate value by 1e+6",
+                    "formula": "value / 1e+6"
+                },
+                "Tebibit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 137439",
+                    "formula": "value / 137439"
+                }
+            }
+        },
+        "Mebibit per second": {
+            "convert to": {
+                "Bit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 1.049e+6",
+                    "formula": "value * 1.049e+6"
+                },
+                "Kilobit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 1049",
+                    "formula": "value * 1049"
+                },
+                "Kilobyte per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 131",
+                    "formula": "value * 131"
+                },
+                "Kibibit per second": {
+                    "solution text": "multiply the data transfer rate value by 1024",
+                    "formula": "value * 1024"
+                },
+                "Megabit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 1.049",
+                    "formula": "value * 1.049"
+                },
+                "Megabyte per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 7.629",
+                    "formula": "value / 7.629"
+                },
+                "Gigabit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 954",
+                    "formula": "value / 954"
+                },
+                "Gigabyte per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 7629",
+                    "formula": "value / 7629"
+                },
+                "Gibibit per second": {
+                    "solution text": "divide the data transfer rate value by 1024",
+                    "formula": "value / 1024"
+                },
+                "Terabit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 953674",
+                    "formula": "value / 953674"
+                },
+                "Terabyte per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 7.629e+6",
+                    "formula": "value / 7.629e+6"
+                },
+                "Tebibit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 1.049e+6",
+                    "formula": "value / 1.049e+6"
+                }
+            }
+        },
+        "Gigabit per second": {
+            "convert to": {
+                "Bit per second": {
+                    "solution text": "multiply the data transfer rate value by 1e+9",
+                    "formula": "value * 1e+9"
+                },
+                "Kilobit per second": {
+                    "solution text": "multiply the data transfer rate value by 1e+6",
+                    "formula": "value * 1e+6"
+                },
+                "Kilobyte per second": {
+                    "solution text": "multiply the data transfer rate value by 125000",
+                    "formula": "value * 125000"
+                },
+                "Kibibit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 976563",
+                    "formula": "value * 976563"
+                },
+                "Megabit per second": {
+                    "solution text": "multiply the data transfer rate value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Megabyte per second": {
+                    "solution text": "multiply the data transfer rate value by 125",
+                    "formula": "value * 125"
+                },
+                "Mebibit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 954",
+                    "formula": "value * 954"
+                },
+                "Gigabyte per second": {
+                    "solution text": "divide the data transfer rate value by 8",
+                    "formula": "value / 8"
+                },
+                "Gibibit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 1.074",
+                    "formula": "value / 1.074"
+                },
+                "Terabit per second": {
+                    "solution text": "divide the data transfer rate value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Terabyte per second": {
+                    "solution text": "divide the data transfer rate value by 8000",
+                    "formula": "value / 8000"
+                },
+                "Tebibit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 1100",
+                    "formula": "value / 1100"
+                }
+            }
+        },
+        "Gigabyte per second": {
+            "convert to": {
+                "Bit per second": {
+                    "solution text": "multiply the data transfer rate value by 8e+9",
+                    "formula": "value * 8e+9"
+                },
+                "Kilobit per second": {
+                    "solution text": "multiply the data transfer rate value by 8e+6",
+                    "formula": "value * 8e+6"
+                },
+                "Kilobyte per second": {
+                    "solution text": "multiply the data transfer rate value by 1e+6",
+                    "formula": "value * 1e+6"
+                },
+                "Kibibit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 7.812e+6",
+                    "formula": "value * 7.812e+6"
+                },
+                "Megabit per second": {
+                    "solution text": "multiply the data transfer rate value by 8000",
+                    "formula": "value * 8000"
+                },
+                "Megabyte per second": {
+                    "solution text": "multiply the data transfer rate value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Mebibit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 7629",
+                    "formula": "value * 7629"
+                },
+                "Gigabit per second": {
+                    "solution text": "multiply the data transfer rate value by 8",
+                    "formula": "value * 8"
+                },
+                "Gibibit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 7.451",
+                    "formula": "value * 7.451"
+                },
+                "Terabit per second": {
+                    "solution text": "divide the data transfer rate value by 125",
+                    "formula": "value / 125"
+                },
+                "Terabyte per second": {
+                    "solution text": "divide the data transfer rate value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Tebibit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 137",
+                    "formula": "value / 137"
+                }
+            }
+        },
+        "Gibibit per second": {
+            "convert to": {
+                "Bit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 1.074e+9",
+                    "formula": "value * 1.074e+9"
+                },
+                "Kilobit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 1.074e+6",
+                    "formula": "value * 1.074e+6"
+                },
+                "Kilobyte per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 134218",
+                    "formula": "value * 134218"
+                },
+                "Kibibit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 1.049e+6",
+                    "formula": "value * 1.049e+6"
+                },
+                "Megabit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 1074",
+                    "formula": "value * 1074"
+                },
+                "Megabyte per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 134",
+                    "formula": "value * 134"
+                },
+                "Mebibit per second": {
+                    "solution text": "multiply the data transfer rate value by 1024",
+                    "formula": "value * 1024"
+                },
+                "Gigabit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 1.074",
+                    "formula": "value * 1.074"
+                },
+                "Gigabyte per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 7.451",
+                    "formula": "value / 7.451"
+                },
+                "Terabit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 931",
+                    "formula": "value / 931"
+                },
+                "Terabyte per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 7451",
+                    "formula": "value / 7451"
+                },
+                "Tebibit per second": {
+                    "solution text": "divide the data transfer rate value by 1024",
+                    "formula": "value / 1024"
+                }
+            }
+        },
+        "Terabit per second": {
+            "convert to": {
+                "Bit per second": {
+                    "solution text": "multiply the data transfer rate value by 1e+12",
+                    "formula": "value * 1e+12"
+                },
+                "Kilobit per second": {
+                    "solution text": "multiply the data transfer rate value by 1e+9",
+                    "formula": "value * 1e+9"
+                },
+                "Kilobyte per second": {
+                    "solution text": "multiply the data transfer rate value by 1.25e+8",
+                    "formula": "value * 1.25e+8"
+                },
+                "Kibibit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 9.766e+8",
+                    "formula": "value * 9.766e+8"
+                },
+                "Megabit per second": {
+                    "solution text": "multiply the data transfer rate value by 1e+6",
+                    "formula": "value * 1e+6"
+                },
+                "Megabyte per second": {
+                    "solution text": "multiply the data transfer rate value by 125000",
+                    "formula": "value * 125000"
+                },
+                "Mebibit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 953674",
+                    "formula": "value * 953674"
+                },
+                "Gigabit per second": {
+                    "solution text": "multiply the data transfer rate value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Gigabyte per second": {
+                    "solution text": "multiply the data transfer rate value by 125",
+                    "formula": "value * 125"
+                },
+                "Gibibit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 931",
+                    "formula": "value * 931"
+                },
+                "Terabyte per second": {
+                    "solution text": "divide the data transfer rate value by 8",
+                    "formula": "value / 8"
+                },
+                "Tebibit per second": {
+                    "solution text": "for an approximate result, divide the data transfer rate value by 1.1",
+                    "formula": "value / 1.1"
+                }
+            }
+        },
+        "Terabyte per second": {
+            "convert to": {
+                "Bit per second": {
+                    "solution text": "multiply the data transfer rate value by 8e+12",
+                    "formula": "value * 8e+12"
+                },
+                "Kilobit per second": {
+                    "solution text": "multiply the data transfer rate value by 8e+9",
+                    "formula": "value * 8e+9"
+                },
+                "Kilobyte per second": {
+                    "solution text": "multiply the data transfer rate value by 1e+9",
+                    "formula": "value * 1e+9"
+                },
+                "Kibibit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 7.812e+9",
+                    "formula": "value * 7.812e+9"
+                },
+                "Megabit per second": {
+                    "solution text": "multiply the data transfer rate value by 8e+6",
+                    "formula": "value * 8e+6"
+                },
+                "Megabyte per second": {
+                    "solution text": "multiply the data transfer rate value by 1e+6",
+                    "formula": "value * 1e+6"
+                },
+                "Mebibit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 7.629e+6",
+                    "formula": "value * 7.629e+6"
+                },
+                "Gigabit per second": {
+                    "solution text": "multiply the data transfer rate value by 8000",
+                    "formula": "value * 8000"
+                },
+                "Gigabyte per second": {
+                    "solution text": "multiply the data transfer rate value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Gibibit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 7451",
+                    "formula": "value * 7451"
+                },
+                "Terabit per second": {
+                    "solution text": "multiply the data transfer rate value by 8",
+                    "formula": "value * 8"
+                },
+                "Tebibit per second": {
+                    "solution text": "multiply the data transfer rate value by 7.276",
+                    "formula": "value * 7.276"
+                }
+            }
+        },
+        "Tebibit per second": {
+            "convert to": {
+                "Bit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 1.1e+12",
+                    "formula": "value * 1.1e+12"
+                },
+                "Kilobit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 1.1e+9",
+                    "formula": "value * 1.1e+9"
+                },
+                "Kilobyte per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 1.374e+8",
+                    "formula": "value * 1.374e+8"
+                },
+                "Kibibit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 1.074e+9",
+                    "formula": "value * 1.074e+9"
+                },
+                "Megabit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 1.1e+6",
+                    "formula": "value * 1.1e+6"
+                },
+                "Megabyte per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 137439",
+                    "formula": "value * 137439"
+                },
+                "Mebibit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 1.049e+6",
+                    "formula": "value * 1.049e+6"
+                },
+                "Gigabit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 1100",
+                    "formula": "value * 1100"
+                },
+                "Gigabyte per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 137",
+                    "formula": "value * 137"
+                },
+                "Gibibit per second": {
+                    "solution text": "multiply the data transfer rate value by 1024",
+                    "formula": "value * 1024"
+                },
+                "Terabit per second": {
+                    "solution text": "for an approximate result, multiply the data transfer rate value by 1.1",
+                    "formula": "value * 1.1"
+                },
+                "Terabyte per second": {
+                    "solution text": "divide the data transfer rate value by 7.276",
+                    "formula": "value / 7.276"
+                }
+            }
+        }
+    }
+}
