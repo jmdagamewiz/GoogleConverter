@@ -1,0 +1,48 @@
+{
+    "initial units": {
+        "left unit": "Celsius",
+        "right unit": "Fahrenheit"
+    },
+    "initial values": {
+        "left value": "0",
+        "right value": "32"
+    },
+    "units": {
+        "Celsius": {
+            "convert to": {
+                "Fahrenheit": {
+                    "solution text": "({value}\u00b0C x 9/5) + 32 = {answer}\u00b0F",
+                    "formula": "(value * 9/5) + 32"
+                },
+                "Kelvin": {
+                    "solution text": "{value}\u00b0C + 273.15 = {answer}K",
+                    "formula": "value + 273.15"
+                }
+            }
+        },
+        "Fahrenheit": {
+            "convert to": {
+                "Celsius": {
+                    "solution text": "({value}\u00b0F - 32) x 5/9 = {answer}\u00b0C",
+                    "formula": "(value - 32) * 5/9"
+                },
+                "Kelvin": {
+                    "solution text": "({value}\u00b0F - 32) x 5/9 + 273.15 = {answer}K",
+                    "formula": "(value - 32) * 5/9 + 273.15"
+                }
+            }
+        },
+        "Kelvin": {
+            "convert to": {
+                "Celsius": {
+                    "solution text": "{value}K - 273.15 = {answer}\u00b0C",
+                    "formula": "value - 273.15"
+                },
+                "Fahrenheit": {
+                    "solution text": "({value}K - 273.15) x 9/5 + 32 = {answer}\u00b0F",
+                    "formula": "(value - 273.15) * 9/5 + 32"
+                }
+            }
+        }
+    }
+}

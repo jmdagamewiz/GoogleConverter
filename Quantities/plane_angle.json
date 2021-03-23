@@ -1,0 +1,156 @@
+{
+    "initial units": {
+        "left unit": "Degree",
+        "right unit": "Radian"
+    },
+    "initial values": {
+        "left value": "1",
+        "right value": "0.0174533"
+    },
+    "units": {
+        "Degree": {
+            "convert to": {
+                "Gradian": {
+                    "solution text": "{value}° x 200/180 = {answer}g",
+                    "formula": "value * 200/180"
+                },
+                "Milliradian": {
+                    "solution text": "{value}° x 1000π/180 = {answer}mrad",
+                    "formula": "value * (1000 * 3.14159265)/180"
+                },
+                "Minute of arc": {
+                    "solution text": "multiply the plane angle value by 60",
+                    "formula": "value * 60"
+                },
+                "Radian": {
+                    "solution text": "{value} x π/180 = {answer}rad",
+                    "formula": "value * (3.14159265 / 180)"
+                },
+                "Second of arc": {
+                    "solution text": "multiply the plane angle value by 3600",
+                    "formula": "value * 3600"
+                }
+            }
+        },
+        "Gradian": {
+            "convert to": {
+                "Degree": {
+                    "solution text": "{value}g x 180/200 = {answer}°",
+                    "formula": "value * (180/200)"
+                },
+                "Milliradian": {
+                    "solution text": "{value}g x 1000π/200 = {answer}mrad",
+                    "formula": "value * (1000 * 3.14159265)/200"
+                },
+                "Minute of arc": {
+                    "solution text": "multiply the plane angle value by 54",
+                    "formula": "value * 54"
+                },
+                "Radian": {
+                    "solution text": "{value}g x π/200 = {answer}rad",
+                    "formula": "value * (3.14159265/200)"
+                },
+                "Second of arc": {
+                    "solution text": "multiply the plane angle value by 3240",
+                    "formula": "value * 3240"
+                }
+            }
+        },
+        "Milliradian": {
+            "convert to": {
+                "Degree": {
+                    "solution text": "{value}mrad x 180/1000π = {answer}°",
+                    "formula": "value * (180/(1000 * 3.14159265)"
+                },
+                "Gradian": {
+                    "solution text": "{value}mrad x 200/1000π = {answer}g",
+                    "formula": "value * (200/(1000 * 3.14159265))"
+                },
+                "Minute of arc": {
+                    "solution text": "{value}mrad x (60 x 180)/1000π = {answer}'",
+                    "formula": "value * (60 * 180) / (1000 * 3.14159265)"
+                },
+                "Radian": {
+                    "solution text": "divide the plane angle value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Second of arc": {
+                    "solution text": "{value}mrad x (3600 x 180)/1000π = {answer}\"",
+                    "formula": "value * (3600 * 180) / (1000 * 3.14159265)"
+                }
+            }
+        },
+        "Minute of arc": {
+            "convert to": {
+                "Degree": {
+                    "solution text": "divide the plane angle value by 60",
+                    "formula": "value / 60"
+                },
+                "Gradian": {
+                    "solution text": "divide the plane angle value by 54",
+                    "formula": "value / 54"
+                },
+                "Milliradian": {
+                    "solution text": "{value}' x 1000π/(60 x 180) = {answer}mrad",
+                    "formula": "value * (1000 * 3.14159265) / (60 * 180)"
+                },
+                "Radian": {
+                    "solution text": "{value}' x π/(60 x 180) = {answer}rad",
+                    "formula": "value * 3.14159265 / (60 * 180)"
+                },
+                "Second of arc": {
+                    "solution text": "multiply the plane angle value by 60",
+                    "formula": "value * 60"
+                }
+            }
+        },
+        "Radian": {
+            "convert to": {
+                "Degree": {
+                    "solution text": "{value}rad x 180/π = {answer}°",
+                    "formula": "value * (180 / 3.14159265)"
+                },
+                "Gradian": {
+                    "solution text": "{value}rad x 200/π = {answer}g",
+                    "formula": "value * (200 / 3.14159265)"
+                },
+                "Milliradian": {
+                    "solution text": "multiply the plane angle value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Minute of arc": {
+                    "solution text": "{value}rad x (60 x 180)/π = {answer}'",
+                    "formula": "value * (60 * 180)/3.14159265"
+                },
+                "Second of arc": {
+                    "solution text": "{value}rad x (3600 x 180)/π = {answer}\"",
+                    "formula": "value * (3600 * 180)/3.14159265"
+                }
+            }
+        },
+        "Second of arc": {
+            "convert to": {
+                "Degree": {
+                    "solution text": "divide the plane angle value by 3600",
+                    "formula": "value / 3600"
+                },
+                "Gradian": {
+                    "solution text": "divide the plane angle value by 3240",
+                    "formula": "value / 3240"
+                },
+                "Milliradian": {
+                    "solution text": "{value}\" x 1000π/(180 x 3600) = {answer}mrad",
+                    "formula": "value * (1000 * 3.14159265) / (180 * 3600)"
+                },
+                "Minute of arc": {
+                    "solution text": "divide the plane angle value by 60",
+                    "formula": "value / 60"
+                },
+                "Radian": {
+                    "solution text": "{value}\" x π/(180 x 3600) = {answer}rad",
+                    "formula": "value * 3.14159265 / (180 * 3600)"
+                }
+            }
+        }
+    }
+}

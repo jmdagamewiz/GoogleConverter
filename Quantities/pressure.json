@@ -1,0 +1,112 @@
+{
+    "initial units": {
+        "left unit": "Pascal",
+        "right unit": "Bar"
+    },
+    "initial values": {
+        "left value": "1",
+        "right value": "1e-5"
+    },
+    "units": {
+        "Bar": {
+            "convert to": {
+                "Pascal": {
+                    "solution text": "multiply the pressure value by 100000",
+                    "formula": "value * 100000"
+                },
+                "pound per square inch": {
+                    "solution text": "for an approximate result, multiply the pressure value by 14.504",
+                    "formula": "value * 14.504"
+                },
+                "Standard atmosphere": {
+                    "solution text": "for an approximate result, divide the pressure value by 1.013",
+                    "formula": "value / 1.013"
+                },
+                "Torr": {
+                    "solution text": "for an approximate result, multiply the pressure value by 750",
+                    "formula": "value * 750"
+                }
+            }
+        },
+        "Pascal": {
+            "convert to": {
+                "Bar": {
+                    "solution text": "divide the pressure value by 100000",
+                    "formula": "value / 100000"
+                },
+                "pound per square inch": {
+                    "solution text": "for an approximate result, divide the pressure value by 6895",
+                    "formula": "value / 6895"
+                },
+                "Standard atmosphere": {
+                    "solution text": "divide the pressure value by 101325",
+                    "formula": "value / 101325"
+                },
+                "Torr": {
+                    "solution text": "for an approximate result, divide the pressure value by 133",
+                    "formula": "value / 133"
+                }
+            }
+        },
+        "pound per square inch": {
+            "convert to": {
+                "Bar": {
+                    "solution text": "for an approximate result, divide the pressure value by 14.504",
+                    "formula": "value / 14.504"
+                },
+                "Pascal": {
+                    "solution text": "for an approximate result, multiply the pressure value by 6895",
+                    "formula": "value * 6895"
+                },
+                "Standard atmosphere": {
+                    "solution text": "divide the pressure value by 14.696",
+                    "formula": "value / 14.696"
+                },
+                "Torr": {
+                    "solution text": "multiply the pressure value by 51.715",
+                    "formula": "value * 51.715"
+                }
+            }
+        },
+        "Standard atmosphere": {
+            "convert to": {
+                "Bar": {
+                    "solution text": "for an approximate result, multiply the pressure value by 1.013",
+                    "formula": "value * 1.013"
+                },
+                "Pascal": {
+                    "solution text": "multiply the pressure value by 101325",
+                    "formula": "value * 101325"
+                },
+                "pound per square inch": {
+                    "solution text": "multiply the pressure value by 14.696",
+                    "formula": "value * 14.696"
+                },
+                "Torr": {
+                    "solution text": "multiply the pressure value by 760",
+                    "formula": "value * 760"
+                }
+            }
+        },
+        "Torr": {
+            "convert to": {
+                "Bar": {
+                    "solution text": "for an approximate result, divide the pressure value by 750",
+                    "formula": "value / 750"
+                },
+                "Pascal": {
+                    "solution text": "for an approximate result, multiply the pressure value by 133",
+                    "formula": "value * 133"
+                },
+                "pound per square inch": {
+                    "solution text": "divide the pressure value by 51.715",
+                    "formula": "value / 51.715"
+                },
+                "Standard atmosphere": {
+                    "solution text": "divide the pressure value by 760",
+                    "formula": "value / 760"
+                }
+            }
+        }
+    }
+}

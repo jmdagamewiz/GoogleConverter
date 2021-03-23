@@ -7,10 +7,6 @@ import sys
 from quantities import Quantity
 
 
-# TODO: add initial values and units to all Quantity .json files
-# TODO: add solution text format to solution text with equations
-
-
 class ConverterWindow(QMainWindow):
 
     def __init__(self):
@@ -35,7 +31,7 @@ class ConverterWindow(QMainWindow):
         self.combo_box_states = self.current_quantity.initial_units
         self.line_edit_values = self.current_quantity.initial_values
 
-        self.quantities_list = ["Area", "Data Transfer Rate", "Data Storage", "Energy", "Frequency",
+        self.quantities_list = ["Area", "Data Transfer Rate", "Digital Storage", "Energy", "Frequency",
                                 "Fuel Economy", "Length", "Mass", "Plane Angle", "Pressure", "Speed",
                                 "Temperature", "Time", "Volume"]
 

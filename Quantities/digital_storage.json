@@ -1,0 +1,1948 @@
+{
+    "initial units": {
+        "left unit": "Byte",
+        "right unit": "Kilobyte"
+    },
+    "initial values": {
+        "left value": "1",
+        "right value": "0.001"
+    },
+    "units": {
+        "Bit": {
+            "convert to": {
+                "Kilobit": {
+                    "solution text": "divide the digital storage value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Kibibit": {
+                    "solution text": "divide the digital storage value by 1024",
+                    "formula": "value / 1024"
+                },
+                "Megabit": {
+                    "solution text": "divide the digital storage value by 1e+6",
+                    "formula": "value / 1e+6"
+                },
+                "Mebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.049e+6",
+                    "formula": "value / 1.049e+6"
+                },
+                "Gigabit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1e+9",
+                    "formula": "value / 1e+9"
+                },
+                "Gibibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.074e+9",
+                    "formula": "value / 1.074e+9"
+                },
+                "Terabit": {
+                    "solution text": "divide the digital storage value by 1e+12",
+                    "formula": "value / 1e+12"
+                },
+                "Tebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.1e+12",
+                    "formula": "value / 1.1e+12"
+                },
+                "Petabit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1e+15",
+                    "formula": "value / 1e+15"
+                },
+                "Pebibit": {
+                    "solution text": "divide the digital storage value by 1.126e+15",
+                    "formula": "value / 1.126e+15"
+                },
+                "Byte": {
+                    "solution text": "divide the digital storage value by 8",
+                    "formula": "value / 8"
+                },
+                "Kilobyte": {
+                    "solution text": "divide the digital storage value by 8000",
+                    "formula": "value / 8000"
+                },
+                "Kibibyte": {
+                    "solution text": "divide the digital storage value by 8192",
+                    "formula": "value / 8192"
+                },
+                "Megabyte": {
+                    "solution text": "divide the digital storage value by 8e+6",
+                    "formula": "value / 8e+6"
+                },
+                "Mebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 8.389e+6",
+                    "formula": "value / 8.389e+6"
+                },
+                "Gigabyte": {
+                    "solution text": "divide the digital storage value by 8e+9",
+                    "formula": "value / 8e+9"
+                },
+                "Gibibyte": {
+                    "solution text": "divide the digital storage value by 8.59e+9",
+                    "formula": "value / 8.59e+9"
+                },
+                "Terabyte": {
+                    "solution text": "divide the digital storage value by 8e+12",
+                    "formula": "value / 8e+12"
+                },
+                "Tebibyte": {
+                    "solution text": "divide the digital storage value by 8.796e+12",
+                    "formula": "value / 8.796e+12"
+                },
+                "Petabyte": {
+                    "solution text": "divide the digital storage value by 8e+15",
+                    "formula": "value / 8e+15"
+                },
+                "Pebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 9.007e+15",
+                    "formula": "value / 9.007e+15"
+                }
+            }
+        },
+        "Kilobit": {
+            "convert to": {
+                "Bit": {
+                    "solution text": "multiply the digital storage value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Kibibit": {
+                    "solution text": "divide the digital storage value by 1.024",
+                    "formula": "value / 1.024"
+                },
+                "Megabit": {
+                    "solution text": "divide the digital storage value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Mebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1049",
+                    "formula": "value / 1049"
+                },
+                "Gigabit": {
+                    "solution text": "divide the digital storage value by 1e+6",
+                    "formula": "value / 1e+6"
+                },
+                "Gibibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.074e+6",
+                    "formula": "value / 1.074e+6"
+                },
+                "Terabit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1e+9",
+                    "formula": "value / 1e+9"
+                },
+                "Tebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.1e+9",
+                    "formula": "value / 1.1e+9"
+                },
+                "Petabit": {
+                    "solution text": "divide the digital storage value by 1e+12",
+                    "formula": "value / 1e+12"
+                },
+                "Pebibit": {
+                    "solution text": "divide the digital storage value by 1.126e+12",
+                    "formula": "value / 1.126e+12"
+                },
+                "Byte": {
+                    "solution text": "multiply the digital storage value by 125",
+                    "formula": "value * 125"
+                },
+                "Kilobyte": {
+                    "solution text": "divide the digital storage value by 8",
+                    "formula": "value / 8"
+                },
+                "Kibibyte": {
+                    "solution text": "divide the digital storage value by 8.192",
+                    "formula": "value / 8.192"
+                },
+                "Megabyte": {
+                    "solution text": "divide the digital storage value by 8000",
+                    "formula": "value / 8000"
+                },
+                "Mebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 8389",
+                    "formula": "value / 8389"
+                },
+                "Gigabyte": {
+                    "solution text": "divide the digital storage value by 8e+6",
+                    "formula": "value / 8e+6"
+                },
+                "Gibibyte": {
+                    "solution text": "divide the digital storage value by 8.59e+6",
+                    "formula": "value / 8.59e+6"
+                },
+                "Terabyte": {
+                    "solution text": "divide the digital storage value by 8e+9",
+                    "formula": "value / 8e+9"
+                },
+                "Tebibyte": {
+                    "solution text": "divide the digital storage value by 8.796e+9",
+                    "formula": "value / 8.796e+9"
+                },
+                "Petabyte": {
+                    "solution text": "divide the digital storage value by 8e+12",
+                    "formula": "value / 8e+12"
+                },
+                "Pebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 9.007e+12",
+                    "formula": "value / 9.007e+12"
+                }
+            }
+        },
+        "Kibibit": {
+            "convert to": {
+                "Bit": {
+                    "solution text": "multiply the digital storage value by 1024",
+                    "formula": "value * 1024"
+                },
+                "Kilobit": {
+                    "solution text": "multiply the digital storage value by 1.024",
+                    "formula": "value * 1.024"
+                },
+                "Megabit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 977",
+                    "formula": "value / 977"
+                },
+                "Mebibit": {
+                    "solution text": "divide the digital storage value by 1024",
+                    "formula": "value / 1024"
+                },
+                "Gigabit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 976562",
+                    "formula": "value / 976562"
+                },
+                "Gibibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.049e+6",
+                    "formula": "value / 1.049e+6"
+                },
+                "Terabit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 9.766e+8",
+                    "formula": "value / 9.766e+8"
+                },
+                "Tebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.074e+9",
+                    "formula": "value / 1.074e+9"
+                },
+                "Petabit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 9.766e+11",
+                    "formula": "value / 9.766e+11"
+                },
+                "Pebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.1e+12",
+                    "formula": "value / 1.1e+12"
+                },
+                "Byte": {
+                    "solution text": "multiply the digital storage value by 128",
+                    "formula": "value * 128"
+                },
+                "Kilobyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 7.812",
+                    "formula": "value / 7.812"
+                },
+                "Kibibyte": {
+                    "solution text": "divide the digital storage value by 8",
+                    "formula": "value / 8"
+                },
+                "Megabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 7813",
+                    "formula": "value / 7813"
+                },
+                "Mebibyte": {
+                    "solution text": "divide the digital storage value by 8192",
+                    "formula": "value / 8192"
+                },
+                "Gigabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 7.812e+6",
+                    "formula": "value / 7.812e+6"
+                },
+                "Gibibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 8.389e+6",
+                    "formula": "value / 8.389e+6"
+                },
+                "Terabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 7.812e+9",
+                    "formula": "value / 7.812e+9"
+                },
+                "Tebibyte": {
+                    "solution text": "divide the digital storage value by 8.59e+9",
+                    "formula": "value / 8.59e+9"
+                },
+                "Petabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 7.812e+12",
+                    "formula": "value / 7.812e+12"
+                },
+                "Pebibyte": {
+                    "solution text": "divide the digital storage value by 8.796e+12",
+                    "formula": "value / 8.796e+12"
+                }
+            }
+        },
+        "Megabit": {
+            "convert to": {
+                "Bit": {
+                    "solution text": "multiply the digital storage value by 1e+6",
+                    "formula": "value * 1e+6"
+                },
+                "Kilobit": {
+                    "solution text": "multiply the digital storage value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Kibibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 977",
+                    "formula": "value * 977"
+                },
+                "Mebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.049",
+                    "formula": "value / 1.049"
+                },
+                "Gigabit": {
+                    "solution text": "divide the digital storage value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Gibibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1074",
+                    "formula": "value / 1074"
+                },
+                "Terabit": {
+                    "solution text": "divide the digital storage value by 1e+6",
+                    "formula": "value / 1e+6"
+                },
+                "Tebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.1e+6",
+                    "formula": "value / 1.1e+6"
+                },
+                "Petabit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1e+9",
+                    "formula": "value / 1e+9"
+                },
+                "Pebibit": {
+                    "solution text": "divide the digital storage value by 1.126e+9",
+                    "formula": "value / 1.126e+9"
+                },
+                "Byte": {
+                    "solution text": "multiply the digital storage value by 125000",
+                    "formula": "value * 125000"
+                },
+                "Kilobyte": {
+                    "solution text": "multiply the digital storage value by 125",
+                    "formula": "value * 125"
+                },
+                "Kibibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 122",
+                    "formula": "value * 122"
+                },
+                "Megabyte": {
+                    "solution text": "divide the digital storage value by 8",
+                    "formula": "value / 8"
+                },
+                "Mebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 8.389",
+                    "formula": "value / 8.389"
+                },
+                "Gigabyte": {
+                    "solution text": "divide the digital storage value by 8000",
+                    "formula": "value / 8000"
+                },
+                "Gibibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 8590",
+                    "formula": "value / 8590"
+                },
+                "Terabyte": {
+                    "solution text": "divide the digital storage value by 8e+6",
+                    "formula": "value / 8e+6"
+                },
+                "Tebibyte": {
+                    "solution text": "divide the digital storage value by 8.796e+6",
+                    "formula": "value / 8.796e+6"
+                },
+                "Petabyte": {
+                    "solution text": "divide the digital storage value by 8e+9",
+                    "formula": "value / 8e+9"
+                },
+                "Pebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 9.007e+9",
+                    "formula": "value / 9.007e+9"
+                }
+            }
+        },
+        "Mebibit": {
+            "convert to": {
+                "Bit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.049e+6",
+                    "formula": "value * 1.049e+6"
+                },
+                "Kilobit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1049",
+                    "formula": "value * 1049"
+                },
+                "Kibibit": {
+                    "solution text": "multiply the digital storage value by 1024",
+                    "formula": "value * 1024"
+                },
+                "Megabit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.049",
+                    "formula": "value * 1.049"
+                },
+                "Gigabit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 954",
+                    "formula": "value / 954"
+                },
+                "Gibibit": {
+                    "solution text": "divide the digital storage value by 1024",
+                    "formula": "value / 1024"
+                },
+                "Terabit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 953674",
+                    "formula": "value / 953674"
+                },
+                "Tebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.049e+6",
+                    "formula": "value / 1.049e+6"
+                },
+                "Petabit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 9.537e+8",
+                    "formula": "value / 9.537e+8"
+                },
+                "Pebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.074e+9",
+                    "formula": "value / 1.074e+9"
+                },
+                "Byte": {
+                    "solution text": "multiply the digital storage value by 131072",
+                    "formula": "value * 131072"
+                },
+                "Kilobyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 131",
+                    "formula": "value * 131"
+                },
+                "Kibibyte": {
+                    "solution text": "multiply the digital storage value by 128",
+                    "formula": "value * 128"
+                },
+                "Megabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 7.629",
+                    "formula": "value / 7.629"
+                },
+                "Mebibyte": {
+                    "solution text": "divide the digital storage value by 8",
+                    "formula": "value / 8"
+                },
+                "Gigabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 7629",
+                    "formula": "value / 7629"
+                },
+                "Gibibyte": {
+                    "solution text": "divide the digital storage value by 8192",
+                    "formula": "value / 8192"
+                },
+                "Terabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 7.629e+6",
+                    "formula": "value / 7.629e+6"
+                },
+                "Tebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 8.389e+6",
+                    "formula": "value / 8.389e+6"
+                },
+                "Petabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 7.629e+9",
+                    "formula": "value / 7.629e+9"
+                },
+                "Pebibyte": {
+                    "solution text": "divide the digital storage value by 8.59e+9",
+                    "formula": "value / 8.59e+9"
+                }
+            }
+        },
+        "Gigabit": {
+            "convert to": {
+                "Bit": {
+                    "solution text": "multiply the digital storage value by 1e+9",
+                    "formula": "value * 1e+9"
+                },
+                "Kilobit": {
+                    "solution text": "multiply the digital storage value by 1e+6",
+                    "formula": "value * 1e+6"
+                },
+                "Kibibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 976563",
+                    "formula": "value * 976563"
+                },
+                "Megabit": {
+                    "solution text": "multiply the digital storage value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Mebibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 954",
+                    "formula": "value * 954"
+                },
+                "Gibibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.074",
+                    "formula": "value / 1.074"
+                },
+                "Terabit": {
+                    "solution text": "divide the digital storage value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Tebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1100",
+                    "formula": "value / 1100"
+                },
+                "Petabit": {
+                    "solution text": "divide the digital storage value by 1e+6",
+                    "formula": "value / 1e+6"
+                },
+                "Pebibit": {
+                    "solution text": "divide the digital storage value by 1.126e+6",
+                    "formula": "value / 1.126e+6"
+                },
+                "Byte": {
+                    "solution text": "multiply the digital storage value by 1.25e+8",
+                    "formula": "value * 1.25e+8"
+                },
+                "Kilobyte": {
+                    "solution text": "multiply the digital storage value by 125000",
+                    "formula": "value * 125000"
+                },
+                "Kibibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 122070",
+                    "formula": "value * 122070"
+                },
+                "Megabyte": {
+                    "solution text": "multiply the digital storage value by 125",
+                    "formula": "value * 125"
+                },
+                "Mebibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 119",
+                    "formula": "value * 119"
+                },
+                "Gigabyte": {
+                    "solution text": "divide the digital storage value by 8",
+                    "formula": "value / 8"
+                },
+                "Gibibyte": {
+                    "solution text": "divide the digital storage value by 8.59",
+                    "formula": "value / 8.59"
+                },
+                "Terabyte": {
+                    "solution text": "divide the digital storage value by 8000",
+                    "formula": "value / 8000"
+                },
+                "Tebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 8796",
+                    "formula": "value / 8796"
+                },
+                "Petabyte": {
+                    "solution text": "divide the digital storage value by 8e+6",
+                    "formula": "value / 8e+6"
+                },
+                "Pebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 9.007e+6",
+                    "formula": "value / 9.007e+6"
+                }
+            }
+        },
+        "Gibibit": {
+            "convert to": {
+                "Bit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.074e+9",
+                    "formula": "value * 1.074e+9"
+                },
+                "Kilobit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.074e+6",
+                    "formula": "value * 1.074e+6"
+                },
+                "Kibibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.049e+6",
+                    "formula": "value * 1.049e+6"
+                },
+                "Megabit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1074",
+                    "formula": "value * 1074"
+                },
+                "Mebibit": {
+                    "solution text": "multiply the digital storage value by 1024",
+                    "formula": "value * 1024"
+                },
+                "Gigabit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.074",
+                    "formula": "value * 1.074"
+                },
+                "Terabit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 931",
+                    "formula": "value / 931"
+                },
+                "Tebibit": {
+                    "solution text": "divide the digital storage value by 1024",
+                    "formula": "value / 1024"
+                },
+                "Petabit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 931323",
+                    "formula": "value / 931323"
+                },
+                "Pebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.049e+6",
+                    "formula": "value / 1.049e+6"
+                },
+                "Byte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.342e+8",
+                    "formula": "value * 1.342e+8"
+                },
+                "Kilobyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 134218",
+                    "formula": "value * 134218"
+                },
+                "Kibibyte": {
+                    "solution text": "multiply the digital storage value by 131072",
+                    "formula": "value * 131072"
+                },
+                "Megabyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 134",
+                    "formula": "value * 134"
+                },
+                "Mebibyte": {
+                    "solution text": "multiply the digital storage value by 128",
+                    "formula": "value * 128"
+                },
+                "Gigabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 7.451",
+                    "formula": "value / 7.451"
+                },
+                "Gibibyte": {
+                    "solution text": "divide the digital storage value by 8",
+                    "formula": "value / 8"
+                },
+                "Terabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 7451",
+                    "formula": "value / 7451"
+                },
+                "Tebibyte": {
+                    "solution text": "divide the digital storage value by 8192",
+                    "formula": "value / 8192"
+                },
+                "Petabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 7.451e+6",
+                    "formula": "value / 7.451e+6"
+                },
+                "Pebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 8.389e+6",
+                    "formula": "value / 8.389e+6"
+                }
+            }
+        },
+        "Terabit": {
+            "convert to": {
+                "Bit": {
+                    "solution text": "multiply the digital storage value by 1e+12",
+                    "formula": "value * 1e+12"
+                },
+                "Kilobit": {
+                    "solution text": "multiply the digital storage value by 1e+9",
+                    "formula": "value * 1e+9"
+                },
+                "Kibibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 9.766e+8",
+                    "formula": "value * 9.766e+8"
+                },
+                "Megabit": {
+                    "solution text": "multiply the digital storage value by 1e+6",
+                    "formula": "value * 1e+6"
+                },
+                "Mebibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 953674",
+                    "formula": "value * 953674"
+                },
+                "Gigabit": {
+                    "solution text": "multiply the digital storage value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Gibibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 931",
+                    "formula": "value * 931"
+                },
+                "Tebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.1",
+                    "formula": "value / 1.1"
+                },
+                "Petabit": {
+                    "solution text": "divide the digital storage value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Pebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1126",
+                    "formula": "value / 1126"
+                },
+                "Byte": {
+                    "solution text": "multiply the digital storage value by 1.25e+11",
+                    "formula": "value * 1.25e+11"
+                },
+                "Kilobyte": {
+                    "solution text": "multiply the digital storage value by 1.25e+8",
+                    "formula": "value * 1.25e+8"
+                },
+                "Kibibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.221e+8",
+                    "formula": "value * 1.221e+8"
+                },
+                "Megabyte": {
+                    "solution text": "multiply the digital storage value by 125000",
+                    "formula": "value * 125000"
+                },
+                "Mebibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 119209",
+                    "formula": "value * 119209"
+                },
+                "Gigabyte": {
+                    "solution text": "multiply the digital storage value by 125",
+                    "formula": "value * 125"
+                },
+                "Gibibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 116",
+                    "formula": "value * 116"
+                },
+                "Terabyte": {
+                    "solution text": "divide the digital storage value by 8",
+                    "formula": "value / 8"
+                },
+                "Tebibyte": {
+                    "solution text": "divide the digital storage value by 8.796",
+                    "formula": "value / 8.796"
+                },
+                "Petabyte": {
+                    "solution text": "divide the digital storage value by 8000",
+                    "formula": "value / 8000"
+                },
+                "Pebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 9007",
+                    "formula": "value / 9007"
+                }
+            }
+        },
+        "Tebibit": {
+            "convert to": {
+                "Bit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.1e+12",
+                    "formula": "value * 1.1e+12"
+                },
+                "Kilobit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.1e+9",
+                    "formula": "value * 1.1e+9"
+                },
+                "Kibibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.074e+9",
+                    "formula": "value * 1.074e+9"
+                },
+                "Megabit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.1e+6",
+                    "formula": "value * 1.1e+6"
+                },
+                "Mebibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.049e+6",
+                    "formula": "value * 1.049e+6"
+                },
+                "Gigabit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1100",
+                    "formula": "value * 1100"
+                },
+                "Gibibit": {
+                    "solution text": "multiply the digital storage value by 1024",
+                    "formula": "value * 1024"
+                },
+                "Terabit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.1",
+                    "formula": "value * 1.1"
+                },
+                "Petabit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 909",
+                    "formula": "value / 909"
+                },
+                "Pebibit": {
+                    "solution text": "divide the digital storage value by 1024",
+                    "formula": "value / 1024"
+                },
+                "Byte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.374e+11",
+                    "formula": "value * 1.374e+11"
+                },
+                "Kilobyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.374e+8",
+                    "formula": "value * 1.374e+8"
+                },
+                "Kibibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.342e+8",
+                    "formula": "value * 1.342e+8"
+                },
+                "Megabyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 137439",
+                    "formula": "value * 137439"
+                },
+                "Mebibyte": {
+                    "solution text": "multiply the digital storage value by 131072",
+                    "formula": "value * 131072"
+                },
+                "Gigabyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 137",
+                    "formula": "value * 137"
+                },
+                "Gibibyte": {
+                    "solution text": "multiply the digital storage value by 128",
+                    "formula": "value * 128"
+                },
+                "Terabyte": {
+                    "solution text": "divide the digital storage value by 7.276",
+                    "formula": "value / 7.276"
+                },
+                "Tebibyte": {
+                    "solution text": "divide the digital storage value by 8",
+                    "formula": "value / 8"
+                },
+                "Petabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 7276",
+                    "formula": "value / 7276"
+                },
+                "Pebibyte": {
+                    "solution text": "divide the digital storage value by 8192",
+                    "formula": "value / 8192"
+                }
+            }
+        },
+        "Petabit": {
+            "convert to": {
+                "Bit": {
+                    "solution text": "multiply the digital storage value by 1e+15",
+                    "formula": "value * 1e+15"
+                },
+                "Kilobit": {
+                    "solution text": "multiply the digital storage value by 1e+12",
+                    "formula": "value * 1e+12"
+                },
+                "Kibibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 9.766e+11",
+                    "formula": "value * 9.766e+11"
+                },
+                "Megabit": {
+                    "solution text": "multiply the digital storage value by 1e+9",
+                    "formula": "value * 1e+9"
+                },
+                "Mebibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 9.537e+8",
+                    "formula": "value * 9.537e+8"
+                },
+                "Gigabit": {
+                    "solution text": "multiply the digital storage value by 1e+6",
+                    "formula": "value * 1e+6"
+                },
+                "Gibibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 931323",
+                    "formula": "value * 931323"
+                },
+                "Terabit": {
+                    "solution text": "multiply the digital storage value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Tebibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 909",
+                    "formula": "value * 909"
+                },
+                "Pebibit": {
+                    "solution text": "divide the digital storage value by 1.126",
+                    "formula": "value / 1.126"
+                },
+                "Byte": {
+                    "solution text": "multiply the digital storage value by 1.25e+14",
+                    "formula": "value * 1.25e+14"
+                },
+                "Kilobyte": {
+                    "solution text": "multiply the digital storage value by 1.25e+11",
+                    "formula": "value * 1.25e+11"
+                },
+                "Kibibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.221e+11",
+                    "formula": "value * 1.221e+11"
+                },
+                "Megabyte": {
+                    "solution text": "multiply the digital storage value by 1.25e+8",
+                    "formula": "value * 1.25e+8"
+                },
+                "Mebibyte": {
+                    "solution text": "multiply the digital storage value by 1.192e+8",
+                    "formula": "value * 1.192e+8"
+                },
+                "Gigabyte": {
+                    "solution text": "multiply the digital storage value by 125000",
+                    "formula": "value * 125000"
+                },
+                "Gibibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 116415",
+                    "formula": "value * 116415"
+                },
+                "Terabyte": {
+                    "solution text": "multiply the digital storage value by 125",
+                    "formula": "value * 125"
+                },
+                "Tebibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 114",
+                    "formula": "value * 114"
+                },
+                "Petabyte": {
+                    "solution text": "divide the digital storage value by 8",
+                    "formula": "value / 8"
+                },
+                "Pebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 9.007",
+                    "formula": "value / 9.007"
+                }
+            }
+        },
+        "Pebibit": {
+            "convert to": {
+                "Bit": {
+                    "solution text": "multiply the digital storage value by 1.126e+15",
+                    "formula": "value * 1.126e+15"
+                },
+                "Kilobit": {
+                    "solution text": "multiply the digital storage value by 1.126e+12",
+                    "formula": "value * 1.126e+12"
+                },
+                "Kibibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.1e+12",
+                    "formula": "value * 1.1e+12"
+                },
+                "Megabit": {
+                    "solution text": "multiply the digital storage value by 1.126e+9",
+                    "formula": "value * 1.126e+9"
+                },
+                "Mebibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.074e+9",
+                    "formula": "value * 1.074e+9"
+                },
+                "Gigabit": {
+                    "solution text": "multiply the digital storage value by 1.126e+6",
+                    "formula": "value * 1.126e+6"
+                },
+                "Gibibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.049e+6",
+                    "formula": "value * 1.049e+6"
+                },
+                "Terabit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1126",
+                    "formula": "value * 1126"
+                },
+                "Tebibit": {
+                    "solution text": "multiply the digital storage value by 1024",
+                    "formula": "value * 1024"
+                },
+                "Petabit": {
+                    "solution text": "multiply the digital storage value by 1.126",
+                    "formula": "value * 1.126"
+                },
+                "Byte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.407e+14",
+                    "formula": "value * 1.407e+14"
+                },
+                "Kilobyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.407e+11",
+                    "formula": "value * 1.407e+11"
+                },
+                "Kibibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.374e+11",
+                    "formula": "value * 1.374e+11"
+                },
+                "Megabyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.407e+8",
+                    "formula": "value * 1.407e+8"
+                },
+                "Mebibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.342e+8",
+                    "formula": "value * 1.342e+8"
+                },
+                "Gigabyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 140737",
+                    "formula": "value * 140737"
+                },
+                "Gibibyte": {
+                    "solution text": "multiply the digital storage value by 131072",
+                    "formula": "value * 131072"
+                },
+                "Terabyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 141",
+                    "formula": "value * 141"
+                },
+                "Tebibyte": {
+                    "solution text": "multiply the digital storage value by 128",
+                    "formula": "value * 128"
+                },
+                "Petabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 7.105",
+                    "formula": "value / 7.105"
+                },
+                "Pebibyte": {
+                    "solution text": "divide the digital storage value by 8",
+                    "formula": "value / 8"
+                }
+            }
+        },
+        "Byte": {
+            "convert to": {
+                "Bit": {
+                    "solution text": "multiply the digital storage value by 8",
+                    "formula": "value * 8"
+                },
+                "Kilobit": {
+                    "solution text": "divide the digital storage value by 125",
+                    "formula": "value / 125"
+                },
+                "Kibibit": {
+                    "solution text": "divide the digital storage value by 128",
+                    "formula": "value / 128"
+                },
+                "Megabit": {
+                    "solution text": "divide the digital storage value by 125000",
+                    "formula": "value / 125000"
+                },
+                "Mebibit": {
+                    "solution text": "divide the digital storage value by 131072",
+                    "formula": "value / 131072"
+                },
+                "Gigabit": {
+                    "solution text": "divide the digital storage value by 1.25e+8",
+                    "formula": "value / 1.25e+8"
+                },
+                "Gibibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.342e+8",
+                    "formula": "value / 1.342e+8"
+                },
+                "Terabit": {
+                    "solution text": "divide the digital storage value by 1.25e+11",
+                    "formula": "value / 1.25e+11"
+                },
+                "Tebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.374e+11",
+                    "formula": "value / 1.374e+11"
+                },
+                "Petabit": {
+                    "solution text": "divide the digital storage value by 1.25e+14",
+                    "formula": "value / 1.25e+14"
+                },
+                "Pebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.407e+14",
+                    "formula": "value / 1.407e+14"
+                },
+                "Kilobyte": {
+                    "solution text": "divide the digital storage value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Kibibyte": {
+                    "solution text": "divide the digital storage value by 1024",
+                    "formula": "value / 1024"
+                },
+                "Megabyte": {
+                    "solution text": "divide the digital storage value by 1e+6",
+                    "formula": "value / 1e+6"
+                },
+                "Mebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.049e+6",
+                    "formula": "value / 1.049e+6"
+                },
+                "Gigabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1e+9",
+                    "formula": "value / 1e+9"
+                },
+                "Gibibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.074e+9",
+                    "formula": "value / 1.074e+9"
+                },
+                "Terabyte": {
+                    "solution text": "divide the digital storage value by 1e+12",
+                    "formula": "value / 1e+12"
+                },
+                "Tebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.1e+12",
+                    "formula": "value / 1.1e+12"
+                },
+                "Petabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1e+15",
+                    "formula": "value / 1e+15"
+                },
+                "Pebibyte": {
+                    "solution text": "divide the digital storage value by 1.126e+15",
+                    "formula": "value / 1.126e+15"
+                }
+            }
+        },
+        "Kilobyte": {
+            "convert to": {
+                "Bit": {
+                    "solution text": "multiply the digital storage value by 8000",
+                    "formula": "value * 8000"
+                },
+                "Kilobit": {
+                    "solution text": "multiply the digital storage value by 8",
+                    "formula": "value * 8"
+                },
+                "Kibibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 7.812",
+                    "formula": "value * 7.812"
+                },
+                "Megabit": {
+                    "solution text": "divide the digital storage value by 125",
+                    "formula": "value / 125"
+                },
+                "Mebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 131",
+                    "formula": "value / 131"
+                },
+                "Gigabit": {
+                    "solution text": "divide the digital storage value by 125000",
+                    "formula": "value / 125000"
+                },
+                "Gibibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 134218",
+                    "formula": "value / 134218"
+                },
+                "Terabit": {
+                    "solution text": "divide the digital storage value by 1.25e+8",
+                    "formula": "value / 1.25e+8"
+                },
+                "Tebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.374e+8",
+                    "formula": "value / 1.374e+8"
+                },
+                "Petabit": {
+                    "solution text": "divide the digital storage value by 1.25e+11",
+                    "formula": "value / 1.25e+11"
+                },
+                "Pebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.407e+11",
+                    "formula": "value / 1.407e+11"
+                },
+                "Byte": {
+                    "solution text": "multiply the digital storage value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Kibibyte": {
+                    "solution text": "divide the digital storage value by 1.024",
+                    "formula": "value / 1.024"
+                },
+                "Megabyte": {
+                    "solution text": "divide the digital storage value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Mebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1049",
+                    "formula": "value / 1049"
+                },
+                "Gigabyte": {
+                    "solution text": "divide the digital storage value by 1e+6",
+                    "formula": "value / 1e+6"
+                },
+                "Gibibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.074e+6",
+                    "formula": "value / 1.074e+6"
+                },
+                "Terabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1e+9",
+                    "formula": "value / 1e+9"
+                },
+                "Tebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.1e+9",
+                    "formula": "value / 1.1e+9"
+                },
+                "Petabyte": {
+                    "solution text": "divide the digital storage value by 1e+12",
+                    "formula": "value / 1e+12"
+                },
+                "Pebibyte": {
+                    "solution text": "divide the digital storage value by 1.126e+12",
+                    "formula": "value / 1.126e+12"
+                }
+            }
+        },
+        "Kibibyte": {
+            "convert to": {
+                "Bit": {
+                    "solution text": "multiply the digital storage value by 8192",
+                    "formula": "value * 8192"
+                },
+                "Kilobit": {
+                    "solution text": "multiply the digital storage value by 8.192",
+                    "formula": "value * 8.192"
+                },
+                "Kibibit": {
+                    "solution text": "multiply the digital storage value by 8",
+                    "formula": "value * 8"
+                },
+                "Megabit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 122",
+                    "formula": "value / 122"
+                },
+                "Mebibit": {
+                    "solution text": "divide the digital storage value by 128",
+                    "formula": "value / 128"
+                },
+                "Gigabit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 122070",
+                    "formula": "value / 122070"
+                },
+                "Gibibit": {
+                    "solution text": "divide the digital storage value by 131072",
+                    "formula": "value / 131072"
+                },
+                "Terabit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.221e+8",
+                    "formula": "value / 1.221e+8"
+                },
+                "Tebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.342e+8",
+                    "formula": "value / 1.342e+8"
+                },
+                "Petabit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.221e+11",
+                    "formula": "value / 1.221e+11"
+                },
+                "Pebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.374e+11",
+                    "formula": "value / 1.374e+11"
+                },
+                "Byte": {
+                    "solution text": "multiply the digital storage value by 1024",
+                    "formula": "value * 1024"
+                },
+                "Kilobyte": {
+                    "solution text": "multiply the digital storage value by 1.024",
+                    "formula": "value * 1.024"
+                },
+                "Megabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 977",
+                    "formula": "value / 977"
+                },
+                "Mebibyte": {
+                    "solution text": "divide the digital storage value by 1024",
+                    "formula": "value / 1024"
+                },
+                "Gigabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 976562",
+                    "formula": "value / 976562"
+                },
+                "Gibibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.049e+6",
+                    "formula": "value / 1.049e+6"
+                },
+                "Terabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 9.766e+8",
+                    "formula": "value / 9.766e+8"
+                },
+                "Tebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.074e+9",
+                    "formula": "value / 1.074e+9"
+                },
+                "Petabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 9.766e+11",
+                    "formula": "value / 9.766e+11"
+                },
+                "Pebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.1e+12",
+                    "formula": "value / 1.1e+12"
+                }
+            }
+        },
+        "Megabyte": {
+            "convert to": {
+                "Bit": {
+                    "solution text": "multiply the digital storage value by 8e+6",
+                    "formula": "value * 8e+6"
+                },
+                "Kilobit": {
+                    "solution text": "multiply the digital storage value by 8000",
+                    "formula": "value * 8000"
+                },
+                "Kibibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 7813",
+                    "formula": "value * 7813"
+                },
+                "Megabit": {
+                    "solution text": "multiply the digital storage value by 8",
+                    "formula": "value * 8"
+                },
+                "Mebibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 7.629",
+                    "formula": "value * 7.629"
+                },
+                "Gigabit": {
+                    "solution text": "divide the digital storage value by 125",
+                    "formula": "value / 125"
+                },
+                "Gibibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 134",
+                    "formula": "value / 134"
+                },
+                "Terabit": {
+                    "solution text": "divide the digital storage value by 125000",
+                    "formula": "value / 125000"
+                },
+                "Tebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 137439",
+                    "formula": "value / 137439"
+                },
+                "Petabit": {
+                    "solution text": "divide the digital storage value by 1.25e+8",
+                    "formula": "value / 1.25e+8"
+                },
+                "Pebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.407e+8",
+                    "formula": "value / 1.407e+8"
+                },
+                "Byte": {
+                    "solution text": "multiply the digital storage value by 1e+6",
+                    "formula": "value * 1e+6"
+                },
+                "Kilobyte": {
+                    "solution text": "multiply the digital storage value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Kibibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 977",
+                    "formula": "value * 977"
+                },
+                "Mebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.049",
+                    "formula": "value / 1.049"
+                },
+                "Gigabyte": {
+                    "solution text": "divide the digital storage value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Gibibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1074",
+                    "formula": "value / 1074"
+                },
+                "Terabyte": {
+                    "solution text": "divide the digital storage value by 1e+6",
+                    "formula": "value / 1e+6"
+                },
+                "Tebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.1e+6",
+                    "formula": "value / 1.1e+6"
+                },
+                "Petabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1e+9",
+                    "formula": "value / 1e+9"
+                },
+                "Pebibyte": {
+                    "solution text": "divide the digital storage value by 1.126e+9",
+                    "formula": "value / 1.126e+9"
+                }
+            }
+        },
+        "Mebibyte": {
+            "convert to": {
+                "Bit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 8.389e+6",
+                    "formula": "value * 8.389e+6"
+                },
+                "Kilobit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 8389",
+                    "formula": "value * 8389"
+                },
+                "Kibibit": {
+                    "solution text": "multiply the digital storage value by 8192",
+                    "formula": "value * 8192"
+                },
+                "Megabit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 8.389",
+                    "formula": "value * 8.389"
+                },
+                "Mebibit": {
+                    "solution text": "multiply the digital storage value by 8",
+                    "formula": "value * 8"
+                },
+                "Gigabit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 119",
+                    "formula": "value / 119"
+                },
+                "Gibibit": {
+                    "solution text": "divide the digital storage value by 128",
+                    "formula": "value / 128"
+                },
+                "Terabit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 119209",
+                    "formula": "value / 119209"
+                },
+                "Tebibit": {
+                    "solution text": "divide the digital storage value by 131072",
+                    "formula": "value / 131072"
+                },
+                "Petabit": {
+                    "solution text": "divide the digital storage value by 1.192e+8",
+                    "formula": "value / 1.192e+8"
+                },
+                "Pebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.342e+8",
+                    "formula": "value / 1.342e+8"
+                },
+                "Byte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.049e+6",
+                    "formula": "value * 1.049e+6"
+                },
+                "Kilobyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1049",
+                    "formula": "value * 1049"
+                },
+                "Kibibyte": {
+                    "solution text": "multiply the digital storage value by 1024",
+                    "formula": "value * 1024"
+                },
+                "Megabyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.049",
+                    "formula": "value * 1.049"
+                },
+                "Gigabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 954",
+                    "formula": "value / 954"
+                },
+                "Gibibyte": {
+                    "solution text": "divide the digital storage value by 1024",
+                    "formula": "value / 1024"
+                },
+                "Terabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 953674",
+                    "formula": "value / 953674"
+                },
+                "Tebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.049e+6",
+                    "formula": "value / 1.049e+6"
+                },
+                "Petabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 9.537e+8",
+                    "formula": "value / 9.537e+8"
+                },
+                "Pebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.074e+9",
+                    "formula": "value / 1.074e+9"
+                }
+            }
+        },
+        "Gigabyte": {
+            "convert to": {
+                "Bit": {
+                    "solution text": "multiply the digital storage value by 8e+9",
+                    "formula": "value * 8e+9"
+                },
+                "Kilobit": {
+                    "solution text": "multiply the digital storage value by 8e+6",
+                    "formula": "value * 8e+6"
+                },
+                "Kibibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 7.812e+6",
+                    "formula": "value * 7.812e+6"
+                },
+                "Megabit": {
+                    "solution text": "multiply the digital storage value by 8000",
+                    "formula": "value * 8000"
+                },
+                "Mebibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 7629",
+                    "formula": "value * 7629"
+                },
+                "Gigabit": {
+                    "solution text": "multiply the digital storage value by 8",
+                    "formula": "value * 8"
+                },
+                "Gibibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 7.451",
+                    "formula": "value * 7.451"
+                },
+                "Terabit": {
+                    "solution text": "divide the digital storage value by 125",
+                    "formula": "value / 125"
+                },
+                "Tebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 137",
+                    "formula": "value / 137"
+                },
+                "Petabit": {
+                    "solution text": "divide the digital storage value by 125000",
+                    "formula": "value / 125000"
+                },
+                "Pebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 140737",
+                    "formula": "value / 140737"
+                },
+                "Byte": {
+                    "solution text": "multiply the digital storage value by 1e+9",
+                    "formula": "value * 1e+9"
+                },
+                "Kilobyte": {
+                    "solution text": "multiply the digital storage value by 1e+6",
+                    "formula": "value * 1e+6"
+                },
+                "Kibibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 976563",
+                    "formula": "value * 976563"
+                },
+                "Megabyte": {
+                    "solution text": "multiply the digital storage value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Mebibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 954",
+                    "formula": "value * 954"
+                },
+                "Gibibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.074",
+                    "formula": "value / 1.074"
+                },
+                "Terabyte": {
+                    "solution text": "divide the digital storage value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Tebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1100",
+                    "formula": "value / 1100"
+                },
+                "Petabyte": {
+                    "solution text": "divide the digital storage value by 1e+6",
+                    "formula": "value / 1e+6"
+                },
+                "Pebibyte": {
+                    "solution text": "divide the digital storage value by 1.126e+6",
+                    "formula": "value / 1.126e+6"
+                }
+            }
+        },
+        "Gibibyte": {
+            "convert to": {
+                "Bit": {
+                    "solution text": "multiply the digital storage value by 8.59e+9",
+                    "formula": "value * 8.59e+9"
+                },
+                "Kilobit": {
+                    "solution text": "multiply the digital storage value by 8.59e+6",
+                    "formula": "value * 8.59e+6"
+                },
+                "Kibibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 8.389e+6",
+                    "formula": "value * 8.389e+6"
+                },
+                "Megabit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 8590",
+                    "formula": "value * 8590"
+                },
+                "Mebibit": {
+                    "solution text": "multiply the digital storage value by 8192",
+                    "formula": "value * 8192"
+                },
+                "Gigabit": {
+                    "solution text": "multiply the digital storage value by 8.59",
+                    "formula": "value * 8.59"
+                },
+                "Gibibit": {
+                    "solution text": "multiply the digital storage value by 8",
+                    "formula": "value * 8"
+                },
+                "Terabit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 116",
+                    "formula": "value / 116"
+                },
+                "Tebibit": {
+                    "solution text": "divide the digital storage value by 128",
+                    "formula": "value / 128"
+                },
+                "Petabit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 116415",
+                    "formula": "value / 116415"
+                },
+                "Pebibit": {
+                    "solution text": "divide the digital storage value by 131072",
+                    "formula": "value / 131072"
+                },
+                "Byte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.074e+9",
+                    "formula": "value * 1.074e+9"
+                },
+                "Kilobyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.074e+6",
+                    "formula": "value * 1.074e+6"
+                },
+                "Kibibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.049e+6",
+                    "formula": "value * 1.049e+6"
+                },
+                "Megabyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1074",
+                    "formula": "value * 1074"
+                },
+                "Mebibyte": {
+                    "solution text": "multiply the digital storage value by 1024",
+                    "formula": "value * 1024"
+                },
+                "Gigabyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.074",
+                    "formula": "value * 1.074"
+                },
+                "Terabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 931",
+                    "formula": "value / 931"
+                },
+                "Tebibyte": {
+                    "solution text": "divide the digital storage value by 1024",
+                    "formula": "value / 1024"
+                },
+                "Petabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 931323",
+                    "formula": "value / 931323"
+                },
+                "Pebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.049e+6",
+                    "formula": "value / 1.049e+6"
+                }
+            }
+        },
+        "Terabyte": {
+            "convert to": {
+                "Bit": {
+                    "solution text": "multiply the digital storage value by 8e+12",
+                    "formula": "value * 8e+12"
+                },
+                "Kilobit": {
+                    "solution text": "multiply the digital storage value by 8e+9",
+                    "formula": "value * 8e+9"
+                },
+                "Kibibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 7.812e+9",
+                    "formula": "value * 7.812e+9"
+                },
+                "Megabit": {
+                    "solution text": "multiply the digital storage value by 8e+6",
+                    "formula": "value * 8e+6"
+                },
+                "Mebibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 7.629e+6",
+                    "formula": "value * 7.629e+6"
+                },
+                "Gigabit": {
+                    "solution text": "multiply the digital storage value by 8000",
+                    "formula": "value * 8000"
+                },
+                "Gibibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 7451",
+                    "formula": "value * 7451"
+                },
+                "Terabit": {
+                    "solution text": "multiply the digital storage value by 8",
+                    "formula": "value * 8"
+                },
+                "Tebibit": {
+                    "solution text": "multiply the digital storage value by 7.276",
+                    "formula": "value * 7.276"
+                },
+                "Petabit": {
+                    "solution text": "divide the digital storage value by 125",
+                    "formula": "value / 125"
+                },
+                "Pebibit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 141",
+                    "formula": "value / 141"
+                },
+                "Byte": {
+                    "solution text": "multiply the digital storage value by 1e+12",
+                    "formula": "value * 1e+12"
+                },
+                "Kilobyte": {
+                    "solution text": "multiply the digital storage value by 1e+9",
+                    "formula": "value * 1e+9"
+                },
+                "Kibibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 9.766e+8",
+                    "formula": "value * 9.766e+8"
+                },
+                "Megabyte": {
+                    "solution text": "multiply the digital storage value by 1e+6",
+                    "formula": "value * 1e+6"
+                },
+                "Mebibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 953674",
+                    "formula": "value * 953674"
+                },
+                "Gigabyte": {
+                    "solution text": "multiply the digital storage value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Gibibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 931",
+                    "formula": "value * 931"
+                },
+                "Tebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1.1",
+                    "formula": "value / 1.1"
+                },
+                "Petabyte": {
+                    "solution text": "divide the digital storage value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Pebibyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 1126",
+                    "formula": "value / 1126"
+                }
+            }
+        },
+        "Tebibyte": {
+            "convert to": {
+                "Bit": {
+                    "solution text": "multiply the digital storage value by 8.796e+12",
+                    "formula": "value * 8.796e+12"
+                },
+                "Kilobit": {
+                    "solution text": "multiply the digital storage value by 8.796e+9",
+                    "formula": "value * 8.796e+9"
+                },
+                "Kibibit": {
+                    "solution text": "multiply the digital storage value by 8.59e+9",
+                    "formula": "value * 8.59e+9"
+                },
+                "Megabit": {
+                    "solution text": "multiply the digital storage value by 8.796e+6",
+                    "formula": "value * 8.796e+6"
+                },
+                "Mebibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 8.389e+6",
+                    "formula": "value * 8.389e+6"
+                },
+                "Gigabit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 8796",
+                    "formula": "value * 8796"
+                },
+                "Gibibit": {
+                    "solution text": "multiply the digital storage value by 8192",
+                    "formula": "value * 8192"
+                },
+                "Terabit": {
+                    "solution text": "multiply the digital storage value by 8.796",
+                    "formula": "value * 8.796"
+                },
+                "Tebibit": {
+                    "solution text": "multiply the digital storage value by 8",
+                    "formula": "value * 8"
+                },
+                "Petabit": {
+                    "solution text": "for an approximate result, divide the digital storage value by 114",
+                    "formula": "value / 114"
+                },
+                "Pebibit": {
+                    "solution text": "divide the digital storage value by 128",
+                    "formula": "value / 128"
+                },
+                "Byte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.1e+12",
+                    "formula": "value * 1.1e+12"
+                },
+                "Kilobyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.1e+9",
+                    "formula": "value * 1.1e+9"
+                },
+                "Kibibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.074e+9",
+                    "formula": "value * 1.074e+9"
+                },
+                "Megabyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.1e+6",
+                    "formula": "value * 1.1e+6"
+                },
+                "Mebibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.049e+6",
+                    "formula": "value * 1.049e+6"
+                },
+                "Gigabyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1100",
+                    "formula": "value * 1100"
+                },
+                "Gibibyte": {
+                    "solution text": "multiply the digital storage value by 1024",
+                    "formula": "value * 1024"
+                },
+                "Terabyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.1",
+                    "formula": "value * 1.1"
+                },
+                "Petabyte": {
+                    "solution text": "for an approximate result, divide the digital storage value by 909",
+                    "formula": "value / 909"
+                },
+                "Pebibyte": {
+                    "solution text": "divide the digital storage value by 1024",
+                    "formula": "value / 1024"
+                }
+            }
+        },
+        "Petabyte": {
+            "convert to": {
+                "Bit": {
+                    "solution text": "multiply the digital storage value by 8e+15",
+                    "formula": "value * 8e+15"
+                },
+                "Kilobit": {
+                    "solution text": "multiply the digital storage value by 8e+12",
+                    "formula": "value * 8e+12"
+                },
+                "Kibibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 7.812e+12",
+                    "formula": "value * 7.812e+12"
+                },
+                "Megabit": {
+                    "solution text": "multiply the digital storage value by 8e+9",
+                    "formula": "value * 8e+9"
+                },
+                "Mebibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 7.629e+9",
+                    "formula": "value * 7.629e+9"
+                },
+                "Gigabit": {
+                    "solution text": "multiply the digital storage value by 8e+6",
+                    "formula": "value * 8e+6"
+                },
+                "Gibibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 7.451e+6",
+                    "formula": "value * 7.451e+6"
+                },
+                "Terabit": {
+                    "solution text": "multiply the digital storage value by 8000",
+                    "formula": "value * 8000"
+                },
+                "Tebibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 7276",
+                    "formula": "value * 7276"
+                },
+                "Petabit": {
+                    "solution text": "multiply the digital storage value by 8",
+                    "formula": "value * 8"
+                },
+                "Pebibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 7.105",
+                    "formula": "value * 7.105"
+                },
+                "Byte": {
+                    "solution text": "multiply the digital storage value by 1e+15",
+                    "formula": "value * 1e+15"
+                },
+                "Kilobyte": {
+                    "solution text": "multiply the digital storage value by 1e+12",
+                    "formula": "value * 1e+12"
+                },
+                "Kibibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 9.766e+11",
+                    "formula": "value * 9.766e+11"
+                },
+                "Megabyte": {
+                    "solution text": "multiply the digital storage value by 1e+9",
+                    "formula": "value * 1e+9"
+                },
+                "Mebibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 9.537e+8",
+                    "formula": "value * 9.537e+8"
+                },
+                "Gigabyte": {
+                    "solution text": "multiply the digital storage value by 1e+6",
+                    "formula": "value * 1e+6"
+                },
+                "Gibibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 931323",
+                    "formula": "value * 931323"
+                },
+                "Terabyte": {
+                    "solution text": "multiply the digital storage value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Tebibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 909",
+                    "formula": "value * 909"
+                },
+                "Pebibyte": {
+                    "solution text": "divide the digital storage value by 1.126",
+                    "formula": "value / 1.126"
+                }
+            }
+        },
+        "Pebibyte": {
+            "convert to": {
+                "Bit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 9.007e+15",
+                    "formula": "value * 9.007e+15"
+                },
+                "Kilobit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 9.007e+12",
+                    "formula": "value * 9.007e+12"
+                },
+                "Kibibit": {
+                    "solution text": "multiply the digital storage value by 8.796e+12",
+                    "formula": "value * 8.796e+12"
+                },
+                "Megabit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 9.007e+9",
+                    "formula": "value * 9.007e+9"
+                },
+                "Mebibit": {
+                    "solution text": "multiply the digital storage value by 8.59e+9",
+                    "formula": "value * 8.59e+9"
+                },
+                "Gigabit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 9.007e+6",
+                    "formula": "value * 9.007e+6"
+                },
+                "Gibibit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 8.389e+6",
+                    "formula": "value * 8.389e+6"
+                },
+                "Terabit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 9007",
+                    "formula": "value * 9007"
+                },
+                "Tebibit": {
+                    "solution text": "multiply the digital storage value by 8192",
+                    "formula": "value * 8192"
+                },
+                "Petabit": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 9.007",
+                    "formula": "value * 9.007"
+                },
+                "Pebibit": {
+                    "solution text": "multiply the digital storage value by 8",
+                    "formula": "value * 8"
+                },
+                "Byte": {
+                    "solution text": "multiply the digital storage value by 1.126e+15",
+                    "formula": "value * 1.126e+15"
+                },
+                "Kilobyte": {
+                    "solution text": "multiply the digital storage value by 1.126e+12",
+                    "formula": "value * 1.126e+12"
+                },
+                "Kibibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.1e+12",
+                    "formula": "value * 1.1e+12"
+                },
+                "Megabyte": {
+                    "solution text": "multiply the digital storage value by 1.126e+9",
+                    "formula": "value * 1.126e+9"
+                },
+                "Mebibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.074e+9",
+                    "formula": "value * 1.074e+9"
+                },
+                "Gigabyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.074e+9",
+                    "formula": "value * 1.074e+9"
+                },
+                "Gibibyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1.049e+6",
+                    "formula": "value * 1.049e+6"
+                },
+                "Terabyte": {
+                    "solution text": "for an approximate result, multiply the digital storage value by 1126",
+                    "formula": "value * 1126"
+                },
+                "Tebibyte": {
+                    "solution text": "multiply the digital storage value by 1024",
+                    "formula": "value * 1024"
+                },
+                "Petabyte": {
+                    "solution text": "multiply the digital storage value by 1.126",
+                    "formula": "value * 1.126"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1308 @@
+{
+    "initial units": {
+        "left unit": "Liter",
+        "right unit": "Milliliter"
+    },
+    "initial values": {
+        "left value": "1",
+        "right value": "1000"
+    },
+    "units": {
+        "US liquid gallon": {
+            "convert to": {
+                "US liquid quart": {
+                    "solution text": "multiply the volume value by 4",
+                    "formula": "value * 4"
+                },
+                "US liquid pint": {
+                    "solution text": "multiply the volume value by 8",
+                    "formula": "value * 8"
+                },
+                "US legal cup": {
+                    "solution text": "for an approximate result, multiply the volume value by 15.773",
+                    "formula": "value * 15.773"
+                },
+                "fluid ounce": {
+                    "solution text": "for an approximate result, multiply the volume value by 133",
+                    "formula": "value * 133"
+                },
+                "US tablespoon": {
+                    "solution text": "multiply the volume value by 256",
+                    "formula": "value * 256"
+                },
+                "US teaspoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 768",
+                    "formula": "value * 768"
+                },
+                "Cubic meter": {
+                    "solution text": "for an approximate result, divide the volume value by 264",
+                    "formula": "value / 264"
+                },
+                "Liter": {
+                    "solution text": "for an approximate result, multiply the volume value by 3.785",
+                    "formula": "value * 3.785"
+                },
+                "Milliliter": {
+                    "solution text": "for an approximate result, multiply the volume value by 3785",
+                    "formula": "value * 3785"
+                },
+                "Imperial gallon": {
+                    "solution text": "divide the volume value by 1.201",
+                    "formula": "value / 1.201"
+                },
+                "imp. quart": {
+                    "solution text": "for an approximate result, multiply the volume value by 3.331",
+                    "formula": "value * 3.331"
+                },
+                "Imperial pint": {
+                    "solution text": "for an approximate result, multiply the volume value by 6.661",
+                    "formula": "value * 6.661"
+                },
+                "Imperial cup": {
+                    "solution text": "for an approximate result, multiply the volume value by 13.323",
+                    "formula": "value * 13.323"
+                },
+                "Imperial tablespoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 213",
+                    "formula": "value * 213"
+                },
+                "Imperial teaspoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 639",
+                    "formula": "value * 639"
+                },
+                "Cubic foot": {
+                    "solution text": "for an approximate result, divide the volume value by 7.481",
+                    "formula": "value / 7.481"
+                },
+                "Cubic inch": {
+                    "solution text": "multiply the volume value by 231",
+                    "formula": "value * 231"
+                }
+            }
+        },
+        "US liquid quart": {
+            "convert to": {
+                "US liquid gallon": {
+                    "solution text": "divide the volume value by 4",
+                    "formula": "value / 4"
+                },
+                "US liquid pint": {
+                    "solution text": "multiply the volume value by 2",
+                    "formula": "value * 2"
+                },
+                "US legal cup": {
+                    "solution text": "for an approximate result, multiply the volume value by 3.943",
+                    "formula": "value * 3.943"
+                },
+                "fluid ounce": {
+                    "solution text": "multiply the volume value by 33.307",
+                    "formula": "value * 33.307"
+                },
+                "US tablespoon": {
+                    "solution text": "multiply the volume value by 64",
+                    "formula": "value * 64"
+                },
+                "US teaspoon": {
+                    "solution text": "multiply the volume value by 192",
+                    "formula": "value * 192"
+                },
+                "Cubic meter": {
+                    "solution text": "multiply the volume value by 192",
+                    "formula": "value * 192"
+                },
+                "Liter": {
+                    "solution text": "multiply the volume value by 192",
+                    "formula": "value * 192"
+                },
+                "Milliliter": {
+                    "solution text": "for an approximate result, divide the volume value by 1057",
+                    "formula": "value / 1057"
+                },
+                "Imperial gallon": {
+                    "solution text": "for an approximate result, divide the volume value by 4.804",
+                    "formula": "value / 4.804"
+                },
+                "imp. quart": {
+                    "solution text": "divide the volume value by 1.201",
+                    "formula": "value / 1.201"
+                },
+                "Imperial pint": {
+                    "solution text": "for an approximate result, multiply the volume value by 1.665",
+                    "formula": "value * 1.665"
+                },
+                "Imperial cup": {
+                    "solution text": "for an approximate result, multiply the volume value by 3.331",
+                    "formula": "value * 3.331"
+                },
+                "Imperial tablespoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 53.291",
+                    "formula": "value * 53.291"
+                },
+                "Imperial teaspoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 160",
+                    "formula": "value * 160"
+                },
+                "Cubic foot": {
+                    "solution text": "divide the volume value by 29.922",
+                    "formula": "value / 29.922"
+                },
+                "Cubic inch": {
+                    "solution text": "multiply the volume value by 57.75",
+                    "formula": "value * 57.75"
+                }
+            }
+        },
+        "US liquid pint": {
+            "convert to": {
+                "US liquid gallon": {
+                    "solution text": "multiply the volume value by 57.75",
+                    "formula": "value * 57.75"
+                },
+                "US liquid quart": {
+                    "solution text": "multiply the volume value by 57.75",
+                    "formula": "value * 57.75"
+                },
+                "US legal cup": {
+                    "solution text": "divide the volume value by 2",
+                    "formula": "value / 2"
+                },
+                "fluid ounce": {
+                    "solution text": "for an approximate result, multiply the volume value by 16.653",
+                    "formula": "value * 16.653"
+                },
+                "US tablespoon": {
+                    "solution text": "multiply the volume value by 16",
+                    "formula": "value * 16"
+                },
+                "US teaspoon": {
+                    "solution text": "multiply the volume value by 96",
+                    "formula": "value * 96"
+                },
+                "Cubic meter": {
+                    "solution text": "for an approximate result, divide the volume value by 2113",
+                    "formula": "value / 2113"
+                },
+                "Liter": {
+                    "solution text": "for an approximate result, divide the volume value by 2.113",
+                    "formula": "value / 2.113"
+                },
+                "Milliliter": {
+                    "solution text": "for an approximate result, multiply the volume value by 473",
+                    "formula": "value * 473"
+                },
+                "Imperial gallon": {
+                    "solution text": "for an approximate result, divide the volume value by 9.608",
+                    "formula": "value / 9.608"
+                },
+                "imp. quart": {
+                    "solution text": "divide the volume value by 2.402",
+                    "formula": "value / 2.402"
+                },
+                "Imperial pint": {
+                    "solution text": "divide the volume value by 1.201",
+                    "formula": "value / 1.201"
+                },
+                "Imperial cup": {
+                    "solution text": "for an approximate result, multiply the volume value by 1.665",
+                    "formula": "value * 1.665"
+                },
+                "Imperial tablespoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 26.646",
+                    "formula": "value * 26.646"
+                },
+                "Imperial teaspoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 79.937",
+                    "formula": "value * 79.937"
+                },
+                "Cubic foot": {
+                    "solution text": "for an approximate result, divide the volume value by 59.844",
+                    "formula": "value / 59.844"
+                },
+                "Cubic inch": {
+                    "solution text": "multiply the volume value by 28.875",
+                    "formula": "value * 28.875"
+                }
+            }
+        },
+        "US legal cup": {
+            "convert to": {
+                "US liquid gallon": {
+                    "solution text": "for an approximate result, divide the volume value by 15.773",
+                    "formula": "value / 15.773"
+                },
+                "US liquid quart": {
+                    "solution text": "for an approximate result, divide the volume value by 3.943",
+                    "formula": "value / 3.943"
+                },
+                "US liquid pint": {
+                    "solution text": "for an approximate result, divide the volume value by 1.972",
+                    "formula": "value / 1.972"
+                },
+                "fluid ounce": {
+                    "solution text": "for an approximate result, multiply the volume value by 8.447",
+                    "formula": "value * 8.447"
+                },
+                "US tablespoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 16.231",
+                    "formula": "value * 16.231"
+                },
+                "US teaspoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 48.692",
+                    "formula": "value * 48.692"
+                },
+                "Cubic meter": {
+                    "solution text": "for an approximate result, divide the volume value by 4167",
+                    "formula": "value / 4167"
+                },
+                "Liter": {
+                    "solution text": "for an approximate result, divide the volume value by 4.167",
+                    "formula": "value / 4.167"
+                },
+                "Milliliter": {
+                    "solution text": "multiply the volume value by 240",
+                    "formula": "value * 240"
+                },
+                "Imperial gallon": {
+                    "solution text": "divide the volume value by 18.942",
+                    "formula": "value / 18.942"
+                },
+                "imp. quart": {
+                    "solution text": "for an approximate result, divide the volume value by 4.736",
+                    "formula": "value / 4.736"
+                },
+                "Imperial pint": {
+                    "solution text": "for an approximate result, divide the volume value by 2.368",
+                    "formula": "value / 2.368"
+                },
+                "Imperial cup": {
+                    "solution text": "for an approximate result, divide the volume value by 1.184",
+                    "formula": "value / 1.184"
+                },
+                "Imperial tablespoon": {
+                    "solution text": "multiply the volume value by 13.515",
+                    "formula": "value * 13.515"
+                },
+                "Imperial teaspoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 40.545",
+                    "formula": "value * 40.545"
+                },
+                "Cubic foot": {
+                    "solution text": "for an approximate result, divide the volume value by 118",
+                    "formula": "value / 118"
+                },
+                "Cubic inch": {
+                    "solution text": "for an approximate result, multiply the volume value by 14.646",
+                    "formula": "value * 14.646"
+                }
+            }
+        },
+        "fluid ounce": {
+            "convert to": {
+                "US liquid gallon": {
+                    "solution text": "for an approximate result, divide the volume value by 133",
+                    "formula": "value / 133"
+                },
+                "US liquid quart": {
+                    "solution text": "divide the volume value by 33.307",
+                    "formula": "value / 33.307"
+                },
+                "US liquid pint": {
+                    "solution text": "for an approximate result, divide the volume value by 16.653",
+                    "formula": "value / 16.653"
+                },
+                "US legal cup": {
+                    "solution text": "for an approximate result, divide the volume value by 8.447",
+                    "formula": "value / 8.447"
+                },
+                "US tablespoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 1.922",
+                    "formula": "value * 1.922"
+                },
+                "US teaspoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 5.765",
+                    "formula": "value * 5.765"
+                },
+                "Cubic meter": {
+                    "solution text": "for an approximate result, divide the volume value by 35195",
+                    "formula": "value / 35195"
+                },
+                "Liter": {
+                    "solution text": "divide the volume value by 35.195",
+                    "formula": "value / 35.195"
+                },
+                "Milliliter": {
+                    "solution text": "multiply the volume value by 28.413",
+                    "formula": "value * 28.413"
+                },
+                "Imperial gallon": {
+                    "solution text": "divide the volume value by 160",
+                    "formula": "value / 160"
+                },
+                "imp. quart": {
+                    "solution text": "divide the volume value by 160",
+                    "formula": "value / 160"
+                },
+                "Imperial pint": {
+                    "solution text": "divide the volume value by 160",
+                    "formula": "value / 160"
+                },
+                "Imperial cup": {
+                    "solution text": "divide the volume value by 20",
+                    "formula": "value / 20"
+                },
+                "Imperial tablespoon": {
+                    "solution text": "multiply the volume value by 1.6",
+                    "formula": "value * 1.6"
+                },
+                "Imperial teaspoon": {
+                    "solution text": "multiply the volume value by 4.8",
+                    "formula": "value * 4.8"
+                },
+                "Cubic foot": {
+                    "solution text": "multiply the volume value by 4.8",
+                    "formula": "value * 4.8"
+                },
+                "Cubic inch": {
+                    "solution text": "for an approximate result, divide the volume value by 997",
+                    "formula": "value / 997"
+                }
+            }
+        },
+        "US tablespoon": {
+            "convert to": {
+                "US liquid gallon": {
+                    "solution text": "divide the volume value by 256",
+                    "formula": "value / 256"
+                },
+                "US liquid quart": {
+                    "solution text": "divide the volume value by 64",
+                    "formula": "value / 64"
+                },
+                "US liquid pint": {
+                    "solution text": "divide the volume value by 32",
+                    "formula": "value / 32"
+                },
+                "US legal cup": {
+                    "solution text": "for an approximate result, divide the volume value by 16.231",
+                    "formula": "value / 16.231"
+                },
+                "fluid ounce": {
+                    "solution text": "for an approximate result, divide the volume value by 1.922",
+                    "formula": "value / 1.922"
+                },
+                "US teaspoon": {
+                    "solution text": "multiply the volume value by 3",
+                    "formula": "value * 3"
+                },
+                "Cubic meter": {
+                    "solution text": "for an approximate result, divide the volume value by 67628",
+                    "formula": "value / 67628"
+                },
+                "Liter": {
+                    "solution text": "divide the volume value by 67.628",
+                    "formula": "value / 67.628"
+                },
+                "Milliliter": {
+                    "solution text": "for an approximate result, multiply the volume value by 14.787",
+                    "formula": "value * 14.787"
+                },
+                "Imperial gallon": {
+                    "solution text": "for an approximate result, divide the volume value by 307",
+                    "formula": "value / 307"
+                },
+                "imp. quart": {
+                    "solution text": "for an approximate result, divide the volume value by 76.861",
+                    "formula": "value / 76.861"
+                },
+                "Imperial pint": {
+                    "solution text": "for an approximate result, divide the volume value by 38.43",
+                    "formula": "value / 38.43"
+                },
+                "Imperial cup": {
+                    "solution text": "for an approximate result, divide the volume value by 19.215",
+                    "formula": "value / 19.215"
+                },
+                "Imperial tablespoon": {
+                    "solution text": "divide the volume value by 1.201",
+                    "formula": "value / 1.201"
+                },
+                "Imperial teaspoon": {
+                    "solution text": "multiply the volume value by 2.498",
+                    "formula": "value * 2.498"
+                },
+                "Cubic foot": {
+                    "solution text": "for an approximate result, divide the volume value by 1915",
+                    "formula": "value / 1915"
+                },
+                "Cubic inch": {
+                    "solution text": "for an approximate result, divide the volume value by 1.108",
+                    "formula": "value / 1.108"
+                }
+            }
+        },
+        "US teaspoon": {
+            "convert to": {
+                "US liquid gallon": {
+                    "solution text": "for an approximate result, divide the volume value by 768",
+                    "formula": "value / 768"
+                },
+                "US liquid quart": {
+                    "solution text": "divide the volume value by 192",
+                    "formula": "value / 192"
+                },
+                "US liquid pint": {
+                    "solution text": "divide the volume value by 96",
+                    "formula": "value / 96"
+                },
+                "US legal cup": {
+                    "solution text": "for an approximate result, divide the volume value by 48.692",
+                    "formula": "value / 48.692"
+                },
+                "fluid ounce": {
+                    "solution text": "for an approximate result, divide the volume value by 5.765",
+                    "formula": "value / 5.765"
+                },
+                "US tablespoon": {
+                    "solution text": "divide the volume value by 3",
+                    "formula": "value / 3"
+                },
+                "Cubic meter": {
+                    "solution text": "for an approximate result, divide the volume value by 202884",
+                    "formula": "value / 202884"
+                },
+                "Liter": {
+                    "solution text": "for an approximate result, divide the volume value by 203",
+                    "formula": "value / 203"
+                },
+                "Milliliter": {
+                    "solution text": "multiply the volume value by 4.929",
+                    "formula": "value * 4.929"
+                },
+                "Imperial gallon": {
+                    "solution text": "for an approximate result, divide the volume value by 922",
+                    "formula": "value / 922"
+                },
+                "imp. quart": {
+                    "solution text": "for an approximate result, divide the volume value by 231",
+                    "formula": "value / 231"
+                },
+                "Imperial pint": {
+                    "solution text": "for an approximate result, divide the volume value by 115",
+                    "formula": "value / 115"
+                },
+                "Imperial cup": {
+                    "solution text": "for an approximate result, divide the volume value by 57.646",
+                    "formula": "value / 57.646"
+                },
+                "Imperial tablespoon": {
+                    "solution text": "for an approximate result, divide the volume value by 3.603",
+                    "formula": "value / 3.603"
+                },
+                "Imperial teaspoon": {
+                    "solution text": "divide the volume value by 1.201",
+                    "formula": "value / 1.201"
+                },
+                "Cubic foot": {
+                    "solution text": "for an approximate result, divide the volume value by 5745",
+                    "formula": "value / 5745"
+                },
+                "Cubic inch": {
+                    "solution text": "for an approximate result, divide the volume value by 3.325",
+                    "formula": "value / 3.325"
+                }
+            }
+        },
+        "Cubic meter": {
+            "convert to": {
+                "US liquid gallon": {
+                    "solution text": "for an approximate result, multiply the volume value by 264",
+                    "formula": "value * 264"
+                },
+                "US liquid quart": {
+                    "solution text": "for an approximate result, multiply the volume value by 1057",
+                    "formula": "value * 1057"
+                },
+                "US liquid pint": {
+                    "solution text": "for an approximate result, multiply the volume value by 2113",
+                    "formula": "value * 2113"
+                },
+                "US legal cup": {
+                    "solution text": "for an approximate result, multiply the volume value by 4167",
+                    "formula": "value * 4167"
+                },
+                "fluid ounce": {
+                    "solution text": "for an approximate result, multiply the volume value by 35195",
+                    "formula": "value * 35195"
+                },
+                "US tablespoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 67628",
+                    "formula": "value * 67628"
+                },
+                "US teaspoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 202884",
+                    "formula": "value * 202884"
+                },
+                "Liter": {
+                    "solution text": "multiply the volume value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Milliliter": {
+                    "solution text": "multiply the volume value by 1e+6",
+                    "formula": "value * 1e+6"
+                },
+                "Imperial gallon": {
+                    "solution text": "for an approximate result, multiply the volume value by 220",
+                    "formula": "value * 220"
+                },
+                "imp. quart": {
+                    "solution text": "for an approximate result, multiply the volume value by 880",
+                    "formula": "value * 880"
+                },
+                "Imperial pint": {
+                    "solution text": "for an approximate result, multiply the volume value by 1760",
+                    "formula": "value * 1760"
+                },
+                "Imperial cup": {
+                    "solution text": "for an approximate result, multiply the volume value by 3520",
+                    "formula": "value * 3520"
+                },
+                "Imperial tablespoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 56312",
+                    "formula": "value * 56312"
+                },
+                "Imperial teaspoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 168936",
+                    "formula": "value * 168936"
+                },
+                "Cubic foot": {
+                    "solution text": "for an approximate result, multiply the volume value by 35.315",
+                    "formula": "value * 35.315"
+                },
+                "Cubic inch": {
+                    "solution text": "for an approximate result, multiply the volume value by 61024",
+                    "formula": "value * 61024"
+                }
+            }
+        },
+        "Liter": {
+            "convert to": {
+                "US liquid gallon": {
+                    "solution text": "for an approximate result, divide the volume value by 3.785",
+                    "formula": "value / 3.785"
+                },
+                "US liquid quart": {
+                    "solution text": "for an approximate result, multiply the volume value by 1.057",
+                    "formula": "value * 1.057"
+                },
+                "US liquid pint": {
+                    "solution text": "for an approximate result, multiply the volume value by 2.113",
+                    "formula": "value * 2.113"
+                },
+                "US legal cup": {
+                    "solution text": "for an approximate result, multiply the volume value by 4.167",
+                    "formula": "value * 4.167"
+                },
+                "fluid ounce": {
+                    "solution text": "multiply the volume value by 35.195",
+                    "formula": "value * 35.195"
+                },
+                "US tablespoon": {
+                    "solution text": "multiply the volume value by 67.628",
+                    "formula": "value * 67.628"
+                },
+                "US teaspoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 203",
+                    "formula": "value * 203"
+                },
+                "Cubic meter": {
+                    "solution text": "divide the volume value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Milliliter": {
+                    "solution text": "multiply the volume value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Imperial gallon": {
+                    "solution text": "divide the volume value by 4.546",
+                    "formula": "value / 4.546"
+                },
+                "imp. quart": {
+                    "solution text": "for an approximate result, divide the volume value by 1.137",
+                    "formula": "value / 1.137"
+                },
+                "Imperial pint": {
+                    "solution text": "for an approximate result, multiply the volume value by 1.76",
+                    "formula": "value * 1.76"
+                },
+                "Imperial cup": {
+                    "solution text": "for an approximate result, multiply the volume value by 3.52",
+                    "formula": "value * 3.52"
+                },
+                "Imperial tablespoon": {
+                    "solution text": "multiply the volume value by 56.312",
+                    "formula": "value * 56.312"
+                },
+                "Imperial teaspoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 169",
+                    "formula": "value * 169"
+                },
+                "Cubic foot": {
+                    "solution text": "for an approximate result, divide the volume value by 28.317",
+                    "formula": "value / 28.317"
+                },
+                "Cubic inch": {
+                    "solution text": "for an approximate result, multiply the volume value by 61.024",
+                    "formula": "value * 61.024"
+                }
+            }
+        },
+        "Milliliter": {
+            "convert to": {
+                "US liquid gallon": {
+                    "solution text": "for an approximate result, divide the volume value by 3785",
+                    "formula": "value / 3785"
+                },
+                "US liquid quart": {
+                    "solution text": "for an approximate result, divide the volume value by 946",
+                    "formula": "value / 946"
+                },
+                "US liquid pint": {
+                    "solution text": "for an approximate result, divide the volume value by 473",
+                    "formula": "value / 473"
+                },
+                "US legal cup": {
+                    "solution text": "divide the volume value by 240",
+                    "formula": "value / 240"
+                },
+                "fluid ounce": {
+                    "solution text": "divide the volume value by 28.413",
+                    "formula": "value / 28.413"
+                },
+                "US tablespoon": {
+                    "solution text": "for an approximate result, divide the volume value by 14.787",
+                    "formula": "value / 14.787"
+                },
+                "US teaspoon": {
+                    "solution text": "divide the volume value by 4.929",
+                    "formula": "value / 4.929"
+                },
+                "Cubic meter": {
+                    "solution text": "divide the volume value by 1e+6",
+                    "formula": "value / 1e+6"
+                },
+                "Liter": {
+                    "solution text": "divide the volume value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Imperial gallon": {
+                    "solution text": "for an approximate result, divide the volume value by 4546",
+                    "formula": "value / 4546"
+                },
+                "imp. quart": {
+                    "solution text": "for an approximate result, divide the volume value by 1137",
+                    "formula": "value / 1137"
+                },
+                "Imperial pint": {
+                    "solution text": "for an approximate result, divide the volume value by 568",
+                    "formula": "value / 568"
+                },
+                "Imperial cup": {
+                    "solution text": "for an approximate result, divide the volume value by 284",
+                    "formula": "value / 284"
+                },
+                "Imperial tablespoon": {
+                    "solution text": "for an approximate result, divide the volume value by 17.758",
+                    "formula": "value / 17.758"
+                },
+                "Imperial teaspoon": {
+                    "solution text": "for an approximate result, divide the volume value by 5.919",
+                    "formula": "value / 5.919"
+                },
+                "Cubic foot": {
+                    "solution text": "for an approximate result, divide the volume value by 28317",
+                    "formula": "value / 28317"
+                },
+                "Cubic inch": {
+                    "solution text": "divide the volume value by 16.387",
+                    "formula": "value / 16.387"
+                }
+            }
+        },
+        "Imperial gallon": {
+            "convert to": {
+                "US liquid gallon": {
+                    "solution text": "multiply the volume value by 1.201",
+                    "formula": "value * 1.201"
+                },
+                "US liquid quart": {
+                    "solution text": "for an approximate result, multiply the volume value by 4.804",
+                    "formula": "value * 4.804"
+                },
+                "US liquid pint": {
+                    "solution text": "for an approximate result, multiply the volume value by 9.608",
+                    "formula": "value * 9.608"
+                },
+                "US legal cup": {
+                    "solution text": "multiply the volume value by 18.942",
+                    "formula": "value * 18.942"
+                },
+                "fluid ounce": {
+                    "solution text": "multiply the volume value by 160",
+                    "formula": "value * 160"
+                },
+                "US tablespoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 307",
+                    "formula": "value * 307"
+                },
+                "US teaspoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 922",
+                    "formula": "value * 922"
+                },
+                "Cubic meter": {
+                    "solution text": "for an approximate result, divide the volume value by 220",
+                    "formula": "value / 220"
+                },
+                "Liter": {
+                    "solution text": "multiply the volume value by 4.546",
+                    "formula": "value * 4.546"
+                },
+                "Milliliter": {
+                    "solution text": "for an approximate result, multiply the volume value by 4546",
+                    "formula": "value * 4546"
+                },
+                "imp. quart": {
+                    "solution text": "multiply the volume value by 4",
+                    "formula": "value * 4"
+                },
+                "Imperial pint": {
+                    "solution text": "multiply the volume value by 4",
+                    "formula": "value * 4"
+                },
+                "Imperial cup": {
+                    "solution text": "multiply the volume value by 8",
+                    "formula": "value * 8"
+                },
+                "Imperial tablespoon": {
+                    "solution text": "multiply the volume value by 256",
+                    "formula": "value * 256"
+                },
+                "Imperial teaspoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 768",
+                    "formula": "value * 768"
+                },
+                "Cubic foot": {
+                    "solution text": "for an approximate result, divide the volume value by 6.229",
+                    "formula": "value / 6.229"
+                },
+                "Cubic inch": {
+                    "solution text": "for an approximate result, multiply the volume value by 277",
+                    "formula": "value * 277"
+                }
+            }
+        },
+        "imp. quart": {
+            "convert to": {
+                "US liquid gallon": {
+                    "solution text": "for an approximate result, divide the volume value by 3.331",
+                    "formula": "value / 3.331"
+                },
+                "US liquid quart": {
+                    "solution text": "multiply the volume value by 1.201",
+                    "formula": "value * 1.201"
+                },
+                "US liquid pint": {
+                    "solution text": "multiply the volume value by 2.402",
+                    "formula": "value * 2.402"
+                },
+                "US legal cup": {
+                    "solution text": "multiply the volume value by 2.402",
+                    "formula": "value * 2.402"
+                },
+                "fluid ounce": {
+                    "solution text": "multiply the volume value by 40",
+                    "formula": "value * 40"
+                },
+                "US tablespoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 76.861",
+                    "formula": "value * 76.861"
+                },
+                "US teaspoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 231",
+                    "formula": "value * 231"
+                },
+                "Cubic meter": {
+                    "solution text": "for an approximate result, divide the volume value by 880",
+                    "formula": "value / 880"
+                },
+                "Liter": {
+                    "solution text": "for an approximate result, multiply the volume value by 1.137",
+                    "formula": "value * 1.137"
+                },
+                "Milliliter": {
+                    "solution text": "for an approximate result, multiply the volume value by 1137",
+                    "formula": "value * 1137"
+                },
+                "Imperial gallon": {
+                    "solution text": "divide the volume value by 4",
+                    "formula": "value / 4"
+                },
+                "Imperial pint": {
+                    "solution text": "multiply the volume value by 2",
+                    "formula": "value * 2"
+                },
+                "Imperial cup": {
+                    "solution text": "multiply the volume value by 4",
+                    "formula": "value * 4"
+                },
+                "Imperial tablespoon": {
+                    "solution text": "multiply the volume value by 64",
+                    "formula": "value * 64"
+                },
+                "Imperial teaspoon": {
+                    "solution text": "multiply the volume value by 192",
+                    "formula": "value * 192"
+                },
+                "Cubic foot": {
+                    "solution text": "for an approximate result, divide the volume value by 24.915",
+                    "formula": "value / 24.915"
+                },
+                "Cubic inch": {
+                    "solution text": "for an approximate result, multiply the volume value by 69.355",
+                    "formula": "value * 69.355"
+                }
+            }
+        },
+        "Imperial pint": {
+            "convert to": {
+                "US liquid gallon": {
+                    "solution text": "for an approximate result, divide the volume value by 6.661",
+                    "formula": "value / 6.661"
+                },
+                "US liquid quart": {
+                    "solution text": "for an approximate result, divide the volume value by 1.665",
+                    "formula": "value / 1.665"
+                },
+                "US liquid pint": {
+                    "solution text": "multiply the volume value by 1.201",
+                    "formula": "value * 1.201"
+                },
+                "US legal cup": {
+                    "solution text": "for an approximate result, multiply the volume value by 2.368",
+                    "formula": "value * 2.368"
+                },
+                "fluid ounce": {
+                    "solution text": "multiply the volume value by 20",
+                    "formula": "value * 20"
+                },
+                "US tablespoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 38.43",
+                    "formula": "value * 38.43"
+                },
+                "US teaspoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 115",
+                    "formula": "value * 115"
+                },
+                "Cubic meter": {
+                    "solution text": "for an approximate result, divide the volume value by 1760",
+                    "formula": "value / 1760"
+                },
+                "Liter": {
+                    "solution text": "for an approximate result, divide the volume value by 1.76",
+                    "formula": "value / 1.76"
+                },
+                "Milliliter": {
+                    "solution text": "for an approximate result, multiply the volume value by 568",
+                    "formula": "value * 568"
+                },
+                "Imperial gallon": {
+                    "solution text": "divide the volume value by 8",
+                    "formula": "value / 8"
+                },
+                "imp. quart": {
+                    "solution text": "divide the volume value by 2",
+                    "formula": "value / 2"
+                },
+                "Imperial cup": {
+                    "solution text": "multiply the volume value by 2",
+                    "formula": "value * 2"
+                },
+                "Imperial tablespoon": {
+                    "solution text": "multiply the volume value by 32",
+                    "formula": "value * 32"
+                },
+                "Imperial teaspoon": {
+                    "solution text": "multiply the volume value by 96",
+                    "formula": "value * 96"
+                },
+                "Cubic foot": {
+                    "solution text": "for an approximate result, divide the volume value by 49.831",
+                    "formula": "value / 49.831"
+                },
+                "Cubic inch": {
+                    "solution text": "for an approximate result, multiply the volume value by 34.677",
+                    "formula": "value * 34.677"
+                }
+            }
+        },
+        "Imperial cup": {
+            "convert to": {
+                "US liquid gallon": {
+                    "solution text": "for an approximate result, divide the volume value by 13.323",
+                    "formula": "value / 13.323"
+                },
+                "US liquid quart": {
+                    "solution text": "for an approximate result, divide the volume value by 3.331",
+                    "formula": "value / 3.331"
+                },
+                "US liquid pint": {
+                    "solution text": "for an approximate result, divide the volume value by 1.665",
+                    "formula": "value / 1.665"
+                },
+                "US legal cup": {
+                    "solution text": "for an approximate result, multiply the volume value by 1.184",
+                    "formula": "value * 1.184"
+                },
+                "fluid ounce": {
+                    "solution text": "multiply the volume value by 10",
+                    "formula": "value * 10"
+                },
+                "US tablespoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 19.215",
+                    "formula": "value * 19.215"
+                },
+                "US teaspoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 57.646",
+                    "formula": "value * 57.646"
+                },
+                "Cubic meter": {
+                    "solution text": "for an approximate result, divide the volume value by 3520",
+                    "formula": "value / 3520"
+                },
+                "Liter": {
+                    "solution text": "for an approximate result, divide the volume value by 3.52",
+                    "formula": "value / 3.52"
+                },
+                "Milliliter": {
+                    "solution text": "for an approximate result, multiply the volume value by 284",
+                    "formula": "value * 284"
+                },
+                "Imperial gallon": {
+                    "solution text": "divide the volume value by 16",
+                    "formula": "value / 16"
+                },
+                "imp. quart": {
+                    "solution text": "divide the volume value by 4",
+                    "formula": "value / 4"
+                },
+                "Imperial pint": {
+                    "solution text": "divide the volume value by 2",
+                    "formula": "value / 2"
+                },
+                "Imperial tablespoon": {
+                    "solution text": "multiply the volume value by 16",
+                    "formula": "value * 16"
+                },
+                "Imperial teaspoon": {
+                    "solution text": "multiply the volume value by 48",
+                    "formula": "value * 48"
+                },
+                "Cubic foot": {
+                    "solution text": "for an approximate result, divide the volume value by 99.661",
+                    "formula": "value / 99.661"
+                },
+                "Cubic inch": {
+                    "solution text": "for an approximate result, multiply the volume value by 17.339",
+                    "formula": "value * 17.339"
+                }
+            }
+        },
+        "Imperial tablespoon": {
+            "convert to": {
+                "US liquid gallon": {
+                    "solution text": "for an approximate result, divide the volume value by 213",
+                    "formula": "value / 213"
+                },
+                "US liquid quart": {
+                    "solution text": "for an approximate result, divide the volume value by 53.291",
+                    "formula": "value / 53.291"
+                },
+                "US liquid pint": {
+                    "solution text": "for an approximate result, divide the volume value by 26.646",
+                    "formula": "value / 26.646"
+                },
+                "US legal cup": {
+                    "solution text": "divide the volume value by 13.515",
+                    "formula": "value / 13.515"
+                },
+                "fluid ounce": {
+                    "solution text": "divide the volume value by 1.6",
+                    "formula": "value / 1.6"
+                },
+                "US tablespoon": {
+                    "solution text": "multiply the volume value by 1.201",
+                    "formula": "value * 1.201"
+                },
+                "US teaspoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 3.603",
+                    "formula": "value * 3.603"
+                },
+                "Cubic meter": {
+                    "solution text": "for an approximate result, divide the volume value by 56312",
+                    "formula": "value / 56312"
+                },
+                "Liter": {
+                    "solution text": "divide the volume value by 56.312",
+                    "formula": "value / 56.312"
+                },
+                "Milliliter": {
+                    "solution text": "for an approximate result, multiply the volume value by 17.758",
+                    "formula": "value * 17.758"
+                },
+                "Imperial gallon": {
+                    "solution text": "divide the volume value by 256",
+                    "formula": "value / 256"
+                },
+                "imp. quart": {
+                    "solution text": "divide the volume value by 64",
+                    "formula": "value / 64"
+                },
+                "Imperial pint": {
+                    "solution text": "divide the volume value by 32",
+                    "formula": "value / 32"
+                },
+                "Imperial cup": {
+                    "solution text": "divide the volume value by 16",
+                    "formula": "value / 16"
+                },
+                "Imperial teaspoon": {
+                    "solution text": "multiply the volume value by 3",
+                    "formula": "value * 3"
+                },
+                "Cubic foot": {
+                    "solution text": "for an approximate result, divide the volume value by 1595",
+                    "formula": "value / 1595"
+                },
+                "Cubic inch": {
+                    "solution text": "for an approximate result, multiply the volume value by 1.084",
+                    "formula": "value * 1.084"
+                }
+            }
+        },
+        "Imperial teaspoon": {
+            "convert to": {
+                "US liquid gallon": {
+                    "solution text": "for an approximate result, divide the volume value by 639",
+                    "formula": "value / 639"
+                },
+                "US liquid quart": {
+                    "solution text": "for an approximate result, divide the volume value by 160",
+                    "formula": "value / 160"
+                },
+                "US liquid pint": {
+                    "solution text": "for an approximate result, divide the volume value by 79.937",
+                    "formula": "value / 79.937"
+                },
+                "US legal cup": {
+                    "solution text": "for an approximate result, divide the volume value by 40.545",
+                    "formula": "value / 40.545"
+                },
+                "fluid ounce": {
+                    "solution text": "divide the volume value by 4.8",
+                    "formula": "value / 4.8"
+                },
+                "US tablespoon": {
+                    "solution text": "divide the volume value by 2.498",
+                    "formula": "value / 2.498"
+                },
+                "US teaspoon": {
+                    "solution text": "multiply the volume value by 1.201",
+                    "formula": "value * 1.201"
+                },
+                "Cubic meter": {
+                    "solution text": "for an approximate result, divide the volume value by 168936",
+                    "formula": "value / 168936"
+                },
+                "Liter": {
+                    "solution text": "for an approximate result, divide the volume value by 169",
+                    "formula": "value / 169"
+                },
+                "Milliliter": {
+                    "solution text": "for an approximate result, multiply the volume value by 5.919",
+                    "formula": "value * 5.919"
+                },
+                "Imperial gallon": {
+                    "solution text": "for an approximate result, multiply the volume value by 5.919",
+                    "formula": "value * 5.919"
+                },
+                "imp. quart": {
+                    "solution text": "divide the volume value by 192",
+                    "formula": "value / 192"
+                },
+                "Imperial pint": {
+                    "solution text": "divide the volume value by 96",
+                    "formula": "value / 96"
+                },
+                "Imperial cup": {
+                    "solution text": "divide the volume value by 48",
+                    "formula": "value / 48"
+                },
+                "Imperial tablespoon": {
+                    "solution text": "divide the volume value by 3",
+                    "formula": "value / 3"
+                },
+                "Cubic foot": {
+                    "solution text": "for an approximate result, divide the volume value by 4784",
+                    "formula": "value / 4784"
+                },
+                "Cubic inch": {
+                    "solution text": "for an approximate result, divide the volume value by 2.768",
+                    "formula": "value / 2.768"
+                }
+            }
+        },
+        "Cubic foot": {
+            "convert to": {
+                "US liquid gallon": {
+                    "solution text": "for an approximate result, multiply the volume value by 7.481",
+                    "formula": "value * 7.481"
+                },
+                "US liquid quart": {
+                    "solution text": "multiply the volume value by 29.922",
+                    "formula": "value * 29.922"
+                },
+                "US liquid pint": {
+                    "solution text": "for an approximate result, multiply the volume value by 59.844",
+                    "formula": "value * 59.844"
+                },
+                "US legal cup": {
+                    "solution text": "for an approximate result, multiply the volume value by 118",
+                    "formula": "value * 118"
+                },
+                "fluid ounce": {
+                    "solution text": "for an approximate result, multiply the volume value by 997",
+                    "formula": "value * 997"
+                },
+                "US tablespoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 958",
+                    "formula": "value * 958"
+                },
+                "US teaspoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 958",
+                    "formula": "value * 958"
+                },
+                "Cubic meter": {
+                    "solution text": "for an approximate result, multiply the volume value by 5745",
+                    "formula": "value * 5745"
+                },
+                "Liter": {
+                    "solution text": "for an approximate result, multiply the volume value by 28.317",
+                    "formula": "value * 28.317"
+                },
+                "Milliliter": {
+                    "solution text": "for an approximate result, multiply the volume value by 28317",
+                    "formula": "value * 28317"
+                },
+                "Imperial gallon": {
+                    "solution text": "for an approximate result, multiply the volume value by 6.229",
+                    "formula": "value * 6.229"
+                },
+                "imp. quart": {
+                    "solution text": "for an approximate result, multiply the volume value by 24.915",
+                    "formula": "value * 24.915"
+                },
+                "Imperial pint": {
+                    "solution text": "for an approximate result, multiply the volume value by 49.831",
+                    "formula": "value * 49.831"
+                },
+                "Imperial cup": {
+                    "solution text": "for an approximate result, multiply the volume value by 99.661",
+                    "formula": "value * 99.661"
+                },
+                "Imperial tablespoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 1595",
+                    "formula": "value * 1595"
+                },
+                "Imperial teaspoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 4784",
+                    "formula": "value * 4784"
+                },
+                "Cubic inch": {
+                    "solution text": "multiply the volume value by 1728",
+                    "formula": "value * 1728"
+                }
+            }
+        },
+        "Cubic inch": {
+            "convert to": {
+                "US liquid gallon": {
+                    "solution text": "divide the volume value by 231",
+                    "formula": "value / 231"
+                },
+                "US liquid quart": {
+                    "solution text": "divide the volume value by 57.75",
+                    "formula": "value / 57.75"
+                },
+                "US liquid pint": {
+                    "solution text": "divide the volume value by 28.875",
+                    "formula": "value / 28.875"
+                },
+                "US legal cup": {
+                    "solution text": "for an approximate result, divide the volume value by 14.646",
+                    "formula": "value / 14.646"
+                },
+                "fluid ounce": {
+                    "solution text": "for an approximate result, divide the volume value by 1.734",
+                    "formula": "value / 1.734"
+                },
+                "US tablespoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 1.108",
+                    "formula": "value * 1.108"
+                },
+                "US teaspoon": {
+                    "solution text": "for an approximate result, multiply the volume value by 3.325",
+                    "formula": "value * 3.325"
+                },
+                "Cubic meter": {
+                    "solution text": "for an approximate result, divide the volume value by 61024",
+                    "formula": "value / 61024"
+                },
+                "Liter": {
+                    "solution text": "for an approximate result, divide the volume value by 61.024",
+                    "formula": "value / 61.024"
+                },
+                "Milliliter": {
+                    "solution text": "for an approximate result, divide the volume value by 61.024",
+                    "formula": "value / 61.024"
+                },
+                "Imperial gallon": {
+                    "solution text": "multiply the volume value by 16.387",
+                    "formula": "value * 16.387"
+                },
+                "imp. quart": {
+                    "solution text": "for an approximate result, divide the volume value by 69.355",
+                    "formula": "value / 69.355"
+                },
+                "Imperial pint": {
+                    "solution text": "for an approximate result, divide the volume value by 34.677",
+                    "formula": "value / 34.677"
+                },
+                "Imperial cup": {
+                    "solution text": "for an approximate result, divide the volume value by 17.339",
+                    "formula": "value / 17.339"
+                },
+                "Imperial tablespoon": {
+                    "solution text": "for an approximate result, divide the volume value by 1.084",
+                    "formula": "value / 1.084"
+                },
+                "Imperial teaspoon": {
+                    "solution text": "for an approximate result, divide the volume value by 1.084",
+                    "formula": "value / 1.084"
+                },
+                "Cubic foot": {
+                    "solution text": "divide the volume value by 1728",
+                    "formula": "value / 1728"
+                }
+            }
+        }
+    }
+}

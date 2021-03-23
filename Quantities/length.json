@@ -1,0 +1,496 @@
+{
+    "initial units": {
+        "left unit": "Meter",
+        "right unit": "Centimeter"
+    },
+    "initial values": {
+        "left value": "1",
+        "right value": "100"
+    },
+    "units": {
+        "kilometre": {
+            "convert to": {
+                "Meter": {
+                    "solution text": "multiply the length value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Centimeter": {
+                    "solution text": "multiply the length value by 100000",
+                    "formula": "value * 100000"
+                },
+                "Millimetre": {
+                    "solution text": "multiply the length value by 1e+6",
+                    "formula": "value * 1e+6"
+                },
+                "micrometres": {
+                    "solution text": "multiply the length value by 1e+9",
+                    "formula": "value * 1e+9"
+                },
+                "Nanometre": {
+                    "solution text": "for an approximate result, multiply the length value by 1e+12",
+                    "formula": "value * 1e+12"
+                },
+                "Mile": {
+                    "solution text": "for an approximate result, divide the length value by 1.609",
+                    "formula": "value / 1.609"
+                },
+                "Yard": {
+                    "solution text": "for an approximate result, multiply the length value by 1094",
+                    "formula": "value * 1094"
+                },
+                "Foot": {
+                    "solution text": "for an approximate result, multiply the length value by 3281",
+                    "formula": "value * 3281"
+                },
+                "Inch": {
+                    "solution text": "for an approximate result, multiply the length value by 39370",
+                    "formula": "value * 39370"
+                },
+                "Nautical mile": {
+                    "solution text": "divide the length value by 1.852",
+                    "formula": "value / 1.852"
+                }
+            }
+        },
+        "Meter": {
+            "convert to": {
+                "kilometre": {
+                    "solution text": "divide the length value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Centimeter": {
+                    "solution text": "multiply the length value by 100",
+                    "formula": "value * 100"
+                },
+                "Millimetre": {
+                    "solution text": "multiply the length value by 1000",
+                    "formula": "value * 1000"
+                },
+                "micrometres": {
+                    "solution text": "multiply the length value by 1e+6",
+                    "formula": "value * 1e+6"
+                },
+                "Nanometre": {
+                    "solution text": "for an approximate result, multiply the length value by 1e+9",
+                    "formula": "value * 1e+9"
+                },
+                "Mile": {
+                    "solution text": "for an approximate result, divide the length value by 1609",
+                    "formula": "value / 1609"
+                },
+                "Yard": {
+                    "solution text": "for an approximate result, multiply the length value by 1.094",
+                    "formula": "value * 1.094"
+                },
+                "Foot": {
+                    "solution text": "for an approximate result, multiply the length value by 3.281",
+                    "formula": "value * 3.281"
+                },
+                "Inch": {
+                    "solution text": "multiply the length value by 39.37",
+                    "formula": "value * 39.37"
+                },
+                "Nautical mile": {
+                    "solution text": "divide the length value by 1852",
+                    "formula": "value / 1852"
+                }
+            }
+        },
+        "Centimeter": {
+            "convert to": {
+                "kilometre": {
+                    "solution text": "divide the length value by 100000",
+                    "formula": "value / 100000"
+                },
+                "Meter": {
+                    "solution text": "divide the length value by 100",
+                    "formula": "value / 100"
+                },
+                "Millimetre": {
+                    "solution text": "multiply the length value by 10",
+                    "formula": "value * 10"
+                },
+                "micrometres": {
+                    "solution text": "multiply the length value by 10000",
+                    "formula": "value * 10000"
+                },
+                "Nanometre": {
+                    "solution text": "multiply the length value by 1e+7",
+                    "formula": "value * 1e+7"
+                },
+                "Mile": {
+                    "solution text": "for an approximate result, divide the length value by 160934",
+                    "formula": "value / 160934"
+                },
+                "Yard": {
+                    "solution text": "divide the length value by 91.44",
+                    "formula": "value / 91.44"
+                },
+                "Foot": {
+                    "solution text": "divide the length value by 30.48",
+                    "formula": "value / 30.48"
+                },
+                "Inch": {
+                    "solution text": "divide the length value by 2.54",
+                    "formula": "value / 2.54"
+                },
+                "Nautical mile": {
+                    "solution text": "divide the length value by 185200",
+                    "formula": "value / 185200"
+                }
+            }
+        },
+        "Millimetre": {
+            "convert to": {
+                "kilometre": {
+                    "solution text": "divide the length value by 1e+6",
+                    "formula": "value / 1e+6"
+                },
+                "Meter": {
+                    "solution text": "divide the length value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Centimeter": {
+                    "solution text": "divide the length value by 10",
+                    "formula": "value / 10"
+                },
+                "micrometres": {
+                    "solution text": "multiply the length value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Nanometre": {
+                    "solution text": "multiply the length value by 1e+6",
+                    "formula": "value * 1e+6"
+                },
+                "Mile": {
+                    "solution text": "for an approximate result, divide the length value by 1.609e+6",
+                    "formula": "value / 1.609e+6"
+                },
+                "Yard": {
+                    "solution text": "for an approximate result, divide the length value by 914",
+                    "formula": "value / 914"
+                },
+                "Foot": {
+                    "solution text": "for an approximate result, divide the length value by 305",
+                    "formula": "value / 305"
+                },
+                "Inch": {
+                    "solution text": "divide the length value by 25.4",
+                    "formula": "value / 25.4"
+                },
+                "Nautical mile": {
+                    "solution text": "divide the length value by 1.852e+6",
+                    "formula": "value / 1.852e+6"
+                }
+            }
+        },
+        "micrometres": {
+            "convert to": {
+                "kilometre": {
+                    "solution text": "divide the length value by 1e+9",
+                    "formula": "value / 1e+9"
+                },
+                "Meter": {
+                    "solution text": "divide the length value by 1e+6",
+                    "formula": "value / 1e+6"
+                },
+                "Centimeter": {
+                    "solution text": "divide the length value by 10000",
+                    "formula": "value / 10000"
+                },
+                "Millimetre": {
+                    "solution text": "divide the length value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Nanometre": {
+                    "solution text": "multiply the length value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Mile": {
+                    "solution text": "for an approximate result, divide the length value by 1.609e+9",
+                    "formula": "value / 1.609e+9"
+                },
+                "Yard": {
+                    "solution text": "divide the length value by 914400",
+                    "formula": "value / 914400"
+                },
+                "Foot": {
+                    "solution text": "divide the length value by 304800",
+                    "formula": "value / 304800"
+                },
+                "Inch": {
+                    "solution text": "divide the length value by 25400",
+                    "formula": "value / 25400"
+                },
+                "Nautical mile": {
+                    "solution text": "divide the length value by 1.852e+9",
+                    "formula": "value / 1.852e+9"
+                }
+            }
+        },
+        "Nanometre": {
+            "convert to": {
+                "kilometre": {
+                    "solution text": "divide the length value by 1e+12",
+                    "formula": "value / 1e+12"
+                },
+                "Meter": {
+                    "solution text": "for an approximate result, divide the length value by 1e+9",
+                    "formula": "value / 1e+9"
+                },
+                "Centimeter": {
+                    "solution text": "divide the length value by 1e+7",
+                    "formula": "value / 1e+7"
+                },
+                "Millimetre": {
+                    "solution text": "divide the length value by 1e+6",
+                    "formula": "value / 1e+6"
+                },
+                "micrometres": {
+                    "solution text": "divide the length value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Mile": {
+                    "solution text": "for an approximate result, divide the length value by 1.609e+12",
+                    "formula": "value / 1.609e+12"
+                },
+                "Yard": {
+                    "solution text": "divide the length value by 9.144e+8",
+                    "formula": "value / 9.144e+8"
+                },
+                "Foot": {
+                    "solution text": "divide the length value by 3.048e+8",
+                    "formula": "value / 3.048e+8"
+                },
+                "Inch": {
+                    "solution text": "divide the length value by 2.54e+7",
+                    "formula": "value / 2.54e+7"
+                },
+                "Nautical mile": {
+                    "solution text": "divide the length value by 1.852e+12",
+                    "formula": "value / 1.852e+12"
+                }
+            }
+        },
+        "Mile": {
+            "convert to": {
+                "kilometre": {
+                    "solution text": "for an approximate result, multiply the length value by 1.609",
+                    "formula": "value * 1.609"
+                },
+                "Meter": {
+                    "solution text": "for an approximate result, multiply the length value by 1609",
+                    "formula": "value * 1609"
+                },
+                "Centimeter": {
+                    "solution text": "for an approximate result, multiply the length value by 160934",
+                    "formula": "value * 160934"
+                },
+                "Millimetre": {
+                    "solution text": "for an approximate result, multiply the length value by 1.609e+6",
+                    "formula": "value * 1.609e+6"
+                },
+                "micrometres": {
+                    "solution text": "for an approximate result, multiply the length value by 1.609e+9",
+                    "formula": "value * 1.609e+9"
+                },
+                "Nanometre": {
+                    "solution text": "for an approximate result, multiply the length value by 1.609e+12",
+                    "formula": "value * 1.609e+12"
+                },
+                "Yard": {
+                    "solution text": "multiply the length value by 1760",
+                    "formula": "value * 1760"
+                },
+                "Foot": {
+                    "solution text": "multiply the length value by 5280",
+                    "formula": "value * 5280"
+                },
+                "Inch": {
+                    "solution text": "multiply the length value by 63360",
+                    "formula": "value * 63360"
+                },
+                "Nautical mile": {
+                    "solution text": "for an approximate result, divide the length value by 1.151",
+                    "formula": "value / 1.151"
+                }
+            }
+        },
+        "Yard": {
+            "convert to": {
+                "kilometre": {
+                    "solution text": "for an approximate result, divide the length value by 1094",
+                    "formula": "value / 1094"
+                },
+                "Meter": {
+                    "solution text": "for an approximate result, divide the length value by 1.094",
+                    "formula": "value / 1.094"
+                },
+                "Centimeter": {
+                    "solution text": "multiply the length value by 91.44",
+                    "formula": "value * 91.44"
+                },
+                "Millimetre": {
+                    "solution text": "for an approximate result, multiply the length value by 914",
+                    "formula": "value * 914"
+                },
+                "micrometres": {
+                    "solution text": "multiply the length value by 914400",
+                    "formula": "value * 914400"
+                },
+                "Nanometre": {
+                    "solution text": "multiply the length value by 9.144e+8",
+                    "formula": "value * 9.144e+8"
+                },
+                "Mile": {
+                    "solution text": "divide the length value by 1760",
+                    "formula": "value / 1760"
+                },
+                "Foot": {
+                    "solution text": "multiply the length value by 3",
+                    "formula": "value * 3"
+                },
+                "Inch": {
+                    "solution text": "multiply the length value by 36",
+                    "formula": "value * 36"
+                },
+                "Nautical mile": {
+                    "solution text": "for an approximate result, divide the length value by 2025",
+                    "formula": "value / 2025"
+                }
+            }
+        },
+        "Foot": {
+            "convert to": {
+                "kilometre": {
+                    "solution text": "for an approximate result, divide the length value by 3281",
+                    "formula": "value / 3281"
+                },
+                "Meter": {
+                    "solution text": "for an approximate result, divide the length value by 3.281",
+                    "formula": "value / 3.281"
+                },
+                "Centimeter": {
+                    "solution text": "multiply the length value by 30.48",
+                    "formula": "value * 30.48"
+                },
+                "Millimetre": {
+                    "solution text": "for an approximate result, multiply the length value by 305",
+                    "formula": "value * 305"
+                },
+                "micrometres": {
+                    "solution text": "multiply the length value by 304800",
+                    "formula": "value * 304800"
+                },
+                "Nanometre": {
+                    "solution text": "multiply the length value by 3.048e+8",
+                    "formula": "value * 3.048e+8"
+                },
+                "Mile": {
+                    "solution text": "divide the length value by 5280",
+                    "formula": "value / 5280"
+                },
+                "Yard": {
+                    "solution text": "divide the length value by 3",
+                    "formula": "value / 3"
+                },
+                "Inch": {
+                    "solution text": "multiply the length value by 12",
+                    "formula": "value * 12"
+                },
+                "Nautical mile": {
+                    "solution text": "for an approximate result, divide the length value by 6076",
+                    "formula": "value / 6076"
+                }
+            }
+        },
+        "Inch": {
+            "convert to": {
+                "kilometre": {
+                    "solution text": "for an approximate result, divide the length value by 39370",
+                    "formula": "value / 39370"
+                },
+                "Meter": {
+                    "solution text": "divide the length value by 39.37",
+                    "formula": "value / 39.37"
+                },
+                "Centimeter": {
+                    "solution text": "multiply the length value by 2.54",
+                    "formula": "value * 2.54"
+                },
+                "Millimetre": {
+                    "solution text": "multiply the length value by 25.4",
+                    "formula": "value * 25.4"
+                },
+                "micrometres": {
+                    "solution text": "multiply the length value by 25400",
+                    "formula": "value * 25400"
+                },
+                "Nanometre": {
+                    "solution text": "multiply the length value by 2.54e+7",
+                    "formula": "value * 2.54e+7"
+                },
+                "Mile": {
+                    "solution text": "divide the length value by 63360",
+                    "formula": "value / 63360"
+                },
+                "Yard": {
+                    "solution text": "divide the length value by 36",
+                    "formula": "value / 36"
+                },
+                "Foot": {
+                    "solution text": "divide the length value by 12",
+                    "formula": "value / 12"
+                },
+                "Nautical mile": {
+                    "solution text": "for an approximate result, divide the length value by 72913",
+                    "formula": "value / 72913"
+                }
+            }
+        },
+        "Nautical mile": {
+            "convert to": {
+                "kilometre": {
+                    "solution text": "for an approximate result, divide the length value by 72913",
+                    "formula": "value / 72913"
+                },
+                "Meter": {
+                    "solution text": "for an approximate result, multiply the length value by 72913",
+                    "formula": "value * 72913"
+                },
+                "Centimeter": {
+                    "solution text": "multiply the length value by 1852",
+                    "formula": "value * 1852"
+                },
+                "Millimetre": {
+                    "solution text": "multiply the length value by 185200",
+                    "formula": "value * 185200"
+                },
+                "micrometres": {
+                    "solution text": "multiply the length value by 1.852e+9",
+                    "formula": "value * 1.852e+9"
+                },
+                "Nanometre": {
+                    "solution text": "multiply the length value by 1.852e+9",
+                    "formula": "value * 1.852e+9"
+                },
+                "Mile": {
+                    "solution text": "for an approximate result, multiply the length value by 1.151",
+                    "formula": "value * 1.151"
+                },
+                "Yard": {
+                    "solution text": "for an approximate result, multiply the length value by 2025",
+                    "formula": "value * 2025"
+                },
+                "Foot": {
+                    "solution text": "for an approximate result, multiply the length value by 6076",
+                    "formula": "value * 6076"
+                },
+                "Inch": {
+                    "solution text": "for an approximate result, multiply the length value by 72913",
+                    "formula": "value * 72913"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,588 @@
+{
+    "initial units": {
+        "left unit": "Second",
+        "right unit": "Minute"
+    },
+    "initial values": {
+        "left value": "1",
+        "right value": "0.0166667"
+    },
+    "units": {
+        "Nanosecond": {
+            "convert to": {
+                "Microsecond": {
+                    "solution text": "divide the time value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Millisecond": {
+                    "solution text": "divide the time value by 1e+6",
+                    "formula": "value / 1e+6"
+                },
+                "Second": {
+                    "solution text": "for an approximate result, divide the time value by 1e+9",
+                    "formula": "value / 1e+9"
+                },
+                "Minute": {
+                    "solution text": "divide the time value by 6e+10",
+                    "formula": "value / 6e+10"
+                },
+                "Hour": {
+                    "solution text": "divide the time value by 3.6e+12",
+                    "formula": "value / 3.6e+12"
+                },
+                "Day": {
+                    "solution text": "divide the time value by 8.64e+13",
+                    "formula": "value / 8.64e+13"
+                },
+                "Week": {
+                    "solution text": "divide the time value by 6.048e+14",
+                    "formula": "value / 6.048e+14"
+                },
+                "Month": {
+                    "solution text": "divide the time value by 2.628e+15",
+                    "formula": "value / 2.628e+15"
+                },
+                "Calendar year": {
+                    "solution text": "for an approximate result, divide the time value by 3.154e+16",
+                    "formula": "value / 3.154e+16"
+                },
+                "Decade": {
+                    "solution text": "for an approximate result, divide the time value by 3.154e+17",
+                    "formula": "value / 3.154e+17"
+                },
+                "Century": {
+                    "solution text": "for an approximate result, divide the time value by 3.154e+18",
+                    "formula": "value / 3.154e+18"
+                }
+            }
+        },
+        "Microsecond": {
+            "convert to": {
+                "Nanosecond": {
+                    "solution text": "multiply the time value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Millisecond": {
+                    "solution text": "divide the time value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Second": {
+                    "solution text": "divide the time value by 1e+6",
+                    "formula": "value / 1e+6"
+                },
+                "Minute": {
+                    "solution text": "divide the time value by 6e+7",
+                    "formula": "value / 6e+7"
+                },
+                "Hour": {
+                    "solution text": "divide the time value by 3.6e+9",
+                    "formula": "value / 3.6e+9"
+                },
+                "Day": {
+                    "solution text": "divide the time value by 8.64e+10",
+                    "formula": "value / 8.64e+10"
+                },
+                "Week": {
+                    "solution text": "divide the time value by 6.048e+11",
+                    "formula": "value / 6.048e+11"
+                },
+                "Month": {
+                    "solution text": "divide the time value by 2.628e+12",
+                    "formula": "value / 2.628e+12"
+                },
+                "Calendar year": {
+                    "solution text": "for an approximate result, divide the time value by 3.154e+13",
+                    "formula": "value / 3.154e+13"
+                },
+                "Decade": {
+                    "solution text": "for an approximate result, divide the time value by 3.154e+14",
+                    "formula": "value / 3.154e+14"
+                },
+                "Century": {
+                    "solution text": "for an approximate result, divide the time value by 3.154e+15",
+                    "formula": "value / 3.154e+15"
+                }
+            }
+        },
+        "Millisecond": {
+            "convert to": {
+                "Nanosecond": {
+                    "solution text": "multiply the time value by 1e+6",
+                    "formula": "value * 1e+6"
+                },
+                "Microsecond": {
+                    "solution text": "multiply the time value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Second": {
+                    "solution text": "divide the time value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Minute": {
+                    "solution text": "divide the time value by 60000",
+                    "formula": "value / 60000"
+                },
+                "Hour": {
+                    "solution text": "divide the time value by 3.6e+6",
+                    "formula": "value / 3.6e+6"
+                },
+                "Day": {
+                    "solution text": "divide the time value by 8.64e+7",
+                    "formula": "value / 8.64e+7"
+                },
+                "Week": {
+                    "solution text": "divide the time value by 6.048e+8",
+                    "formula": "value / 6.048e+8"
+                },
+                "Month": {
+                    "solution text": "divide the time value by 2.628e+9",
+                    "formula": "value / 2.628e+9"
+                },
+                "Calendar year": {
+                    "solution text": "for an approximate result, divide the time value by 3.154e+10",
+                    "formula": "value / 3.154e+10"
+                },
+                "Decade": {
+                    "solution text": "for an approximate result, divide the time value by 3.154e+11",
+                    "formula": "value / 3.154e+11"
+                },
+                "Century": {
+                    "solution text": "for an approximate result, divide the time value by 3.154e+12",
+                    "formula": "value / 3.154e+12"
+                }
+            }
+        },
+        "Second": {
+            "convert to": {
+                "Nanosecond": {
+                    "solution text": "for an approximate result, multiply the time value by 1e+9",
+                    "formula": "value * 1e+9"
+                },
+                "Microsecond": {
+                    "solution text": "multiply the time value by 1e+6",
+                    "formula": "value * 1e+6"
+                },
+                "Millisecond": {
+                    "solution text": "multiply the time value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Minute": {
+                    "solution text": "divide the time value by 60",
+                    "formula": "value / 60"
+                },
+                "Hour": {
+                    "solution text": "divide the time value by 3600",
+                    "formula": "value / 3600"
+                },
+                "Day": {
+                    "solution text": "divide the time value by 86400",
+                    "formula": "value / 86400"
+                },
+                "Week": {
+                    "solution text": "divide the time value by 604800",
+                    "formula": "value / 604800"
+                },
+                "Month": {
+                    "solution text": "divide the time value by 2.628e+6",
+                    "formula": "value / 2.628e+6"
+                },
+                "Calendar year": {
+                    "solution text": "for an approximate result, divide the time value by 3.154e+7",
+                    "formula": "value / 3.154e+7"
+                },
+                "Decade": {
+                    "solution text": "for an approximate result, divide the time value by 3.154e+8",
+                    "formula": "value / 3.154e+8"
+                },
+                "Century": {
+                    "solution text": "for an approximate result, divide the time value by 3.154e+9",
+                    "formula": "value / 3.154e+9"
+                }
+            }
+        },
+        "Minute": {
+            "convert to": {
+                "Nanosecond": {
+                    "solution text": "multiply the time value by 6e+10",
+                    "formula": "value * 6e+10"
+                },
+                "Microsecond": {
+                    "solution text": "multiply the time value by 6e+7",
+                    "formula": "value * 6e+7"
+                },
+                "Millisecond": {
+                    "solution text": "multiply the time value by 60000",
+                    "formula": "value * 60000"
+                },
+                "Second": {
+                    "solution text": "multiply the time value by 60",
+                    "formula": "value * 60"
+                },
+                "Hour": {
+                    "solution text": "divide the time value by 60",
+                    "formula": "value / 60"
+                },
+                "Day": {
+                    "solution text": "divide the time value by 1440",
+                    "formula": "value / 1440"
+                },
+                "Week": {
+                    "solution text": "divide the time value by 10080",
+                    "formula": "value / 10080"
+                },
+                "Month": {
+                    "solution text": "for an approximate result, divide the time value by 43800",
+                    "formula": "value / 43800"
+                },
+                "Calendar year": {
+                    "solution text": "divide the time value by 525600",
+                    "formula": "value / 525600"
+                },
+                "Decade": {
+                    "solution text": "divide the time value by 5.256e+6",
+                    "formula": "value / 5.256e+6"
+                },
+                "Century": {
+                    "solution text": "divide the time value by 5.256e+7",
+                    "formula": "value / 5.256e+7"
+                }
+            }
+        },
+        "Hour": {
+            "convert to": {
+                "Nanosecond": {
+                    "solution text": "multiply the time value by 3.6e+12",
+                    "formula": "value * 3.6e+12"
+                },
+                "Microsecond": {
+                    "solution text": "multiply the time value by 3.6e+9",
+                    "formula": "value * 3.6e+9"
+                },
+                "Millisecond": {
+                    "solution text": "multiply the time value by 3.6e+6",
+                    "formula": "value * 3.6e+6"
+                },
+                "Second": {
+                    "solution text": "multiply the time value by 3600",
+                    "formula": "value * 3600"
+                },
+                "Minute": {
+                    "solution text": "multiply the time value by 60",
+                    "formula": "value * 60"
+                },
+                "Day": {
+                    "solution text": "divide the time value by 24",
+                    "formula": "value / 24"
+                },
+                "Week": {
+                    "solution text": "divide the time value by 168",
+                    "formula": "value / 168"
+                },
+                "Month": {
+                    "solution text": "for an approximate result, divide the time value by 730",
+                    "formula": "value / 730"
+                },
+                "Calendar year": {
+                    "solution text": "divide the time value by 8760",
+                    "formula": "value / 8760"
+                },
+                "Decade": {
+                    "solution text": "divide the time value by 87600",
+                    "formula": "value / 87600"
+                },
+                "Century": {
+                    "solution text": "divide the time value by 876000",
+                    "formula": "value / 876000"
+                }
+            }
+        },
+        "Day": {
+            "convert to": {
+                "Nanosecond": {
+                    "solution text": "multiply the time value by 8.64e+13",
+                    "formula": "value * 8.64e+13"
+                },
+                "Microsecond": {
+                    "solution text": "multiply the time value by 8.64e+10",
+                    "formula": "value * 8.64e+10"
+                },
+                "Millisecond": {
+                    "solution text": "multiply the time value by 8.64e+7",
+                    "formula": "value * 8.64e+7"
+                },
+                "Second": {
+                    "solution text": "multiply the time value by 86400",
+                    "formula": "value * 86400"
+                },
+                "Minute": {
+                    "solution text": "multiply the time value by 1440",
+                    "formula": "value * 1440"
+                },
+                "Hour": {
+                    "solution text": "multiply the time value by 24",
+                    "formula": "value * 24"
+                },
+                "Week": {
+                    "solution text": "divide the time value by 7",
+                    "formula": "value / 7"
+                },
+                "Month": {
+                    "solution text": "for an approximate result, divide the time value by 30.417",
+                    "formula": "value / 30.417"
+                },
+                "Calendar year": {
+                    "solution text": "divide the time value by 365",
+                    "formula": "value / 365"
+                },
+                "Decade": {
+                    "solution text": "divide the time value by 3650",
+                    "formula": "value / 3650"
+                },
+                "Century": {
+                    "solution text": "divide the time value by 36500",
+                    "formula": "value / 36500"
+                }
+            }
+        },
+        "Week": {
+            "convert to": {
+                "Nanosecond": {
+                    "solution text": "multiply the time value by 6.048e+14",
+                    "formula": "value * 6.048e+14"
+                },
+                "Microsecond": {
+                    "solution text": "multiply the time value by 6.048e+11",
+                    "formula": "value * 6.048e+11"
+                },
+                "Millisecond": {
+                    "solution text": "multiply the time value by 6.048e+8",
+                    "formula": "value * 6.048e+8"
+                },
+                "Second": {
+                    "solution text": "multiply the time value by 604800",
+                    "formula": "value * 604800"
+                },
+                "Minute": {
+                    "solution text": "multiply the time value by 10080",
+                    "formula": "value * 10080"
+                },
+                "Hour": {
+                    "solution text": "multiply the time value by 168",
+                    "formula": "value * 168"
+                },
+                "Day": {
+                    "solution text": "multiply the time value by 7",
+                    "formula": "value * 7"
+                },
+                "Month": {
+                    "solution text": "for an approximate result, divide the time value by 4.345",
+                    "formula": "value / 4.345"
+                },
+                "Calendar year": {
+                    "solution text": "for an approximate result, divide the time value by 52.143",
+                    "formula": "value / 52.143"
+                },
+                "Decade": {
+                    "solution text": "for an approximate result, divide the time value by 521",
+                    "formula": "value / 521"
+                },
+                "Century": {
+                    "solution text": "for an approximate result, divide the time value by 5214",
+                    "formula": "value / 5214"
+                }
+            }
+        },
+        "Month": {
+            "convert to": {
+                "Nanosecond": {
+                    "solution text": "multiply the time value by 2.628e+15",
+                    "formula": "value * 2.628e+15"
+                },
+                "Microsecond": {
+                    "solution text": "multiply the time value by 2.628e+12",
+                    "formula": "value * 2.628e+12"
+                },
+                "Millisecond": {
+                    "solution text": "multiply the time value by 2.628e+9",
+                    "formula": "value * 2.628e+9"
+                },
+                "Second": {
+                    "solution text": "multiply the time value by 2.628e+6",
+                    "formula": "value * 2.628e+6"
+                },
+                "Minute": {
+                    "solution text": "for an approximate result, multiply the time value by 43800",
+                    "formula": "value * 43800"
+                },
+                "Hour": {
+                    "solution text": "for an approximate result, multiply the time value by 730",
+                    "formula": "value * 730"
+                },
+                "Day": {
+                    "solution text": "for an approximate result, multiply the time value by 30.417",
+                    "formula": "value * 30.417"
+                },
+                "Week": {
+                    "solution text": "for an approximate result, multiply the time value by 4.345",
+                    "formula": "value * 4.345"
+                },
+                "Calendar year": {
+                    "solution text": "divide the time value by 12",
+                    "formula": "value / 12"
+                },
+                "Decade": {
+                    "solution text": "for an approximate result, divide the time value by 120",
+                    "formula": "value / 120"
+                },
+                "Century": {
+                    "solution text": "for an approximate result, divide the time value by 1200",
+                    "formula": "value / 1200"
+                }
+            }
+        },
+        "Calendar year": {
+            "convert to": {
+                "Nanosecond": {
+                    "solution text": "for an approximate result, multiply the time value by 3.154e+16",
+                    "formula": "value * 3.154e+16"
+                },
+                "Microsecond": {
+                    "solution text": "for an approximate result, multiply the time value by 3.154e+13",
+                    "formula": "value * 3.154e+13"
+                },
+                "Millisecond": {
+                    "solution text": "for an approximate result, multiply the time value by 3.154e+10",
+                    "formula": "value * 3.154e+10"
+                },
+                "Second": {
+                    "solution text": "for an approximate result, multiply the time value by 3.154e+7",
+                    "formula": "value * 3.154e+7"
+                },
+                "Minute": {
+                    "solution text": "multiply the time value by 525600",
+                    "formula": "value * 525600"
+                },
+                "Hour": {
+                    "solution text": "multiply the time value by 8760",
+                    "formula": "value * 8760"
+                },
+                "Day": {
+                    "solution text": "multiply the time value by 365",
+                    "formula": "value * 365"
+                },
+                "Week": {
+                    "solution text": "for an approximate result, multiply the time value by 52.143",
+                    "formula": "value * 52.143"
+                },
+                "Month": {
+                    "solution text": "multiply the time value by 12",
+                    "formula": "value * 12"
+                },
+                "Decade": {
+                    "solution text": "divide the time value by 10",
+                    "formula": "value / 10"
+                },
+                "Century": {
+                    "solution text": "divide the time value by 100",
+                    "formula": "value / 100"
+                }
+            }
+        },
+        "Decade": {
+            "convert to": {
+                "Nanosecond": {
+                    "solution text": "for an approximate result, multiply the time value by 3.154e+17",
+                    "formula": "value * 3.154e+17"
+                },
+                "Microsecond": {
+                    "solution text": "for an approximate result, multiply the time value by 3.154e+14",
+                    "formula": "value * 3.154e+14"
+                },
+                "Millisecond": {
+                    "solution text": "for an approximate result, multiply the time value by 3.154e+11",
+                    "formula": "value * 3.154e+11"
+                },
+                "Second": {
+                    "solution text": "for an approximate result, multiply the time value by 3.154e+8",
+                    "formula": "value * 3.154e+8"
+                },
+                "Minute": {
+                    "solution text": "multiply the time value by 5.256e+6",
+                    "formula": "value * 5.256e+6"
+                },
+                "Hour": {
+                    "solution text": "multiply the time value by 87600",
+                    "formula": "value * 87600"
+                },
+                "Day": {
+                    "solution text": "multiply the time value by 3650",
+                    "formula": "value * 3650"
+                },
+                "Week": {
+                    "solution text": "for an approximate result, multiply the time value by 521",
+                    "formula": "value * 521"
+                },
+                "Month": {
+                    "solution text": "for an approximate result, multiply the time value by 120",
+                    "formula": "value * 120"
+                },
+                "Calendar year": {
+                    "solution text": "multiply the time value by 10",
+                    "formula": "value * 10"
+                },
+                "Century": {
+                    "solution text": "divide the time value by 10",
+                    "formula": "value / 10"
+                }
+            }
+        },
+        "Century": {
+            "convert to": {
+                "Nanosecond": {
+                    "solution text": "for an approximate result, multiply the time value by 3.154e+18",
+                    "formula": "value * 3.154e+18"
+                },
+                "Microsecond": {
+                    "solution text": "for an approximate result, multiply the time value by 3.154e+15",
+                    "formula": "value * 3.154e+15"
+                },
+                "Millisecond": {
+                    "solution text": "for an approximate result, multiply the time value by 3.154e+12",
+                    "formula": "value * 3.154e+12"
+                },
+                "Second": {
+                    "solution text": "for an approximate result, multiply the time value by 3.154e+9",
+                    "formula": "value * 3.154e+9"
+                },
+                "Minute": {
+                    "solution text": "multiply the time value by 5.256e+7",
+                    "formula": "value * 5.256e+7"
+                },
+                "Hour": {
+                    "solution text": "multiply the time value by 876000",
+                    "formula": "value * 876000"
+                },
+                "Day": {
+                    "solution text": "multiply the time value by 36500",
+                    "formula": "value * 36500"
+                },
+                "Week": {
+                    "solution text": "for an approximate result, multiply the time value by 5214",
+                    "formula": "value * 5214"
+                },
+                "Month": {
+                    "solution text": "for an approximate result, multiply the time value by 1200",
+                    "formula": "value * 1200"
+                },
+                "Calendar year": {
+                    "solution text": "multiply the time value by 100",
+                    "formula": "value * 100"
+                },
+                "Decade": {
+                    "solution text": "multiply the time value by 10",
+                    "formula": "value * 10"
+                }
+            }
+        }
+    }
+}

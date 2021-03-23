@@ -41,6 +41,8 @@ class Quantity:
             filename = "length.json"
         elif quantity_name == "Mass":
             filename = "mass.json"
+
+        # TODO: change degrees and pi with ascii
         elif quantity_name == "Plane Angle":
             filename = "plane_angle.json"
         elif quantity_name == "Pressure":
@@ -78,8 +80,8 @@ class Quantity:
         solution_text = solution_text_format
 
         if "{value}" in solution_text:
-            solution_text.replace("{value}", str(value))
+            solution_text = solution_text.replace("{value}", str(value))
         if "{answer}" in solution_text:
-            solution_text.replace("{answer}", str(answer))
+            solution_text = solution_text.replace("{answer}", str(answer))
 
         return solution_text

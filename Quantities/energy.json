@@ -1,0 +1,412 @@
+{
+    "initial units": {
+        "left unit": "Joule",
+        "right unit": "Kilocalorie"
+    },
+    "initial values": {
+        "left value": "1",
+        "right value": "0.000239006"
+    },
+    "units": {
+        "Joule": {
+            "convert to": {
+                "Kilojoule": {
+                    "solution text": "divide the energy value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Gram calorie": {
+                    "solution text": "divide the energy value by 4.184",
+                    "formula": "value / 4.184"
+                },
+                "Kilocalorie": {
+                    "solution text": "divide the energy value by 4184",
+                    "formula": "value / 4184"
+                },
+                "Watt hour": {
+                    "solution text": "divide the energy value by 3600",
+                    "formula": "value / 3600"
+                },
+                "kilowatt hour": {
+                    "solution text": "divide the energy value by 3.6e+6",
+                    "formula": "value / 3.6e+6"
+                },
+                "Electronvolt": {
+                    "solution text": "for an approximate result, multiply the energy value by 6.242e+18",
+                    "formula": "value * 6.242e+18"
+                },
+                "British thermal unit": {
+                    "solution text": "for an approximate result, divide the energy value by 1055",
+                    "formula": "value / 1055"
+                },
+                "US therm": {
+                    "solution text": "for an approximate result, divide the energy value by 1.055e+8",
+                    "formula": "value / 1.055e+8"
+                },
+                "Foot-pound": {
+                    "solution text": "for an approximate result, divide the energy value by 1.356",
+                    "formula": "value / 1.356"
+                }
+            }
+        },
+        "Kilojoule": {
+            "convert to": {
+                "Joule": {
+                    "solution text": "multiply the energy value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Gram calorie": {
+                    "solution text": "for an approximate result, multiply the energy value by 239",
+                    "formula": "value * 239"
+                },
+                "Kilocalorie": {
+                    "solution text": "divide the energy value by 4.184",
+                    "formula": "value / 4.184"
+                },
+                "Watt hour": {
+                    "solution text": "divide the energy value by 3.6",
+                    "formula": "value / 3.6"
+                },
+                "kilowatt hour": {
+                    "solution text": "divide the energy value by 3600",
+                    "formula": "value / 3600"
+                },
+                "Electronvolt": {
+                    "solution text": "for an approximate result, multiply the energy value by 9.223e+18",
+                    "formula": "value * 9.223e+18"
+                },
+                "British thermal unit": {
+                    "solution text": "divide the energy value by 1.055",
+                    "formula": "value / 1.055"
+                },
+                "US therm": {
+                    "solution text": "for an approximate result, divide the energy value by 105480",
+                    "formula": "value / 105480"
+                },
+                "Foot-pound": {
+                    "solution text": "for an approximate result, multiply the energy value by 738",
+                    "formula": "value * 738"
+                }
+            }
+        },
+        "Gram calorie": {
+            "convert to": {
+                "Joule": {
+                    "solution text": "multiply the energy value by 4.184",
+                    "formula": "value * 4.184"
+                },
+                "Kilojoule": {
+                    "solution text": "for an approximate result, divide the energy value by 239",
+                    "formula": "value / 239"
+                },
+                "Kilocalorie": {
+                    "solution text": "divide the energy value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Watt hour": {
+                    "solution text": "for an approximate result, divide the energy value by 860",
+                    "formula": "value / 860"
+                },
+                "kilowatt hour": {
+                    "solution text": "for an approximate result, divide the energy value by 860421",
+                    "formula": "value / 860421"
+                },
+                "Electronvolt": {
+                    "solution text": "for an approximate result, multiply the energy value by 9.223e+18",
+                    "formula": "value * 9.223e+18"
+                },
+                "British thermal unit": {
+                    "solution text": "for an approximate result, divide the energy value by 252",
+                    "formula": "value / 252"
+                },
+                "US therm": {
+                    "solution text": "divide the energy value by 2.521e+7",
+                    "formula": "value / 2.521e+7"
+                },
+                "Foot-pound": {
+                    "solution text": "multiply the energy value by 3.086",
+                    "formula": "value * 3.086"
+                }
+            }
+        },
+        "Kilocalorie": {
+            "convert to": {
+                "Joule": {
+                    "solution text": "multiply the energy value by 4184",
+                    "formula": "value * 4184"
+                },
+                "Kilojoule": {
+                    "solution text": "multiply the energy value by 4.184",
+                    "formula": "value * 4.184"
+                },
+                "Gram calorie": {
+                    "solution text": "multiply the energy value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Watt hour": {
+                    "solution text": "for an approximate result, multiply the energy value by 1.162",
+                    "formula": "value * 1.162"
+                },
+                "kilowatt hour": {
+                    "solution text": "for an approximate result, divide the energy value by 860",
+                    "formula": "value / 860"
+                },
+                "Electronvolt": {
+                    "solution text": "for an approximate result, multiply the energy value by 9.223e+18",
+                    "formula": "value * 9.223e+18"
+                },
+                "British thermal unit": {
+                    "solution text": "for an approximate result, multiply the energy value by 3.966",
+                    "formula": "value * 3.966"
+                },
+                "US therm": {
+                    "solution text": "for an approximate result, divide the energy value by 25210",
+                    "formula": "value / 25210"
+                },
+                "Foot-pound": {
+                    "solution text": "for an approximate result, multiply the energy value by 3086",
+                    "formula": "value * 3086"
+                }
+            }
+        },
+        "Watt hour": {
+            "convert to": {
+                "Joule": {
+                    "solution text": "multiply the energy value by 3600",
+                    "formula": "value * 3600"
+                },
+                "Kilojoule": {
+                    "solution text": "multiply the energy value by 3.6",
+                    "formula": "value * 3.6"
+                },
+                "Gram calorie": {
+                    "solution text": "for an approximate result, multiply the energy value by 860",
+                    "formula": "value * 860"
+                },
+                "Kilocalorie": {
+                    "solution text": "for an approximate result, divide the energy value by 1.162",
+                    "formula": "value / 1.162"
+                },
+                "kilowatt hour": {
+                    "solution text": "divide the energy value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Electronvolt": {
+                    "solution text": "for an approximate result, multiply the energy value by 9.223e+18",
+                    "formula": "value * 9.223e+18"
+                },
+                "British thermal unit": {
+                    "solution text": "for an approximate result, multiply the energy value by 3.412",
+                    "formula": "value * 3.412"
+                },
+                "US therm": {
+                    "solution text": "for an approximate result, divide the energy value by 29300",
+                    "formula": "value / 29300"
+                },
+                "Foot-pound": {
+                    "solution text": "for an approximate result, multiply the energy value by 2655",
+                    "formula": "value * 2655"
+                }
+            }
+        },
+        "kilowatt hour": {
+            "convert to": {
+                "Joule": {
+                    "solution text": "multiply the energy value by 3.6e+6",
+                    "formula": "value * 3.6e+6"
+                },
+                "Kilojoule": {
+                    "solution text": "multiply the energy value by 3600",
+                    "formula": "value * 3600"
+                },
+                "Gram calorie": {
+                    "solution text": "for an approximate result, multiply the energy value by 860421",
+                    "formula": "value * 860421"
+                },
+                "Kilocalorie": {
+                    "solution text": "for an approximate result, multiply the energy value by 860",
+                    "formula": "value * 860"
+                },
+                "Watt hour": {
+                    "solution text": "multiply the energy value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Electronvolt": {
+                    "solution text": "for an approximate result, multiply the energy value by 9.223e+18",
+                    "formula": "value * 9.223e+18"
+                },
+                "British thermal unit": {
+                    "solution text": "for an approximate result, multiply the energy value by 3412",
+                    "formula": "value * 3412"
+                },
+                "US therm": {
+                    "solution text": "divide the energy value by 29.3",
+                    "formula": "value / 29.3"
+                },
+                "Foot-pound": {
+                    "solution text": "for an approximate result, multiply the energy value by 2.655e+6",
+                    "formula": "value * 2.655e+6"
+                }
+            }
+        },
+        "Electronvolt": {
+            "convert to": {
+                "Joule": {
+                    "solution text": "for an approximate result, divide the energy value by 6.242e+18",
+                    "formula": "value / 6.242e+18"
+                },
+                "Kilojoule": {
+                    "solution text": "for an approximate result, divide the energy value by 9.223e+18",
+                    "formula": "value / 9.223e+18"
+                },
+                "Gram calorie": {
+                    "solution text": "for an approximate result, divide the energy value by 9.223e+18",
+                    "formula": "value / 9.223e+18"
+                },
+                "Kilocalorie": {
+                    "solution text": "for an approximate result, divide the energy value by 9.223e+18",
+                    "formula": "value / 9.223e+18"
+                },
+                "Watt hour": {
+                    "solution text": "for an approximate result, divide the energy value by 9.223e+18",
+                    "formula": "value / 9.223e+18"
+                },
+                "kilowatt hour": {
+                    "solution text": "for an approximate result, divide the energy value by 9.223e+18",
+                    "formula": "value / 9.223e+18"
+                },
+                "British thermal unit": {
+                    "solution text": "for an approximate result, divide the energy value by 9.223e+18",
+                    "formula": "value / 9.223e+18"
+                },
+                "US therm": {
+                    "solution text": "for an approximate result, divide the energy value by 9.223e+18",
+                    "formula": "value / 9.223e+18"
+                },
+                "Foot-pound": {
+                    "solution text": "for an approximate result, divide the energy value by 8.462e+18",
+                    "formula": "value / 8.462e+18"
+                }
+            }
+        },
+        "British thermal unit": {
+            "convert to": {
+                "Joule": {
+                    "solution text": "for an approximate result, multiply the energy value by 1055",
+                    "formula": "value * 1055"
+                },
+                "Kilojoule": {
+                    "solution text": "multiply the energy value by 1.055",
+                    "formula": "value * 1.055"
+                },
+                "Gram calorie": {
+                    "solution text": "for an approximate result, multiply the energy value by 252",
+                    "formula": "value * 252"
+                },
+                "Kilocalorie": {
+                    "solution text": "for an approximate result, divide the energy value by 3.966",
+                    "formula": "value / 3.966"
+                },
+                "Watt hour": {
+                    "solution text": "for an approximate result, divide the energy value by 3.412",
+                    "formula": "value / 3.412"
+                },
+                "kilowatt hour": {
+                    "solution text": "for an approximate result, divide the energy value by 3412",
+                    "formula": "value / 3412"
+                },
+                "Electronvolt": {
+                    "solution text": "for an approximate result, multiply the energy value by 9.223e+18",
+                    "formula": "value * 9.223e+18"
+                },
+                "US therm": {
+                    "solution text": "for an approximate result, divide the energy value by 99976",
+                    "formula": "value / 99976"
+                },
+                "Foot-pound": {
+                    "solution text": "for an approximate result, multiply the energy value by 778",
+                    "formula": "value * 778"
+                }
+            }
+        },
+        "US therm": {
+            "convert to": {
+                "Joule": {
+                    "solution text": "for an approximate result, multiply the energy value by 1.055e+8",
+                    "formula": "value * 1.055e+8"
+                },
+                "Kilojoule": {
+                    "solution text": "for an approximate result, multiply the energy value by 105480",
+                    "formula": "value * 105480"
+                },
+                "Gram calorie": {
+                    "solution text": "multiply the energy value by 2.521e+7",
+                    "formula": "value * 2.521e+7"
+                },
+                "Kilocalorie": {
+                    "solution text": "for an approximate result, multiply the energy value by 25210",
+                    "formula": "value * 25210"
+                },
+                "Watt hour": {
+                    "solution text": "for an approximate result, multiply the energy value by 29300",
+                    "formula": "value * 29300"
+                },
+                "kilowatt hour": {
+                    "solution text": "multiply the energy value by 29.3",
+                    "formula": "value * 29.3"
+                },
+                "Electronvolt": {
+                    "solution text": "for an approximate result, multiply the energy value by 9.223e+18",
+                    "formula": "value * 9.223e+18"
+                },
+                "British thermal unit": {
+                    "solution text": "for an approximate result, multiply the energy value by 99976",
+                    "formula": "value * 99976"
+                },
+                "Foot-pound": {
+                    "solution text": "for an approximate result, multiply the energy value by 7.78e+7",
+                    "formula": "value * 7.78e+7"
+                }
+            }
+        },
+        "Foot-pound": {
+            "convert to": {
+                "Joule": {
+                    "solution text": "for an approximate result, multiply the energy value by 1.356",
+                    "formula": "value * 1.356"
+                },
+                "Kilojoule": {
+                    "solution text": "for an approximate result, divide the energy value by 738",
+                    "formula": "value / 738"
+                },
+                "Gram calorie": {
+                    "solution text": "divide the energy value by 3.086",
+                    "formula": "value / 3.086"
+                },
+                "Kilocalorie": {
+                    "solution text": "for an approximate result, divide the energy value by 3086",
+                    "formula": "value / 3086"
+                },
+                "Watt hour": {
+                    "solution text": "for an approximate result, divide the energy value by 2655",
+                    "formula": "value / 2655"
+                },
+                "kilowatt hour": {
+                    "solution text": "for an approximate result, divide the energy value by 2.655e+6",
+                    "formula": "value / 2.655e+6"
+                },
+                "Electronvolt": {
+                    "solution text": "for an approximate result, multiply the energy value by 8.462e+18",
+                    "formula": "value * 8.462e+18"
+                },
+                "British thermal unit": {
+                    "solution text": "for an approximate result, divide the energy value by 778",
+                    "formula": "value / 778"
+                },
+                "US therm": {
+                    "solution text": "for an approximate result, divide the energy value by 7.78e+7",
+                    "formula": "value / 7.78e+7"
+                }
+            }
+        }
+    }
+}

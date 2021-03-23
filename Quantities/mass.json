@@ -1,0 +1,412 @@
+{
+    "initial units": {
+        "left unit": "Kilogram",
+        "right unit": "Gram"
+    },
+    "initial values": {
+        "left value": "1",
+        "right value": "1000"
+    },
+    "units": {
+        "tonne": {
+            "convert to": {
+                "Kilogram": {
+                    "solution text": "multiply the mass value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Gram": {
+                    "solution text": "multiply the mass value by 1e+6",
+                    "formula": "value * 1e+6"
+                },
+                "Milligram": {
+                    "solution text": "multiply the mass value by 1e+9",
+                    "formula": "value * 1e+9"
+                },
+                "Microgram": {
+                    "solution text": "for an approximate result, multiply the mass value by 1e+12",
+                    "formula": "value * 1e+12"
+                },
+                "Imperial ton": {
+                    "solution text": "divide the mass value by 1.016",
+                    "formula": "value / 1.016"
+                },
+                "US ton": {
+                    "solution text": "for an approximate result, multiply the mass value by 1.102",
+                    "formula": "value * 1.102"
+                },
+                "Stone": {
+                    "solution text": "for an approximate result, multiply the mass value by 157",
+                    "formula": "value * 157"
+                },
+                "Pound": {
+                    "solution text": "for an approximate result, multiply the mass value by 2205",
+                    "formula": "value * 2205"
+                },
+                "Ounce": {
+                    "solution text": "for an approximate result, multiply the mass value by 35274",
+                    "formula": "value * 35274"
+                }
+            }
+        },
+        "Kilogram": {
+            "convert to": {
+                "tonne": {
+                    "solution text": "divide the mass value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Gram": {
+                    "solution text": "multiply the mass value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Milligram": {
+                    "solution text": "multiply the mass value by 1e+6",
+                    "formula": "value * 1e+6"
+                },
+                "Microgram": {
+                    "solution text": "for an approximate result, multiply the mass value by 1e+9",
+                    "formula": "value * 1e+9"
+                },
+                "Imperial ton": {
+                    "solution text": "for an approximate result, divide the mass value by 1016",
+                    "formula": "value / 1016"
+                },
+                "US ton": {
+                    "solution text": "for an approximate result, divide the mass value by 907",
+                    "formula": "value / 907"
+                },
+                "Stone": {
+                    "solution text": "for an approximate result, divide the mass value by 6.35",
+                    "formula": "value / 6.35"
+                },
+                "Pound": {
+                    "solution text": "for an approximate result, multiply the mass value by 2.205",
+                    "formula": "value * 2.205"
+                },
+                "Ounce": {
+                    "solution text": "multiply the mass value by 35.274",
+                    "formula": "value * 35.274"
+                }
+            }
+        },
+        "Gram": {
+            "convert to": {
+                "tonne": {
+                    "solution text": "divide the mass value by 1e+6",
+                    "formula": "value / 1e+6"
+                },
+                "Kilogram": {
+                    "solution text": "divide the mass value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Milligram": {
+                    "solution text": "multiply the mass value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Microgram": {
+                    "solution text": "multiply the mass value by 1e+6",
+                    "formula": "value * 1e+6"
+                },
+                "Imperial ton": {
+                    "solution text": "divide the mass value by 1.016e+6",
+                    "formula": "value / 1.016e+6"
+                },
+                "US ton": {
+                    "solution text": "for an approximate result, divide the mass value by 907185",
+                    "formula": "value / 907185"
+                },
+                "Stone": {
+                    "solution text": "for an approximate result, divide the mass value by 6350",
+                    "formula": "value / 6350"
+                },
+                "Pound": {
+                    "solution text": "for an approximate result, divide the mass value by 454",
+                    "formula": "value / 454"
+                },
+                "Ounce": {
+                    "solution text": "for an approximate result, divide the mass value by 28.35",
+                    "formula": "value / 28.35"
+                }
+            }
+        },
+        "Milligram": {
+            "convert to": {
+                "tonne": {
+                    "solution text": "divide the mass value by 1e+9",
+                    "formula": "value / 1e+9"
+                },
+                "Kilogram": {
+                    "solution text": "divide the mass value by 1e+6",
+                    "formula": "value / 1e+6"
+                },
+                "Gram": {
+                    "solution text": "divide the mass value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Microgram": {
+                    "solution text": "multiply the mass value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Imperial ton": {
+                    "solution text": "divide the mass value by 1.016e+9",
+                    "formula": "value / 1.016e+9"
+                },
+                "US ton": {
+                    "solution text": "for an approximate result, divide the mass value by 9.072e+8",
+                    "formula": "value / 9.072e+8"
+                },
+                "Stone": {
+                    "solution text": "for an approximate result, divide the mass value by 6.35e+6",
+                    "formula": "value / 6.35e+6"
+                },
+                "Pound": {
+                    "solution text": "for an approximate result, divide the mass value by 453592",
+                    "formula": "value / 453592"
+                },
+                "Ounce": {
+                    "solution text": "for an approximate result, divide the mass value by 28350",
+                    "formula": "value / 28350"
+                }
+            }
+        },
+        "Microgram": {
+            "convert to": {
+                "tonne": {
+                    "solution text": "divide the mass value by 1e+12",
+                    "formula": "value / 1e+12"
+                },
+                "Kilogram": {
+                    "solution text": "for an approximate result, divide the mass value by 1e+9",
+                    "formula": "value / 1e+9"
+                },
+                "Gram": {
+                    "solution text": "divide the mass value by 1e+6",
+                    "formula": "value / 1e+6"
+                },
+                "Milligram": {
+                    "solution text": "divide the mass value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Imperial ton": {
+                    "solution text": "divide the mass value by 1.016e+12",
+                    "formula": "value / 1.016e+12"
+                },
+                "US ton": {
+                    "solution text": "for an approximate result, divide the mass value by 9.072e+11",
+                    "formula": "value / 9.072e+11"
+                },
+                "Stone": {
+                    "solution text": "for an approximate result, divide the mass value by 6.35e+9",
+                    "formula": "value / 6.35e+9"
+                },
+                "Pound": {
+                    "solution text": "divide the mass value by 4.536e+8",
+                    "formula": "value / 4.536e+8"
+                },
+                "Ounce": {
+                    "solution text": "divide the mass value by 2.835e+7",
+                    "formula": "value / 2.835e+7"
+                }
+            }
+        },
+        "Imperial ton": {
+            "convert to": {
+                "tonne": {
+                    "solution text": "multiply the mass value by 1.016",
+                    "formula": "value * 1.016"
+                },
+                "Kilogram": {
+                    "solution text": "for an approximate result, multiply the mass value by 1016",
+                    "formula": "value * 1016"
+                },
+                "Gram": {
+                    "solution text": "multiply the mass value by 1.016e+6",
+                    "formula": "value * 1.016e+6"
+                },
+                "Milligram": {
+                    "solution text": "multiply the mass value by 1.016e+9",
+                    "formula": "value * 1.016e+9"
+                },
+                "Microgram": {
+                    "solution text": "multiply the mass value by 1.016e+12",
+                    "formula": "value * 1.016e+12"
+                },
+                "US ton": {
+                    "solution text": "multiply the mass value by 1.12",
+                    "formula": "value * 1.12"
+                },
+                "Stone": {
+                    "solution text": "multiply the mass value by 160",
+                    "formula": "value * 160"
+                },
+                "Pound": {
+                    "solution text": "multiply the mass value by 2240",
+                    "formula": "value * 2240"
+                },
+                "Ounce": {
+                    "solution text": "multiply the mass value by 35840",
+                    "formula": "value * 35840"
+                }
+            }
+        },
+        "US ton": {
+            "convert to": {
+                "tonne": {
+                    "solution text": "for an approximate result, divide the mass value by 1.102",
+                    "formula": "value / 1.102"
+                },
+                "Kilogram": {
+                    "solution text": "for an approximate result, multiply the mass value by 907",
+                    "formula": "value * 907"
+                },
+                "Gram": {
+                    "solution text": "for an approximate result, multiply the mass value by 907185",
+                    "formula": "value * 907185"
+                },
+                "Milligram": {
+                    "solution text": "for an approximate result, multiply the mass value by 9.072e+8",
+                    "formula": "value * 9.072e+8"
+                },
+                "Microgram": {
+                    "solution text": "for an approximate result, multiply the mass value by 9.072e+11",
+                    "formula": "value * 9.072e+11"
+                },
+                "Imperial ton": {
+                    "solution text": "divide the mass value by 1.12",
+                    "formula": "value / 1.12"
+                },
+                "Stone": {
+                    "solution text": "for an approximate result, multiply the mass value by 143",
+                    "formula": "value * 143"
+                },
+                "Pound": {
+                    "solution text": "multiply the mass value by 2000",
+                    "formula": "value * 2000"
+                },
+                "Ounce": {
+                    "solution text": "multiply the mass value by 32000",
+                    "formula": "value * 32000"
+                }
+            }
+        },
+        "Stone": {
+            "convert to": {
+                "tonne": {
+                    "solution text": "for an approximate result, divide the mass value by 157",
+                    "formula": "value / 157"
+                },
+                "Kilogram": {
+                    "solution text": "for an approximate result, multiply the mass value by 6.35",
+                    "formula": "value * 6.35"
+                },
+                "Gram": {
+                    "solution text": "for an approximate result, multiply the mass value by 6350",
+                    "formula": "value * 6350"
+                },
+                "Milligram": {
+                    "solution text": "for an approximate result, multiply the mass value by 6.35e+6",
+                    "formula": "value * 6.35e+6"
+                },
+                "Microgram": {
+                    "solution text": "for an approximate result, multiply the mass value by 6.35e+9",
+                    "formula": "value * 6.35e+9"
+                },
+                "Imperial ton": {
+                    "solution text": "divide the mass value by 160",
+                    "formula": "value / 160"
+                },
+                "US ton": {
+                    "solution text": "for an approximate result, divide the mass value by 143",
+                    "formula": "value / 143"
+                },
+                "Pound": {
+                    "solution text": "multiply the mass value by 14",
+                    "formula": "value * 14"
+                },
+                "Ounce": {
+                    "solution text": "multiply the mass value by 224",
+                    "formula": "value * 224"
+                }
+            }
+        },
+        "Pound": {
+            "convert to": {
+                "tonne": {
+                    "solution text": "for an approximate result, divide the mass value by 2205",
+                    "formula": "value / 2205"
+                },
+                "Kilogram": {
+                    "solution text": "for an approximate result, divide the mass value by 2.205",
+                    "formula": "value / 2.205"
+                },
+                "Gram": {
+                    "solution text": "for an approximate result, multiply the mass value by 454",
+                    "formula": "value * 454"
+                },
+                "Milligram": {
+                    "solution text": "for an approximate result, multiply the mass value by 453592",
+                    "formula": "value * 453592"
+                },
+                "Microgram": {
+                    "solution text": "multiply the mass value by 4.536e+8",
+                    "formula": "value * 4.536e+8"
+                },
+                "Imperial ton": {
+                    "solution text": "divide the mass value by 2240",
+                    "formula": "value / 2240"
+                },
+                "US ton": {
+                    "solution text": "divide the mass value by 2000",
+                    "formula": "value / 2000"
+                },
+                "Stone": {
+                    "solution text": "divide the mass value by 14",
+                    "formula": "value / 14"
+                },
+                "Ounce": {
+                    "solution text": "multiply the mass value by 16",
+                    "formula": "value * 16"
+                }
+            }
+        },
+        "Ounce": {
+            "convert to": {
+                "tonne": {
+                    "solution text": "for an approximate result, divide the mass value by 35274",
+                    "formula": "value / 35274"
+                },
+                "Kilogram": {
+                    "solution text": "divide the mass value by 35.274",
+                    "formula": "value / 35.274"
+                },
+                "Gram": {
+                    "solution text": "for an approximate result, multiply the mass value by 28.35",
+                    "formula": "value * 28.35"
+                },
+                "Milligram": {
+                    "solution text": "for an approximate result, multiply the mass value by 28350",
+                    "formula": "value * 28350"
+                },
+                "Microgram": {
+                    "solution text": "multiply the mass value by 2.835e+7",
+                    "formula": "value * 2.835e+7"
+                },
+                "Imperial ton": {
+                    "solution text": "divide the mass value by 35840",
+                    "formula": "value / 35840"
+                },
+                "US ton": {
+                    "solution text": "divide the mass value by 32000",
+                    "formula": "value / 32000"
+                },
+                "Stone": {
+                    "solution text": "divide the mass value by 224",
+                    "formula": "value / 224"
+                },
+                "Pound": {
+                    "solution text": "divide the mass value by 16",
+                    "formula": "value / 16"
+                }
+            }
+        }
+    }
+}

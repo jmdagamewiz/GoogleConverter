@@ -1,0 +1,76 @@
+{
+    "initial units": {
+        "left unit": "Hertz",
+        "right unit": "Kilohertz"
+    },
+    "initial values": {
+        "left value": "1",
+        "right value": "0.001"
+    },
+    "units": {
+        "Hertz": {
+            "convert to": {
+                "Kilohertz": {
+                    "solution text": "divide the frequency value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Megahertz": {
+                    "solution text": "divide the frequency value by 1e+6",
+                    "formula": "value / 1e+6"
+                },
+                "Gigahertz": {
+                    "solution text": "for an approximate result, divide the frequency value by 1e+9",
+                    "formula": "value / 1e+9"
+                }
+            }
+        },
+        "Kilohertz": {
+            "convert to": {
+                "Hertz": {
+                    "solution text": "multiply the frequency value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Megahertz": {
+                    "solution text": "divide the frequency value by 1000",
+                    "formula": "value / 1000"
+                },
+                "Gigahertz": {
+                    "solution text": "divide the frequency value by 1e+6",
+                    "formula": "value / 1e+6"
+                }
+            }
+        },
+        "Megahertz": {
+            "convert to": {
+                "Hertz": {
+                    "solution text": "multiply the frequency value by 1e+6",
+                    "formula": "value * 1e+6"
+                },
+                "Kilohertz": {
+                    "solution text": "multiply the frequency value by 1000",
+                    "formula": "value * 1000"
+                },
+                "Gigahertz": {
+                    "solution text": "divide the frequency value by 1000",
+                    "formula": "value / 1000"
+                }
+            }
+        },
+        "Gigahertz": {
+            "convert to": {
+                "Hertz": {
+                    "solution text": "multiply the frequency value by 1e+9",
+                    "formula": "value * 1e+9"
+                },
+                "Kilohertz": {
+                    "solution text": "multiply the frequency value by 1e+6",
+                    "formula": "value * 1e+6"
+                },
+                "Megahertz": {
+                    "solution text": "multiply the frequency value by 1000",
+                    "formula": "value * 1000"
+                }
+            }
+        }
+    }
+}

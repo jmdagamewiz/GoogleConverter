@@ -1,0 +1,112 @@
+{
+    "initial units": {
+        "left unit": "Meter per second",
+        "right unit": "Kilometer per hour"
+    },
+    "initial values": {
+        "left value": "1",
+        "right value": "3.6"
+    },
+    "units": {
+        "Miles per hour": {
+            "convert to": {
+                "Foot per second": {
+                    "solution text": "for an approximate result, multiply the speed value by 1.467",
+                    "formula": "value * 1.467"
+                },
+                "Meter per second": {
+                    "solution text": "divide the speed value by 2.237",
+                    "formula": "value / 2.237"
+                },
+                "Kilometer per hour": {
+                    "solution text": "for an approximate result, multiply the speed value by 1.609",
+                    "formula": "value * 1.609"
+                },
+                "Knot": {
+                    "solution text": "for an approximate result, divide the speed value by 1.151",
+                    "formula": "value / 1.151"
+                }
+            }
+        },
+        "Foot per second": {
+            "convert to": {
+                "Miles per hour": {
+                    "solution text": "for an approximate result, divide the speed value by 1.467",
+                    "formula": "value / 1.467"
+                },
+                "Meter per second": {
+                    "solution text": "for an approximate result, divide the speed value by 3.281",
+                    "formula": "value / 3.281"
+                },
+                "Kilometer per hour": {
+                    "solution text": "for an approximate result, multiply the speed value by 1.097",
+                    "formula": "value * 1.097"
+                },
+                "Knot": {
+                    "solution text": "for an approximate result, divide the speed value by 1.688",
+                    "formula": "value / 1.688"
+                }
+            }
+        },
+        "Meter per second": {
+            "convert to": {
+                "Miles per hour": {
+                    "solution text": "multiply the speed value by 2.237",
+                    "formula": "value * 2.237"
+                },
+                "Foot per second": {
+                    "solution text": "for an approximate result, multiply the speed value by 3.281",
+                    "formula": "value * 3.281"
+                },
+                "Kilometer per hour": {
+                    "solution text": "multiply the speed value by 3.6",
+                    "formula": "value * 3.6"
+                },
+                "Knot": {
+                    "solution text": "for an approximate result, multiply the speed value by 1.944",
+                    "formula": "value * 1.944"
+                }
+            }
+        },
+        "Kilometer per hour": {
+            "convert to": {
+                "Miles per hour": {
+                    "solution text": "for an approximate result, divide the speed value by 1.609",
+                    "formula": "value / 1.609"
+                },
+                "Foot per second": {
+                    "solution text": "for an approximate result, divide the speed value by 1.097",
+                    "formula": "value / 1.097"
+                },
+                "Meter per second": {
+                    "solution text": "divide the speed value by 3.6",
+                    "formula": "value / 3.6"
+                },
+                "Knot": {
+                    "solution text": "divide the speed value by 1.852",
+                    "formula": "value / 1.852"
+                }
+            }
+        },
+        "Knot": {
+            "convert to": {
+                "Miles per hour": {
+                    "solution text": "for an approximate result, multiply the speed value by 1.151",
+                    "formula": "value * 1.151"
+                },
+                "Foot per second": {
+                    "solution text": "for an approximate result, multiply the speed value by 1.688",
+                    "formula": "value * 1.688"
+                },
+                "Meter per second": {
+                    "solution text": "for an approximate result, divide the speed value by 1.944",
+                    "formula": "value / 1.944"
+                },
+                "Kilometer per hour": {
+                    "solution text": "multiply the speed value by 1.852",
+                    "formula": "value * 1.852"
+                }
+            }
+        }
+    }
+}

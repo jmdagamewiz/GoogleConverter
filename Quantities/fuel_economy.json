@@ -1,0 +1,76 @@
+{
+    "initial units": {
+        "left unit": "Kilometer per liter",
+        "right unit": "Miles per gallon"
+    },
+    "initial values": {
+        "left value": "1",
+        "right value": "2.35215"
+    },
+    "units": {
+        "Miles per gallon": {
+            "convert to": {
+                "Miles per gallon (Imperial)": {
+                    "solution text": "multiply the fuel economy value by 1.201",
+                    "formula": "value * 1.201"
+                },
+                "Kilometer per liter": {
+                    "solution text": "for an approximate result, divide the fuel economy value by 2.352",
+                    "formula": "value / 2.352"
+                },
+                "Liter per 100 kilometers": {
+                    "solution text": "235.215/({value} US mpg) = {answer} L/100km",
+                    "formula": "235.215 / value"
+                }
+            }
+        },
+        "Miles per gallon (Imperial)": {
+            "convert to": {
+                "Miles per gallon": {
+                    "solution text": "divide the fuel economy value by 1.201",
+                    "formula": "value / 1.201"
+                },
+                "Kilometer per liter": {
+                    "solution text": "for an approximate result, divide the fuel economy value by 2.825",
+                    "formula": "value / 2.825"
+                },
+                "Liter per 100 kilometers": {
+                    "solution text": "282.481/({value} I mpg) = {answer} L/100km",
+                    "formula": "282.481 / value"
+                }
+            }
+        },
+        "Kilometer per liter": {
+            "convert to": {
+                "Miles per gallon": {
+                    "solution text": "for an approximate result, multiply the fuel economy value by 2.352",
+                    "formula": "value * 2.352"
+                },
+                "Miles per gallon (Imperial)": {
+                    "solution text": "for an approximate result, multiply the fuel economy value by 2.825",
+                    "formula": "value * 2.825"
+                },
+                "Liter per 100 kilometers": {
+                    "solution text": "100/({value} km/L) = {answer} L/100km",
+                    "formula": "100 / value"
+                }
+            }
+        },
+        "Liter per 100 kilometers": {
+            "convert to": {
+                "Miles per gallon": {
+                    "solution text": "235.215/({value} L/100km) = {answer} US mpg",
+                    "formula": "235.215 / value"
+                },
+                "Miles per gallon (Imperial)": {
+                    "solution text": "282.481/({value} L/100km) = {answer} I mpg",
+                    "formula": "282.481 / value"
+                },
+                "Kilometer per liter": {
+                    "solution text": "100/({value} L/100km) = {answer} km/L",
+                    "formula": "100 / value"
+                }
+            }
+        }
+    }
+}
