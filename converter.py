@@ -3,6 +3,7 @@ from PyQt5.QtWidgets import QVBoxLayout, QHBoxLayout, QGridLayout
 from PyQt5.QtGui import QFont
 from PyQt5.QtCore import Qt
 import sys
+from decimal import Decimal
 
 from quantities import Quantity
 
@@ -253,12 +254,18 @@ class ConverterWindow(QMainWindow):
                 if value.is_integer():
                     value = int(value)
 
-                answer = self.current_quantity.convert(value, left_unit, right_unit)
+                answer = float(self.current_quantity.convert(value, left_unit, right_unit))
+                answer_text = ""
 
                 if answer.is_integer():
                     answer = int(answer)
+                    answer_text = str(answer)
 
-                self.right_line_edit.setText(str(answer))
+                else:
+                    answer = Decimal(answer)
+                    answer_text = f"{answer:.4e}"
+
+                self.right_line_edit.setText(answer_text)
                 self.line_edit_values = [str(value), str(answer)]
 
             elif left_text == "":
@@ -279,12 +286,18 @@ class ConverterWindow(QMainWindow):
                 if value.is_integer():
                     value = int(value)
 
-                answer = self.current_quantity.convert(value, right_unit, left_unit)
+                answer = float(self.current_quantity.convert(value, right_unit, left_unit))
+                answer_text = ""
 
                 if answer.is_integer():
                     answer = int(answer)
+                    answer_text = str(answer)
 
-                self.left_line_edit.setText(str(answer))
+                else:
+                    answer = Decimal(answer)
+                    answer_text = f"{answer:.4e}"
+
+                self.left_line_edit.setText(answer_text)
                 self.line_edit_values = [str(answer), str(value)]
 
             elif right_text == "":

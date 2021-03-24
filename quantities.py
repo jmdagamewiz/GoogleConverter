@@ -39,10 +39,11 @@ class Quantity:
             filename = "fuel_economy.json"
         elif quantity_name == "Length":
             filename = "length.json"
+
+        # TODO: Kilogram to US ton, when input in right freezes program
         elif quantity_name == "Mass":
             filename = "mass.json"
 
-        # TODO: change degrees and pi with ascii
         elif quantity_name == "Plane Angle":
             filename = "plane_angle.json"
         elif quantity_name == "Pressure":

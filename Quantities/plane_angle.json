@@ -11,11 +11,11 @@
         "Degree": {
             "convert to": {
                 "Gradian": {
-                    "solution text": "{value}° x 200/180 = {answer}g",
+                    "solution text": "{value}\u00b0 x 200/180 = {answer}g",
                     "formula": "value * 200/180"
                 },
                 "Milliradian": {
-                    "solution text": "{value}° x 1000π/180 = {answer}mrad",
+                    "solution text": "{value}\u00b0 x 1000\u03c0/180 = {answer}mrad",
                     "formula": "value * (1000 * 3.14159265)/180"
                 },
                 "Minute of arc": {
@@ -23,7 +23,7 @@
                     "formula": "value * 60"
                 },
                 "Radian": {
-                    "solution text": "{value} x π/180 = {answer}rad",
+                    "solution text": "{value} x \u03c0/180 = {answer}rad",
                     "formula": "value * (3.14159265 / 180)"
                 },
                 "Second of arc": {
@@ -35,11 +35,11 @@
         "Gradian": {
             "convert to": {
                 "Degree": {
-                    "solution text": "{value}g x 180/200 = {answer}°",
+                    "solution text": "{value}g x 180/200 = {answer}\u00b0",
                     "formula": "value * (180/200)"
                 },
                 "Milliradian": {
-                    "solution text": "{value}g x 1000π/200 = {answer}mrad",
+                    "solution text": "{value}g x 1000\u03c0/200 = {answer}mrad",
                     "formula": "value * (1000 * 3.14159265)/200"
                 },
                 "Minute of arc": {
@@ -47,7 +47,7 @@
                     "formula": "value * 54"
                 },
                 "Radian": {
-                    "solution text": "{value}g x π/200 = {answer}rad",
+                    "solution text": "{value}g x \u03c0/200 = {answer}rad",
                     "formula": "value * (3.14159265/200)"
                 },
                 "Second of arc": {
@@ -59,15 +59,15 @@
         "Milliradian": {
             "convert to": {
                 "Degree": {
-                    "solution text": "{value}mrad x 180/1000π = {answer}°",
+                    "solution text": "{value}mrad x 180/1000\u03c0 = {answer}\u00b0",
                     "formula": "value * (180/(1000 * 3.14159265)"
                 },
                 "Gradian": {
-                    "solution text": "{value}mrad x 200/1000π = {answer}g",
+                    "solution text": "{value}mrad x 200/1000\u03c0 = {answer}g",
                     "formula": "value * (200/(1000 * 3.14159265))"
                 },
                 "Minute of arc": {
-                    "solution text": "{value}mrad x (60 x 180)/1000π = {answer}'",
+                    "solution text": "{value}mrad x (60 x 180)/1000\u03c0 = {answer}'",
                     "formula": "value * (60 * 180) / (1000 * 3.14159265)"
                 },
                 "Radian": {
@@ -75,7 +75,7 @@
                     "formula": "value / 1000"
                 },
                 "Second of arc": {
-                    "solution text": "{value}mrad x (3600 x 180)/1000π = {answer}\"",
+                    "solution text": "{value}mrad x (3600 x 180)/1000\u03c0 = {answer}\"",
                     "formula": "value * (3600 * 180) / (1000 * 3.14159265)"
                 }
             }
@@ -91,11 +91,11 @@
                     "formula": "value / 54"
                 },
                 "Milliradian": {
-                    "solution text": "{value}' x 1000π/(60 x 180) = {answer}mrad",
+                    "solution text": "{value}' x 1000\u03c0/(60 x 180) = {answer}mrad",
                     "formula": "value * (1000 * 3.14159265) / (60 * 180)"
                 },
                 "Radian": {
-                    "solution text": "{value}' x π/(60 x 180) = {answer}rad",
+                    "solution text": "{value}' x \u03c0/(60 x 180) = {answer}rad",
                     "formula": "value * 3.14159265 / (60 * 180)"
                 },
                 "Second of arc": {
@@ -107,11 +107,11 @@
         "Radian": {
             "convert to": {
                 "Degree": {
-                    "solution text": "{value}rad x 180/π = {answer}°",
+                    "solution text": "{value}rad x 180/\u03c0 = {answer}\u00b0",
                     "formula": "value * (180 / 3.14159265)"
                 },
                 "Gradian": {
-                    "solution text": "{value}rad x 200/π = {answer}g",
+                    "solution text": "{value}rad x 200/\u03c0 = {answer}g",
                     "formula": "value * (200 / 3.14159265)"
                 },
                 "Milliradian": {
@@ -119,11 +119,11 @@
                     "formula": "value * 1000"
                 },
                 "Minute of arc": {
-                    "solution text": "{value}rad x (60 x 180)/π = {answer}'",
+                    "solution text": "{value}rad x (60 x 180)/\u03c0 = {answer}'",
                     "formula": "value * (60 * 180)/3.14159265"
                 },
                 "Second of arc": {
-                    "solution text": "{value}rad x (3600 x 180)/π = {answer}\"",
+                    "solution text": "{value}rad x (3600 x 180)/\u03c0 = {answer}\"",
                     "formula": "value * (3600 * 180)/3.14159265"
                 }
             }
@@ -139,7 +139,7 @@
                     "formula": "value / 3240"
                 },
                 "Milliradian": {
-                    "solution text": "{value}\" x 1000π/(180 x 3600) = {answer}mrad",
+                    "solution text": "{value}\" x 1000\u03c0/(180 x 3600) = {answer}mrad",
                     "formula": "value * (1000 * 3.14159265) / (180 * 3600)"
                 },
                 "Minute of arc": {
@@ -147,7 +147,7 @@
                     "formula": "value / 60"
                 },
                 "Radian": {
-                    "solution text": "{value}\" x π/(180 x 3600) = {answer}rad",
+                    "solution text": "{value}\" x \u03c0/(180 x 3600) = {answer}rad",
                     "formula": "value * 3.14159265 / (180 * 3600)"
                 }
             }
